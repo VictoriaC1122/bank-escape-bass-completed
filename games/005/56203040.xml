@@ -864,6 +864,7 @@ sys(clearscreen)</story>
 <dest dest="作者">作者的廢話</dest>
 <dest dest="攻略">攻略</dest>
 <dest dest="人物介紹">人物介紹</dest>
+<dest dest="命運分岔">命運分岔</dest>
 </stage>
 <stage name="上廁所" next="男廁所">
 <room id="undefined" name="女廁所" >
@@ -4975,5 +4976,569 @@ sys(remove:怪老頭寫真集)
 sys(clearscreen)
 
 END</story>
+</stage>
+<stage name="命運分岔" next="?">
+<room id="undefined" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="輕鬆音樂" src="../db/sound/music/85386446.mid"/>
+<story>不知何時，草原般的起點被霧蓋住了。
+
+銀行逃犯：奇怪，剛剛不是還在銀行裡面嗎？
+
+怪老頭[嘿嘿]: 嘻嘻嘻，這裡是命運的岔路喔。
+
+銀行逃犯：又是你！你不是在找骨灰嗎？
+
+怪老頭[嘿嘿]: 找骨灰也是命運，逃銀行也是命運，走錯路也是命運。
+
+銀行逃犯：聽起來很不吉利耶。
+
+怪老頭[喔唷]: 那就選一條比較吉利的吧。</story>
+<expr type="where">眼前出現三條霧中的路，要走哪一條？</expr>
+<option type="move">選擇選項</option>
+<dest dest="新增好結局選單">好結局</dest>
+<dest dest="新增壞結局選單">壞結局</dest>
+<dest dest="原描述結局選單">其他奇怪的結局</dest>
+<dest dest="start">先回主選單</dest>
+</stage>
+<stage name="新增好結局選單" next="?">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="緑の海辺" src="../db/sound/music/58341357.mid"/>
+<story>星雲[微笑]: 這條路的氣息比較安靜。
+
+銀行逃犯：安靜就是出口嗎？
+
+小琪[平常]: 不一定，但至少比較不像廁所。
+
+銀行逃犯：那就已經很值得走了。</story>
+<expr type="where">要沿著哪個線索調查？</expr>
+<option type="move">選擇選項</option>
+<dest dest="金庫證據好結局">金庫證據</dest>
+<dest dest="琉亞重逢好結局">琉亞重逢</dest>
+<dest dest="星雲鈴兒和解好結局">星雲與鈴兒和解</dest>
+<dest dest="小琪地下水道好結局">小琪地下水道</dest>
+<dest dest="可玲證言好結局">可玲證言</dest>
+<dest dest="命運分岔">返回</dest>
+</stage>
+<stage name="新增壞結局選單" next="?">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<story>警察[微笑]: 這條路有很多腳印。
+
+銀行逃犯：誰的？
+
+警察[正常]: 犯人的。
+
+銀行逃犯：你看著我說幹嘛？
+
+警察[微笑]: 你自己走進來的。</story>
+<expr type="where">要往哪個危險方向走？</expr>
+<option type="move">選擇選項</option>
+<dest dest="保險金庫壞結局">保險金庫</dest>
+<dest dest="通緝告示壞結局">通緝告示</dest>
+<dest dest="紅藥水暴走壞結局">紅藥水暴走</dest>
+<dest dest="小雪通報壞結局">小雪通報</dest>
+<dest dest="警察包圍壞結局">警察包圍</dest>
+<dest dest="命運分岔">返回</dest>
+</stage>
+<stage name="原描述結局選單" next="?">
+<room id="undefined" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>怪老頭[嘿嘿]: 這條路不是出口。
+
+銀行逃犯：那是什麼？
+
+怪老頭[嘿嘿]: 是銀行裡剩下的怪事。有人會笑，有人會死，有人會莫名其妙結婚。
+
+銀行逃犯：為什麼結婚跟死亡放在同一條路上啦！</story>
+<expr type="where">要調查哪一種怪事？</expr>
+<option type="move">選擇選項</option>
+<dest dest="新增搞笑結局選單">搞笑結局</dest>
+<dest dest="新增死亡結局選單">死亡結局</dest>
+<dest dest="新笨蛋結局">笨蛋結局</dest>
+<dest dest="新BL結局">BL結局</dest>
+<dest dest="新GL結局">GL結局</dest>
+<dest dest="命運分岔">返回</dest>
+</stage>
+<stage name="新增搞笑結局選單" next="?">
+<room id="undefined" name="男廁所" >
+<scene src="../db/pic/room/59775181.jpg" name="男廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：為什麼搞笑結局入口在男廁所？
+
+骷髏先生[笑]: 因為這遊戲很誠實。</story>
+<expr type="where">要哪個搞笑結局？</expr>
+<option type="move">選擇選項</option>
+<dest dest="新搞笑結局1">金庫供品</dest>
+<dest dest="新搞笑結局2">馬桶王座</dest>
+<dest dest="新搞笑結局3">骷髏唱歌</dest>
+<dest dest="新搞笑結局4">紅藥水試喝</dest>
+<dest dest="新搞笑結局5">小琪導航</dest>
+<dest dest="原描述結局選單">返回</dest>
+</stage>
+<stage name="新增死亡結局選單" next="?">
+<room id="undefined" name="地下室" >
+<scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<story>銀行逃犯：這裡看起來很危險。
+
+謎之聲：死亡結局選單，當然危險。</story>
+<expr type="where">要哪個死亡結局？</expr>
+<option type="move">選擇選項</option>
+<dest dest="新死亡結局1">電梯墜落</dest>
+<dest dest="新死亡結局2">金庫缺氧</dest>
+<dest dest="新死亡結局3">下水道暴走</dest>
+<dest dest="新死亡結局4">天使力量反噬</dest>
+<dest dest="原描述結局選單">返回</dest>
+</stage>
+<stage name="金庫證據好結局" next="start">
+<room id="undefined" name="門內房" >
+<scene src="../db/pic/room/73914125.jpg" name="中午"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story>銀行逃犯：這不是出口，是金庫？
+
+可玲[沒問題]: 裡面有紅楓和依稀靈魂留下的帳冊。
+
+星雲[微笑]: 拿到這個，警察就不能只追你了。
+
+銀行逃犯：我人生第一次覺得證據比現金更值錢。
+
+恭喜您玩到了：「金庫證據好結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="琉亞重逢好結局" next="start">
+<room id="undefined" name="街道" >
+<scene src="../db/pic/room/60598295.jpg" name="街(夕)"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="相信" src="../db/sound/music/22305436.mid"/>
+<story>夕陽下，琉亞站在銀行外的街角。
+
+琉亞[普通]: 妳是誰？
+
+銀行逃犯：我現在還不能把全部說清楚，但我會陪妳慢慢想起來。
+
+琉亞[開朗笑]: 那就從名字開始吧。
+
+銀行逃犯：好，我叫星銀。
+
+恭喜您玩到了：「琉亞重逢好結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="星雲鈴兒和解好結局" next="start">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="緑の海辺" src="../db/sound/music/58341357.mid"/>
+<story>鈴兒[流淚]: 對不起，我一直以為妳不會原諒我。
+
+星雲[微笑]: 我也一直以為自己只能恨妳。
+
+銀行逃犯：所以我可以逃走了嗎？
+
+鈴兒[笑]: 可以。
+
+星雲[說話]: 但是要先幫我們拆掉這個詛咒。
+
+銀行逃犯：我就知道好結局也有勞動服務。
+
+恭喜您玩到了：「星雲鈴兒和解好結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="小琪地下水道好結局" next="start">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="治癒之泉" src="../db/sound/music/34645612.MID"/>
+<story>小琪[淺笑]: 跟著我走，不要亂舔牆，也不要喝奇怪的水。
+
+銀行逃犯：妳是不是看過我的其他結局？
+
+小琪[平常]: 太多了。
+
+她帶你穿過下水道的暗門，沒有陷阱，沒有棺材，甚至沒有廁所。
+
+銀行逃犯：這就是奇蹟。
+
+恭喜您玩到了：「小琪地下水道好結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="可玲證言好結局" next="start">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="相信" src="../db/sound/music/22305436.mid"/>
+<story>可玲[沒問題]: 我會把我知道的全部說出來。
+
+銀行逃犯：包含銀行的陰謀？
+
+可玲[笑]: 包含你一路上做過的蠢事。
+
+銀行逃犯：那個可以刪掉嗎？
+
+可玲[普通]: 不行，證言要完整。
+
+恭喜您玩到了：「可玲證言好結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="保險金庫壞結局" next="start">
+<room id="undefined" name="門內房" >
+<scene src="../db/pic/room/73914125.jpg" name="中午"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>銀行逃犯：金庫！錢！人生逆轉！
+
+警察[正常]: 人贓俱獲。
+
+銀行逃犯：我只是幫錢換個比較自由的住處！
+
+警察[微笑]: 那你也換個比較牢固的住處吧。
+
+你玩到了：「保險金庫壞結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="通緝告示壞結局" next="start">
+<room id="undefined" name="警察局" >
+<scene src="../db/pic/room/88070078.jpg" name="警察局"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<story>銀行逃犯：牆上貼了通緝告示。
+
+小雪[普通]: 那是你的臉。
+
+銀行逃犯：畫得好醜，我要去抗議。
+
+小雪[失望]: 你要去警察局抗議通緝照？
+
+銀行逃犯：至少要把眼睛畫大一點吧！
+
+警察[正常]: 本人到案，畫師就不用改了。
+
+你玩到了：「通緝告示壞結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="紅藥水暴走壞結局" next="start">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>銀行逃犯：紅藥水應該是補血的吧。
+
+咕嚕。
+
+sys(shock)
+
+銀行逃犯：我怎麼開始發光了？
+
+骷髏先生[邪笑]: 這是銀行高層專用的定位藥水。
+
+警笛聲從四面八方響起。
+
+你玩到了：「紅藥水暴走壞結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="小雪通報壞結局" next="start">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>小雪[普通]: 我可以放你走，但你要先道歉。
+
+銀行逃犯：我拒絕。
+
+小雪[失望]: 那我只好照規定通報。
+
+銀行逃犯：規定可不可以放假一天？
+
+小雪[笑]: 不行。
+
+你玩到了：「小雪通報壞結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="警察包圍壞結局" next="start">
+<room id="undefined" name="天空異像" >
+<scene src="../db/pic/room/61578377.jpg" name="天空異像"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<story>銀行逃犯：只要跑到屋頂就自由了！
+
+警察[正常]: 直升機已到位。
+
+銀行逃犯：這銀行到底預算多高？
+
+警察[微笑]: 比你的逃跑路線高。
+
+你玩到了：「警察包圍壞結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="新搞笑結局1" next="start">
+<room id="undefined" name="日式旅館" >
+<scene src="../db/pic/room/96862773.jpg" name="12"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：我在金庫裡找到一盒供品。
+
+星雲[說話]: 那可能是陷阱。
+
+銀行逃犯：可是還是熱的。
+
+吃完後你才發現盒底寫著「獻給銀行地下的東西」。
+
+銀行逃犯：......
+
+地下傳來很不滿意的咕嚕聲。
+
+你玩到了：「金庫供品搞笑結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="新搞笑結局2" next="start">
+<room id="undefined" name="男廁所" >
+<scene src="../db/pic/room/59775181.jpg" name="男廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：既然逃不出去，我要在這裡稱王。
+
+骷髏先生[笑]: 在男廁所稱王？
+
+銀行逃犯：馬桶王座也是王座。
+
+你玩到了：「馬桶王座搞笑結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="新搞笑結局3" next="start">
+<room id="undefined" name="地下室" >
+<scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>骷髏先生[笑]: 我決定唱歌給你聽。
+
+銀行逃犯：不用，謝謝。
+
+骷髏先生[邪笑]: 來不及了。
+
+骷髏先生開始唱一首只有骨頭敲擊聲的歌。
+
+銀行逃犯：這是音樂還是靈異現象？
+
+你玩到了：「骷髏唱歌搞笑結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="新搞笑結局4" next="start">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：紅藥水看起來像草莓汁。
+
+小琪[平常]: 我不喝。
+
+銀行逃犯：為什麼？
+
+小琪[平常]: 因為它剛剛自己叫了一聲。
+
+你玩到了：「紅藥水試喝搞笑結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="新搞笑結局5" next="start">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>小琪[淺笑]: 往左。
+
+銀行逃犯：可是我覺得右邊比較像出口。
+
+小琪[平常]: 那邊是牆。
+
+銀行逃犯：我相信直覺！
+
+sys(shock)
+
+你玩到了：「小琪導航搞笑結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="新笨蛋結局" next="start">
+<room id="undefined" name="電梯裡" >
+<scene src="../db/pic/room/94480300.JPG" name="電梯裡"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：我要按全部樓層，這樣總有一層是出口。
+
+電梯：叮。
+
+電梯：叮。
+
+電梯：叮。
+
+星雲[怒]: 你只是讓警察知道你每一層都去過。
+
+你玩到了：「全樓層亂按笨蛋結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="新BL結局" next="start">
+<room id="undefined" name="教堂系列" >
+<scene src="../db/pic/room/36117231.jpg" name="教堂1"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story>骷髏先生[笑]: 我決定追求警察先生。
+
+警察[正常]: 先把嫌犯交出來。
+
+骷髏先生[邪笑]: 這算交換戒指前的試煉嗎？
+
+銀行逃犯：你們談戀愛為什麼要拿我當聘禮？
+
+恭喜你玩到：「骷髏先生與警察的BL結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="新GL結局" next="start">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="緑の海辺" src="../db/sound/music/58341357.mid"/>
+<story>鈴兒[笑]: 星雲，我們一起把神社重建吧。
+
+星雲[微笑]: 好。
+
+銀行逃犯：那我呢？
+
+鈴兒[不安]: 你負責不要再把門踢壞。
+
+星雲[說話]: 還有不要偷拿香油錢。
+
+恭喜您玩到：「星雲與鈴兒的新神社GL結局」。
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="新死亡結局1" next="start">
+<room id="undefined" name="電梯裡" >
+<scene src="../db/pic/room/94480300.JPG" name="電梯裡"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<story>銀行逃犯：電梯一定比樓梯安全。
+
+電梯：嘎。
+
+銀行逃犯：這個聲音不太安全。
+
+sys(shock)
+
+你玩到了：「電梯墜落死亡結局」。
+
+sys(clearscreen)
+
+THE END</story>
+</stage>
+<stage name="新死亡結局2" next="start">
+<room id="undefined" name="門內房" >
+<scene src="../db/pic/room/73914125.jpg" name="中午"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>銀行逃犯：金庫門關起來也沒關係，我有很多錢陪我。
+
+三分鐘後。
+
+銀行逃犯：錢不會幫我開門。
+
+你玩到了：「金庫缺氧死亡結局」。
+
+sys(clearscreen)
+
+THE END</story>
+</stage>
+<stage name="新死亡結局3" next="start">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<story>銀行逃犯：下水道的水位是不是變高了？
+
+小琪[平常]: 我叫你不要亂按機關。
+
+銀行逃犯：我以為那是電燈開關！
+
+sys(shock)
+
+你玩到了：「下水道暴走死亡結局」。
+
+sys(clearscreen)
+
+THE END</story>
+</stage>
+<stage name="新死亡結局4" next="start">
+<room id="undefined" name="天空異像" >
+<scene src="../db/pic/room/61578377.jpg" name="天空異像"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>星雲[天使化（說話）]: 這個出口需要很精準的力量。
+
+銀行逃犯：那我來幫妳加油！
+
+銀行逃犯：星雲！星雲！星雲！
+
+星雲[怒]: 你吵到我失手了。
+
+sys(shock)
+
+你玩到了：「天使力量反噬死亡結局」。
+
+sys(clearscreen)
+
+THE END</story>
 </stage>
 </game>

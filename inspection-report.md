@@ -32,13 +32,24 @@ Source: https://bassadv.com/game.php?id=56203040
   - Filled reachable empty stages `小雪上床`, `找到星雲`, `撞啦~`, `燒燒紅`, `男廁所3`, `舔啦~`, and `頭髮啦~`.
   - Connected `找到星雲的結局` to the existing 星雲/可玲 mainline.
   - Connected unused backup stages `new515` and `街街~` so they are not dead ends if reached later.
+- Added `命運分岔`, an in-world hidden route for additional endings that keeps to the existing bank/shrine/sewer mystery.
+- Added at least five new good endings and five new bad endings.
+- Added additional endings following the original described categories: funny, stupid, BL, GL, and death endings.
 
 ## Verification
 
-- Parsed `completed-56203040.xml` successfully.
-- Completed stage count: 177.
-- Route references after route audit: 292.
+- Parsed `games/005/56203040.xml` successfully.
+- Active game XML stage count after ending expansion: 205.
+- Route references after ending expansion: 348.
 - Missing stage references after completion: 0.
 - Stuck non-terminal stages: 0.
 - Reachable routes unable to reach a finishing point: 0.
-- Ending stages after completion: 9, including new `好結局`.
+- Reachable terminal endings after ending expansion: 36.
+- Reachable category counts detected in ending text:
+  - 好結局: 6
+  - 壞結局: 5
+  - 搞笑結局: 7
+  - 笨蛋結局: 2
+  - BL結局: 2
+  - GL結局: 2
+  - 死亡結局: 4
