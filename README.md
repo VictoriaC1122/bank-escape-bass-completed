@@ -18,6 +18,7 @@
 - 新增主線收束：
   - `真正的出口`
   - `好結局`
+- 使用遊戲內已下載素材重新合成新版封面：`games/cover/56203040.jpg`
 
 ## 驗證
 
@@ -30,5 +31,6 @@
 
 - `original-game-page.html`
 - `original-56203040.xml`
+- `games/cover/original-56203040.jpg`
 - `completed-56203040.xml`
 - `inspection-report.md`
