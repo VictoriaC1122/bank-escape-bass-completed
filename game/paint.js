@@ -140,7 +140,7 @@ function smoothTell(){
 
 		if(ss>=st.length ){	
 			
-			$("#fulltell").html(nows+"&nbsp;&nbsp;<img src=../platform/click.gif>");
+			$("#fulltell").html(nows+"&nbsp;&nbsp;<span class=\"click-indicator\">▼</span>");
 			if(autotell){
 				//clearTimeout(autotelltimer);
 				autotelltimer=window.setTimeout("tellStory();", delaytime*25 );
@@ -173,7 +173,7 @@ if(st.charAt(ss+1)!="<"){
 
 		if(ss>=st.length ){	
 			
-			document.getElementsByTagName("p")["story"].innerHTML +="&nbsp;&nbsp;<img height='12' src=../platform/click.gif>";
+			document.getElementsByTagName("p")["story"].innerHTML +="&nbsp;&nbsp;<span class=\"click-indicator\">▼</span>";
 			if(autotell){
 				//clearTimeout(autotelltimer);
 				autotelltimer=window.setTimeout("tellStory();", autotelldelay);
