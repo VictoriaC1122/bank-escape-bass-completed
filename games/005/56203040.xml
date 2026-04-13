@@ -846,11 +846,11 @@ sys(clearscreen)</story>
 </room>
 <story>The end</story>
 </stage>
-<stage name="new515" next="?">
+<stage name="new515" next="start">
 <room id="undefined" name="system" >
 <scene src="transparent.png" name="transparent"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story></story>
+<story>sys(clearscreen)</story>
 </stage>
 <stage name="start" next="?">
 <room id="00000000" name="草原1" >
@@ -2224,7 +2224,7 @@ sys(clearscreen)</story>
 <dest dest="看見">妳說的那個女孩……我有看見！</dest>
 <dest dest="回到銀行啦~~">啊……對不起！她和我認識的星雲不是同一人！！</dest>
 </stage>
-<stage name="小雪上床" next="?">
+<stage name="小雪上床" next="地牢~">
 <room id="undefined" name="藍天" >
 <scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
 </room>
@@ -2233,7 +2233,21 @@ sys(clearscreen)</story>
 
 銀行逃犯：果然不行嗎？（失望）
 
-小雪[笑]: 不......</story>
+小雪[笑]: 不......
+
+小雪[失望]: 你是不是完全忘記星雲還昏倒在旁邊？
+
+銀行逃犯：咦？
+
+小雪[普通]: 我本來只想警告你，但你真的很需要冷靜一下。
+
+sys(shock)
+
+警笛聲從遠方逼近。
+
+銀行逃犯：等等，這個冷靜方式是不是太激烈了？
+
+sys(clearscreen)</story>
 </stage>
 <stage name="左" next="?">
 <room id="undefined" name="走廊x" >
@@ -2699,12 +2713,26 @@ sys(give:銅製古董鑰匙-大)
 <dest dest="沒關係啦~~~~">我認錯了，她和我認識的星雲不一樣！</dest>
 <dest dest="神社廁所">我想上廁所啊！</dest>
 </stage>
-<stage name="找到星雲" next="?">
+<stage name="找到星雲" next="找到星雲的結局">
 <room id="undefined" name="和風個室" >
 <scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
 </room>
 <sound name="命運" src="../db/sound/effect/49795857.mid"/>
-<story></story>
+<story>sys(showitem:星雲)
+
+銀行逃犯：我真的找到了星雲。
+
+鈴兒[不安]: 那個光......
+
+鈴兒[流淚]: 是星雲的力量。
+
+sys(hideitem)
+
+銀行逃犯：所以妳願意相信我了嗎？
+
+鈴兒[流淚]: 嗯，請你把她帶回來。
+
+sys(clearscreen)</story>
 </stage>
 <stage name="拜拜" next="?">
 <room id="undefined" name="神社拜拜處" >
@@ -2760,11 +2788,25 @@ sys(clearscreen)</story>
 <dest dest="走吧！">和小琪走。</dest>
 <dest dest="脫離契約">幫助鈴兒脫離契約。</dest>
 </stage>
-<stage name="撞啦~" next="?">
+<stage name="撞啦~" next="start">
 <room id="undefined" name="system" >
 <scene src="transparent.png" name="transparent"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story></story>
+<story>銀行逃犯：好想撞牆喔......
+
+sys(shock)
+
+碰！
+
+謎之聲：真的撞了啊？
+
+銀行逃犯：我只是隨口說說，為什麼身體自己動起來了啦！
+
+你玩到了：「自己撞牆的笨蛋結局」。
+
+sys(clearscreen)
+
+END</story>
 </stage>
 <stage name="攻略" next="start">
 <room id="undefined" name="草原1" >
@@ -3223,7 +3265,7 @@ sys(shock)
 
 sys(clearscreen)</story>
 </stage>
-<stage name="燒燒紅" next="?">
+<stage name="燒燒紅" next="start">
 <room id="undefined" name="火" >
 <scene src="../db/pic/room/15111229.jpg" name="火"><sound name="undefined" src="undefined"/></scene>
 </room>
@@ -3248,7 +3290,17 @@ sys(clearscreen)</story>
 
 星銀[驚]: ……
 
-我現在是在玩啥款的遊戲啊……？</story>
+我現在是在玩啥款的遊戲啊……？
+
+於是星銀帶著琉亞給出的線索，決定先去找那對神秘姐妹與名叫綾乃的魔王。
+
+銀行逃犯：等等，我原本只是想逃銀行，怎麼突然變成大型冒險啦？
+
+恭喜您玩到：「琉亞線未完待續結局」。
+
+sys(clearscreen)
+
+END</story>
 </stage>
 <stage name="琉亞" next="人物介紹">
 <room id="undefined" name="草原1" >
@@ -3302,11 +3354,17 @@ sys(clearscreen)</story>
 <dest dest="垃圾桶">翻垃圾桶</dest>
 <dest dest="馬桶水">喝馬桶水</dest>
 </stage>
-<stage name="男廁所3" next="?">
+<stage name="男廁所3" next="男廁所">
 <room id="undefined" name="男廁所" >
 <scene src="../db/pic/room/59775181.jpg" name="男廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story></story>
+<story>男廁所裡依然沒有人。
+
+銀行逃犯：果然星雲不會在這裡吧。
+
+不過既然來都來了，還是確認一下能做什麼。
+
+sys(clearscreen)</story>
 </stage>
 <stage name="看見" next="?">
 <room id="undefined" name="古代地下水道" >
@@ -3999,11 +4057,29 @@ sys(shock)
 
 sys(clearscreen)</story>
 </stage>
-<stage name="舔啦~" next="?">
+<stage name="舔啦~" next="start">
 <room id="undefined" name="system" >
 <scene src="transparent.png" name="transparent"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story></story>
+<story>銀行逃犯：我想舔牆壁捏。
+
+骷髏先生[邪笑]: 真是特殊的小朋友呢。
+
+銀行逃犯：那我真的舔囉？
+
+（舔）
+
+銀行逃犯：......
+
+銀行逃犯：這牆壁有地下室的味道。
+
+骷髏先生[笑]: 恭喜你，這正是你的人生低谷。
+
+你玩到了：「舔牆壁的搞笑結局」。
+
+sys(clearscreen)
+
+END</story>
 </stage>
 <stage name="舔地板" next="不知明的地方">
 <room id="undefined" name="教堂走廊" >
@@ -4077,7 +4153,7 @@ sys(clearscreen)
 END
 </story>
 </stage>
-<stage name="街街~" next="?">
+<stage name="街街~" next="可玲的過去的結局">
 <room id="undefined" name="洞穴入口" >
 <scene src="../db/pic/room/14561360.jpg" name="入口早上"><sound name="undefined" src="undefined"/></scene>
 </room>
@@ -4607,11 +4683,23 @@ sys(clearscreen)
 <dest dest="2樓">美麗的2樓</dest>
 <dest dest="3樓">酷炫的3樓</dest>
 </stage>
-<stage name="頭髮啦~" next="?">
+<stage name="頭髮啦~" next="start">
 <room id="undefined" name="地下室" >
 <scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story></story>
+<story>銀行逃犯：想吃頭髮......真痛苦......
+
+骷髏先生[邪]: 這個願望太可怕了，我都不知道該怎麼幫你。
+
+謎之聲：珍惜生命，遠離奇怪的食慾。
+
+銀行逃犯：對不起，我突然清醒了。
+
+你玩到了：「頭髮不要吃的搞笑結局」。
+
+sys(clearscreen)
+
+END</story>
 </stage>
 <stage name="馬桶水" next="?">
 <room id="undefined" name="男廁所" >
@@ -4663,7 +4751,7 @@ sys(hideitem)</story>
 
 sys(clearscreen)</story>
 </stage>
-<stage name="找到星雲的結局" next="?">
+<stage name="找到星雲的結局" next="可玲與星雲">
 <room id="undefined" name="女廁所" >
 <scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
