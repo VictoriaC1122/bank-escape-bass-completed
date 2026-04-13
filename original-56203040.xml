@@ -1,0 +1,4681 @@
+<?xml version="1.0" encoding="utf-8"?><game name="" designer="" id="">
+<expr type="option">請問現在要做什麼?</expr>
+<expr type="where">請問要選擇什麼?</expr>
+<expr type="which">請問要使用什麼物件?</expr>
+<expr type="nothing">什麼東西都沒有...</expr>
+<expr type="what">請問要調查哪一部份?</expr>
+<expr type="no effect">什麼事情都沒發生...</expr>
+<expr type="back">Back</expr>
+<room id="38512831" name="門內房" >
+<scene src="../db/pic/room/73914125.jpg" name="中午"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/32611322.jpg" name="晚上"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="60830074" name="教堂系列" >
+<scene src="../db/pic/room/36117231.jpg" name="教堂1"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/66735593.jpg" name="教堂3"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/91271301.jpg" name="教堂4"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="38841269" name="井" >
+<scene src="../db/pic/room/93793597.jpg" name="132"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="78357579" name="大澡堂" >
+<scene src="../db/pic/room/53235296.jpg" name="大澡堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="31334973" name="洞穴道路" >
+<scene src="../db/pic/room/41110402.jpg" name="死路"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/90305613.jpg" name="活路2"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/82580430.jpg" name="活路"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/49506638.jpg" name="活路3"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="74068370" name="洞穴入口" >
+<scene src="../db/pic/room/32473779.jpg" name="入口晚上"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/14561360.jpg" name="入口早上"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="19654882" name="洞穴盡頭" >
+<scene src="../db/pic/room/50173845.jpg" name="花"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/96565033.jpg" name="無花"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="11482192" name="現代日本・屋外・温泉" >
+<scene src="../db/pic/room/52975169.jpg" name="現代日本・屋外・温泉"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="11482192" name="現代日本・屋外・温泉" >
+<scene src="../db/pic/room/52975169.jpg" name="現代日本・屋外・温泉"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="51573057" name="警察局" >
+<scene src="../db/pic/room/88070078.jpg" name="警察局"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="63010876" name="日本古街系列" >
+<scene src="../db/pic/room/45454906.jpg" name="9"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/59572913.jpg" name="10"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/95624282.jpg" name="13"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="42343699" name="白天廟會" >
+<scene src="../db/pic/room/67379384.jpg" name="162"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="37193803" name="日式旅館" >
+<scene src="../db/pic/room/96862773.jpg" name="12"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/77302467.jpg" name="14"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/11456191.jpg" name="15"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="36796921" name="向日葵花田" >
+<scene src="../db/pic/room/44617658.jpg" name="向日葵田"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="17017008" name="日本小吃店" >
+<scene src="../db/pic/room/98241264.jpg" name="小吃店"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="38841269" name="井" >
+<scene src="../db/pic/room/93793597.jpg" name="132"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="41324843" name="街道" >
+<scene src="../db/pic/room/95357565.jpg" name="街(雲)"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/60598295.jpg" name="街(夕)"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/99238980.jpg" name="街"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/73553077.jpg" name="街(雨)"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="70725961" name="水中" >
+<scene src="../db/pic/room/28381494.jpg" name="水中"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="42343699" name="白天廟會" >
+<scene src="../db/pic/room/67379384.jpg" name="162"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="61454851" name="火" >
+<scene src="../db/pic/room/15111229.jpg" name="火"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="48608236" name="病床" >
+<scene src="../db/pic/room/48045140.jpg" name="病床"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="35809568" name="荒廢神社" >
+<scene src="../db/pic/room/51374214.jpg" name="荒廢神社/早"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/12181235.jpg" name="荒廢神社"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="62459707" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="34614927" name="男廁所" >
+<scene src="../db/pic/room/59775181.jpg" name="男廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="46027594" name="學校走廊" >
+<scene src="../db/pic/room/64928702.jpg" name="學校走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="37071957" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="25883690" name="地下室" >
+<scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="27815647" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/50751701.jpg" name="畫在紙上的樣子"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="10311763" name="遊戲結束（THE DND）" >
+<scene src="../db/pic/room/65159699.GIF" name="遊戲結束"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="32483809" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="11081998" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="49989414" name="家門" >
+<scene src="../db/pic/room/19642722.jpg" name="家門"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="39382268" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="41430501" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="38826269" name="旅館房間" >
+<scene src="../db/pic/room/19473024.jpg" name="旅館"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="65533670" name="神社" >
+<scene src="../db/pic/room/93442623.jpg" name="134"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="86325711" name="天空異像" >
+<scene src="../db/pic/room/61578377.jpg" name="天空異像"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="22437848" name="昏暗廁所" >
+<scene src="../db/pic/room/46965724.jpg" name="昏暗廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="17668892" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂走廊"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/56965235.jpg" name="教堂夜"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="95329047" name="走廊x" >
+<scene src="../db/pic/room/73352226.jpg" name="日"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/19171462.jpg" name="陰天"><sound name="undefined" src="undefined"/></scene>
+<scene src="../db/pic/room/19270522.jpg" name="夜晚"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="79674903" name="學校走廊" >
+<scene src="../db/pic/room/37221723.jpg" name="走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="73631862" name="靈異走廊" >
+<scene src="../db/pic/room/26974929.jpg" name="靈異走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="25867444" name="恐怕電梯" >
+<scene src="../db/pic/room/94480300.JPG" name="電梯裡"><sound name="undefined" src="undefined"/></scene>
+</room>
+<room id="00000000" name="system" >
+<scene src="transparent.png" name="transparent"><sound name="undefined" src="undefined"/></scene>
+</room>
+<char id="undefined" name="紅楓" >
+<face src="../db/pic/char/38733302.gif" name="大羞"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/69820360.gif" name="不屑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/94436297.gif" name="生氣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/85669007.gif" name="泣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/41733486.gif" name="害羞"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/29758324.gif" name="笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/14131043.gif" name="強氣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/94296943.gif" name="普通"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="籃飄" >
+<face src="../db/pic/char2/15501859.png" name="一般"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/22110883.png" name="生氣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/31312691.png" name="哭泣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/88404911.png" name="害羞"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/57112410.png" name="笑說"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/81277845.png" name="高興"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/42149960.png" name="喜愛"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/95842858.png" name="悲哀"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="綾乃" >
+<face src="../db/pic/char/63137605.gif" name="普通"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/16223683.gif" name="笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/30314237.gif" name="吐舌頭"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/31666152.gif" name="害羞笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/28156464.gif" name="臉紅"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/54151441.gif" name="生氣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/48073817.gif" name="擔憂"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/10589008.gif" name="泣"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="佐銀" >
+<face src="../db/pic/char/37537573.gif" name="普通"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/65579358.gif" name="笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/66852489.gif" name="汗顏"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/89247693.gif" name="生氣"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="依稀靈魂" >
+<face src="../db/pic/char2/71438014.gif" name="驚2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/68745413.gif" name="黑眼-汗"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/76991207.gif" name="黑眼-自信"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/98355960.gif" name="黑眼-怒"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/82072238.gif" name="黑眼-普通"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/33159130.gif" name="黑眼-驚"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="可玲" >
+<face src="../db/pic/char/72471713.gif" name="痛"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/13373046.gif" name="難為情"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="小薇" >
+<face src="../db/pic/char/89143796.gif" name="怒"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/29909722.gif" name="泣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/64988629.gif" name="喜"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/62857989.gif" name="樂"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="凌夢" >
+<face src="../db/pic/char/20898601.png" name="9"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/72634274.png" name="10"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/30115257.png" name="11"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/65982166.png" name="12"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/55152491.png" name="13"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="凌夢" >
+<face src="../db/pic/char/73026348.png" name="1"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/14021587.png" name="2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/50442385.png" name="3"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/38280102.png" name="4"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/52620538.png" name="5"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/86475527.png" name="6"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/99070501.png" name="7"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/13915015.png" name="8"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="依稀靈魂" >
+<face src="../db/pic/char2/32610593.gif" name="普通"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/55032187.gif" name="奸笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/28050066.gif" name="不屑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/94261755.gif" name="汗"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/68721745.gif" name="自信"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/10223188.gif" name="怒"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/14101057.gif" name="怒2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/20100245.gif" name="驚"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="依稀靈淒" >
+<face src="../db/pic/char2/11719800.gif" name="普通2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/44977651.gif" name="不屑2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/43315630.gif" name="自信2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/58400921.gif" name="笑2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/81516981.gif" name="難過2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/54748342.gif" name="難過22"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/80617818.gif" name="驚2"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="小雪" >
+<face src="../db/pic/char/38942605.png" name="困惑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/50163791.png" name="開朗笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/88166680.png" name="無言"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/75797750.png" name="呆"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="小雪" >
+<face src="../db/pic/char/47566730.gif" name="笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/92759517.gif" name="普通"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/12935184.gif" name="失望"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="琉亞" >
+<face src="../db/pic/char/78931677.gif" name="普通2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/68415824.gif" name="開朗笑2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/49834178.gif" name="羞2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/80714900.gif" name="泣2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/97838975.gif" name="怒2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/78008777.gif" name="驚嚇2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/64308600.gif" name="難為情2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/75425390.gif" name="大叫2"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="依希靈淒" >
+<face src="../db/pic/char2/11719800.gif" name="普通"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/44977651.gif" name="不屑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/43315630.gif" name="自信"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/58400921.gif" name="笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/81516981.gif" name="難過"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/54748342.gif" name="難過2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/80617818.gif" name="驚"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="可玲" >
+<face src="../db/pic/char/43559377.gif" name="普通"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/97170212.gif" name="笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/60289521.gif" name="害羞"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/48566443.gif" name="汗"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/34063297.gif" name="生氣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/56243179.gif" name="沒問題"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/94149282.gif" name="注意"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/14446411.gif" name="難過"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="星銀" >
+<face src="../db/pic/char/10703359.gif" name="普通"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/37401541.gif" name="笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/46561068.gif" name="難過"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/72570037.gif" name="驚"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/17846724.gif" name="生氣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/51680146.gif" name="汗"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/85993998.gif" name="眨眼"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/95916534.gif" name="淚"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="星雲" >
+<face src="../db/pic/char2/93739202.gif" name="天使化（說話）"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/17389500.gif" name="天使化（微笑）"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/72396067.gif" name="天使化（沉默）"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/62657469.gif" name="天使化（無神）"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/69764667.gif" name="使用力量（說話）"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/96037217.gif" name="使用力量（微笑）"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="琉亞" >
+<face src="../db/pic/char/84813269.gif" name="翼-普通"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/70550657.gif" name="翼-羞"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/38749728.gif" name="翼-擔憂"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/22273006.gif" name="翼-泣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/47556462.gif" name="表情名稱"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/96404436.gif" name="翼-著急"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/46068858.gif" name="翼-怒"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="琉亞" >
+<face src="../db/pic/char/78931677.gif" name="普通"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/68415824.gif" name="開朗笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/49834178.gif" name="羞"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/80714900.gif" name="泣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/97838975.gif" name="怒"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/78008777.gif" name="驚嚇"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/64308600.gif" name="難為情"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/75425390.gif" name="大叫"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="琉亞" >
+<face src="../db/pic/char/52272524.gif" name="普通"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/72924708.gif" name="笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/20485931.gif" name="害羞"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/82576136.gif" name="淚"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/91933227.gif" name="汗"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/70176738.gif" name="生氣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/41556998.gif" name="錯愕"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/72595794.gif" name="驚"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="依希靈淒" >
+<face src="../db/pic/char2/23649379.gif" name="普通"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/98565859.gif" name="閉眼"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/81734017.gif" name="驚"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="奇奇" >
+<face src="../db/pic/char/16590258.gif" name="害羞"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/46658247.gif" name="瞇眼笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/62801550.gif" name="微笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/65421973.gif" name="正常"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/95453480.gif" name="說話"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/14527521.gif" name="生氣說"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/54836758.gif" name="生氣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/71779013.gif" name="無神"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="鈴兒" >
+<face src="../db/pic/char2/35982982.gif" name="普通"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/32568823.gif" name="笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/79006902.gif" name="笑2"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/23452139.gif" name="臉紅笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/20935827.gif" name="無奈笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/21863820.gif" name="不安"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/93914439.gif" name="流淚"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/78870627.gif" name="生氣"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="骷髏先生" >
+<face src="../db/pic/char2/22377526.gif" name="一般"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/36889276.gif" name="笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/86974702.gif" name="邪"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/60141902.gif" name="邪笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/12291764.gif" name="驚訝"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/69184370.gif" name="難過"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/73427191.gif" name="苦笑"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="小琪" >
+<face src="../db/pic/char2/37281473.gif" name="平常"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/20944591.gif" name="生氣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/76880763.gif" name="害羞不語"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/64525403.gif" name="淺笑"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="警察" >
+<face src="../db/pic/char2/69994963.gif" name="哀"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/37520382.gif" name="怒"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/71916982.gif" name="開心"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/49236266.gif" name="微笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/12130211.gif" name="正常"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/73557532.gif" name="悶氣"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/21720221.gif" name="崩潰"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/39984416.gif" name="哭"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="星雲" >
+<face src="../db/pic/char2/32310221.gif" name="正常"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/13504455.gif" name="說話"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/51424002.gif" name="微笑"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/12191855.gif" name="無神"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/90113807.gif" name="怒"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/19214254.gif" name="染血（絕望）"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char2/69176270.gif" name="染血（哀傷）"><sound name="undefined" src="undefined"/></face>
+</char>
+<char id="undefined" name="怪老頭" >
+<face src="../db/pic/char/38786964.png" name="喔唷"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/85636170.png" name="啊"><sound name="undefined" src="undefined"/></face>
+<face src="../db/pic/char/36642163.png" name="嘿嘿"><sound name="undefined" src="undefined"/></face>
+</char>
+<item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item>
+<item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item>
+<item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item>
+<item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item>
+<item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item>
+<item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item>
+<item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item>
+<item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item>
+<item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item>
+<item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item>
+<item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item>
+<item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item>
+<item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<sound name="相信" src="../db/sound/music/22305436.mid"/>
+<sound name="治癒之泉" src="../db/sound/music/34645612.MID"/>
+<sound name="魔法" src="../db/sound/effect/73021453.wav"/>
+<sound name="食通先生櫻" src="../db/sound/music/65481254.mid"/>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<sound name="輕鬆音樂" src="../db/sound/music/85386446.mid"/>
+<sound name="緑の海辺" src="../db/sound/music/58341357.mid"/>
+<stage name="1" next="?">
+<room id="undefined" name="走廊x" >
+<scene src="../db/pic/room/19270522.jpg" name="夜晚"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>怪老頭[喔唷]: 喔！
+
+怪老頭[嘿嘿]: 嘻嘻嘻，這正是我的骨灰。
+
+怪老頭[嘿嘿]: 好啦～掰掰～～
+
+sys(clearscreen)
+
+銀行逃犯：什麼都沒拿到耶。
+
+銀行逃犯：不過這裡還有他骨灰的碎片，收集起來吧！
+
+sys(give:骨灰罈)</story>
+<expr type="where">有叉路耶～要往？</expr>
+<option type="move">選擇選項</option>
+<dest dest="3">陰森的路</dest>
+<dest dest="4">光明的路</dest>
+</stage>
+<stage name="10" next="?">
+<room id="undefined" name="地下室" >
+<scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>骷髏先生[笑]: 真沒禮貌呢！
+
+骷髏先生[笑]: 好啦，不打擾你，自己想辦法去吧。
+
+sys(clearscreen)
+
+……
+
+是不是我太沒禮貌啦？
+
+好算了不要理他，我繼續走走看好了。
+
+咦？那裡有一塊看板，上面有2條路……
+
+什麼嘛，這是廁所的看板，唉，我真衰，還是找不到出路。
+
+那麼.......</story>
+<expr type="where">要往男廁還女廁？</expr>
+<option type="move">選擇選項</option>
+<dest dest="男廁所">男廁所</dest>
+<dest dest="女廁所">女廁所</dest>
+</stage>
+<stage name="11" next="?">
+<room id="undefined" name="地下室" >
+<scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>骷髏先生[笑]: 真是特殊的小朋友呢。
+
+骷髏先生[笑]: 我來幫你吧，你要去哪？</story>
+<expr type="where">你要說什麼？</expr>
+<option type="move">選擇選項</option>
+<dest dest="被殺">我要出去啦，煩耶！</dest>
+<dest dest="12">嗯，看你好了，我都好喔！</dest>
+</stage>
+<stage name="12" next="?">
+<room id="undefined" name="地下室" >
+<scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>骷髏先生[笑]: 沒關係～我讓你選！</story>
+<option type="move">選擇選項</option>
+<dest dest="出啦~">我要出去捏</dest>
+<dest dest="舔啦~">我想舔牆壁捏</dest>
+<dest dest="撞啦~">好想撞牆喔……</dest>
+<dest dest="頭髮啦~">想吃頭髮……真痛苦……</dest>
+</stage>
+<stage name="2" next="?">
+<room id="undefined" name="走廊x" >
+<scene src="../db/pic/room/19270522.jpg" name="夜晚"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>怪老頭[啊]: 哼！無禮的傢伙！
+
+保留骨灰。
+
+sys(clearscreen)
+
+sys(give:骨灰罈)</story>
+<expr type="where">有叉路耶～要往？</expr>
+<option type="move">選擇選項</option>
+<dest dest="3">陰森的路</dest>
+<dest dest="4">光明的路</dest>
+</stage>
+<stage name="2樓" next="?">
+<room id="undefined" name="家門" >
+<scene src="../db/pic/room/19642722.jpg" name="家門"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>一扇大門？
+
+真酷耶，跑不出去的話，至少把門鎖上，警察就不會來啦！
+
+咦？等等，那是什麼東西在發光呀？
+
+sys(showitem:醫療棉布)
+
+取得醫療棉布。
+
+sys(give:醫療棉布)
+
+sys(hideitem)
+
+這能做什麼？我又沒受傷。
+
+是說這樣能發光，這東西實在不容小覷這樣……
+
+好吧，留著，以後會有用的。</story>
+<expr type="which">現在要使用什麼東西？</expr>
+<option type="use">使用物件</option>
+<itemdest dest="神社"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
+<itemdest dest="3樓"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="門內"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+</stage>
+<stage name="3" next="?">
+<room id="undefined" name="昏暗廁所" >
+<scene src="../db/pic/room/46965724.jpg" name="昏暗廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>哇，好多棺材喔。
+
+真恐怖啊！
+
+這裡不知是那門子的銀行？
+
+不知以前是不是殯儀館……（如果是還得了！）</story>
+<expr type="where">你真的不要打開？</expr>
+<expr type="what">請問要打開那一個棺材？</expr>
+<expr type="option">請問現在要做什麼？打開棺材？</expr>
+<option type="move">不要打開</option>
+<option type="select">要打開</option>
+<dest dest="5">對！我就是不要！</dest>
+<dest dest="3">算了……</dest>
+<areadest pos="1" dest="">'太上面啦～'</areadest>
+<areadest pos="2" dest="">'構不到……'</areadest>
+<areadest pos="3" dest="">'夾縫……'</areadest>
+<areadest pos="4" dest="">'太旁邊啦！'</areadest>
+<areadest pos="5" dest="打開了！"></areadest>
+<areadest pos="6" dest="打開了！"></areadest>
+<areadest pos="7" dest="">'夾縫……'</areadest>
+<areadest pos="8" dest="">'太旁邊啦！'</areadest>
+<areadest pos="9" dest="打開了！"></areadest>
+<areadest pos="10" dest="打開了！"></areadest>
+<areadest pos="11" dest="">'夾縫……'</areadest>
+<areadest pos="12" dest="">'……'</areadest>
+<areadest pos="13" dest="">'太低了！'</areadest>
+<areadest pos="14" dest="">'地板耶……'</areadest>
+<areadest pos="15" dest="">'太低了！'</areadest>
+<areadest pos="16" dest="">'太旁邊啦！'</areadest>
+</stage>
+<stage name="30年前" next="續">
+<room id="undefined" name="荒廢神社" >
+<scene src="../db/pic/room/51374214.jpg" name="荒廢神社/早"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="治癒之泉" src="../db/sound/music/34645612.MID"/>
+<story>30年前……
+
+依希靈淒[普通]: 神社快建好了。
+
+星雲[微笑]: 對呀！真是太棒了。
+
+星雲[說話]: 等神社落成，我一定要住在這裡！
+
+鈴兒[臉紅笑]: 好呀，我們一起住。
+
+sys(clearscreen)
+
+但，好景不常……
+
+因為沒蓋好的關係，柱子開始傾斜……
+
+鈴兒[不安]: 啊……房子好像歪歪的耶……
+
+鈴兒[無奈笑]: 算了，我大概看錯了吧……
+
+sys(clearscreen)
+
+
+
+
+
+
+
+神社落成……
+
+
+
+星雲[微笑]: 太棒了！終於蓋好了，鈴兒！我們一起進去參觀！
+
+鈴兒[無奈笑]: 我身體不大舒服……妳先去吧……
+
+鈴兒心想：（要是倒了怎麼辦呀？）
+
+星雲[微笑]: 好！
+
+sys(clearscreen)</story>
+</stage>
+<stage name="30年前-33471" next="續-87638">
+<room id="undefined" name="荒廢神社" >
+<scene src="../db/pic/room/51374214.jpg" name="荒廢神社/早"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>30年前……
+
+依希靈淒[普通]: 神社快建好了呢！
+
+星雲[微笑]: 對呀！真是太棒了。
+
+星雲[說話]: 等神社落成，我一定要住在這裡！
+
+鈴兒[臉紅笑]: 好，我們一起住。
+
+sys(clearscreen)
+
+但，好景不常……
+
+因為沒蓋好的關係，柱子開始傾斜……
+
+鈴兒[不安]: 啊……房子好像歪歪的耶……
+
+鈴兒[無奈笑]: 算了，我大概看錯了吧……
+
+sys(clearscreen)
+
+
+
+
+
+
+
+神社落成……
+
+
+
+星雲[微笑]: 太棒了！終於蓋好了，鈴兒！我們一起進去參觀！
+
+鈴兒[無奈笑]: 我身體不大舒服……妳先去吧……
+
+鈴兒心想：（要是倒了怎麼辦呀？）
+
+星雲[微笑]: 好！
+
+sys(clearscreen)</story>
+</stage>
+<stage name="30年前1" next="?">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>小琪[平常]: ……
+
+小琪[淺笑]: 你想知道？
+
+銀行逃犯：嗯！
+
+小琪[淺笑]: 我來告訴你吧！
+
+小琪[淺笑]: 30年前，這下水道的上面神社剛落成，因為當時發生一件命案，一位叫星雲的少女死於非命……</story>
+<option type="move">選擇選項</option>
+<dest dest="30年前">我想聽故事（第一次玩的請選此選項）</dest>
+<dest dest="小琪下水道">我聽過了，我要跳過故事。（不是第一次玩的人可選此選項）</dest>
+</stage>
+<stage name="30年前2" next="?">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>鈴兒[流淚]: 好吧，我告訴你吧！
+
+鈴兒[流淚]: 30年前，這下水道的上面神社剛落成，因為當時發生一件命案，一位叫星雲的少女死於非命……</story>
+<option type="move">選擇選項</option>
+<dest dest="30年前-33471">我想聽故事（第一次玩的請選此選項）</dest>
+<dest dest="內部啊~">我聽過了，我要跳過故事。（不是第一次玩的人可選此選項）</dest>
+</stage>
+<stage name="3樓" next="?">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>跑到頂樓了耶……
+
+看看那藍藍的天，白白的雲，讓我想起天線寶寶的美麗……
+
+嗯，風景也還真美麗。XD
+
+不對不對！（搖頭）
+
+現在不是欣賞風景的時候了。
+
+趕快做點有用的事吧！</story>
+<expr type="which">請問要使用什麼物件？</expr>
+<option type="use">使用物件</option>
+<itemdest dest="神社"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
+<itemdest dest="星雲"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="紅"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+</stage>
+<stage name="4" next="?">
+<room id="undefined" name="旅館房間" >
+<scene src="../db/pic/room/19473024.jpg" name="旅館"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story>這裡好漂亮喔……
+
+不會是那些銀行高層的人員休息室吧？
+
+哼，搞那麼奢華，看我來個小小的惡作劇。
+
+把燈摘了吧！</story>
+<expr type="where">確定要摘嗎？（按黑色的地方可回上一頁喔！）</expr>
+<expr type="option">來個惡作劇！</expr>
+<expr type="which">請問要使用什麼物件？</expr>
+<option type="move">把燈摘掉</option>
+<option type="use">還是別摘了</option>
+<itemdest dest="神社"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
+<itemdest dest="紅"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<dest dest="6">對啦，我就是要摘！又不會怎樣！！</dest>
+</stage>
+<stage name="5" next="?">
+<room id="undefined" name="地下室" >
+<scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>sys(shock)
+
+銀行逃犯：我的天啊！好痛呀！不打開有這麼嚴重嗎？竟然掉到地下室啦？
+
+謎之聲：是的，就是有那麼嚴重。
+
+sys(shock)
+
+銀行逃犯：你誰呀？你在哪？為什麼嚴重了？你說啊！
+
+謎之聲：真是不懂禮貌的小孩！我是棺材裡的人，我叫骷髏先生。
+
+骷髏先生[一般]: 我在這沉睡好久啦～終於看到有人來，真是高興極了！
+
+……
+
+銀行逃犯：不好意思，我趕時間XD，不陪你混了。
+
+骷髏先生[苦笑]: ！
+
+骷髏先生[驚訝]: 現在小孩都這樣酷酷的嗎？哎呀呀～</story>
+<expr type="where">你要回答什麼？</expr>
+<option type="move">選擇選項</option>
+<dest dest="10">對啦～就是啦！你要怎樣？</dest>
+<dest dest="11">不是，我比較特殊呢！</dest>
+</stage>
+<stage name="6" next="?">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>怎麼回事？突然暗了下來……
+
+應該不是只有摘燈的關係吧。
+
+嘖，銀行的那些人，竟然設這種機關，房間直達監牢？
+
+別開玩笑了。</story>
+<expr type="where">確定要逃？不住下來嗎？</expr>
+<expr type="option">那麼接下來要……</expr>
+<expr type="which">已取得居留權，那現在好無聊，要做什麼？</expr>
+<option type="move">想辦法逃出去</option>
+<option type="use">住下來吧</option>
+<itemdest dest="神社"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
+<dest dest="電梯">我就是要出去啦！</dest>
+<dest dest="6">算了，還是住這吧。</dest>
+</stage>
+<stage name="8" next="電梯">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story>星雲[微笑]: 那我們走吧。
+
+星雲[說話]: 我會變成一個愛心陪伴你身旁，要叫我出來的話拍拍愛心，我就會出來了。
+
+sys(showitem:星雲)
+
+sys(give:星雲)
+
+sys(hideitem)
+
+sys(clearscreen)</story>
+</stage>
+<stage name="9" next="死亡">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<story>……
+
+星雲[怒]: 你不要喔？
+
+星雲[染血（絕望）]: 那我只好殺了你了。
+
+星雲[染血（絕望）]: 去死吧！
+
+sys(clearscreen)</story>
+</stage>
+<stage name="end" next="null">
+<room id="00000000" name="遊戲結束（THE DND）" >
+<scene src="../db/pic/room/65159699.GIF" name="遊戲結束"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>The end</story>
+</stage>
+<stage name="new515" next="?">
+<room id="undefined" name="system" >
+<scene src="transparent.png" name="transparent"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story></story>
+</stage>
+<stage name="start" next="?">
+<room id="00000000" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="輕鬆音樂" src="../db/sound/music/85386446.mid"/>
+<story></story>
+<expr type="where">請問要……</expr>
+<option type="move">選擇選項</option>
+<dest dest="要開始囉~">開始</dest>
+<dest dest="作者">作者的廢話</dest>
+<dest dest="攻略">攻略</dest>
+<dest dest="人物介紹">人物介紹</dest>
+</stage>
+<stage name="上廁所" next="男廁所">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>好像沒什麼好玩的耶……
+
+還是到男廁所看看吧！</story>
+</stage>
+<stage name="上廁所22" next="男廁所-22">
+<room id="undefined" name="男廁所" >
+<scene src="../db/pic/room/59775181.jpg" name="男廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>可是我不想上廁所耶……
+
+還是別勉強自己好了。</story>
+</stage>
+<stage name="下水道" next="?">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>好痛喔……這裡是……下水道？
+
+嗚嗚嗚嗚嗚……
+
+哭也沒辦法，先走走看好了。
+
+
+
+某女聲：你好。
+
+銀行逃犯：哇！誰呀？
+
+小琪[淺笑]: 你好，我是小琪，你迷路了嗎？
+
+銀行逃犯：是……是啊。
+
+小琪[平常]: 看到你的表情我就知道了，你放心吧，我對這裡超熟的。
+
+小琪[淺笑]: 需要我幫助你離開嗎？</story>
+<expr type="where">你要回答什麼？</expr>
+<option type="move">選擇選項</option>
+<dest dest="離開下水道">小琪小姐，請妳幫幫忙吧。</dest>
+<dest dest="30年前1">謝謝妳，不過妳為什麼在這呀？</dest>
+</stage>
+<stage name="不打開" next="廁所">
+<room id="undefined" name="男廁所" >
+<scene src="../db/pic/room/59775181.jpg" name="男廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>怪老頭[啊]: 你底衝啥？
+
+sys(shock)
+
+sys(shock)哇，驚死人，怪老頭從哪裡現身的啊？
+
+怪老頭[啊]: 啊！
+
+怪老頭[啊]: 那我的東西！
+
+銀行逃犯：喔？真的？拿去吧！
+
+怪老頭[嘿嘿]: 你沒偷看嗎？
+
+銀行逃犯：對啊……
+
+怪老頭[嘿嘿]: 其實，這是別人送我的情書……≧///≦
+
+噁心！還好沒看……
+
+怪老頭[嘿嘿]: 為了獎勵你沒‧有‧偷‧看‧嗯哼～
+
+(太噁了吧……)
+
+怪老頭[嘿嘿]: 我決定送你……
+
+怪老頭[嘿嘿]: 我的寫真集！
+
+sys(shock)
+
+sys(shock)
+
+sys(showitem:怪老頭寫真集)
+
+榮獲得怪老頭寫真集！
+
+sys(hideitem)
+
+sys(clearscreen)
+
+噁，還榮獲咧，怎麼搞的？
+
+銀行逃犯：我才不要。
+
+銀行逃犯：喂，還你……
+
+sys(shock)銀行逃犯：哇咧，人跑了！？
+
+……去死啦。
+
+先出去再說吧。
+
+sys(give:怪老頭寫真集)</story>
+</stage>
+<stage name="不明的房間" next="?">
+<room id="undefined" name="日式旅館" >
+<scene src="../db/pic/room/96862773.jpg" name="12"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="治癒之泉" src="../db/sound/music/34645612.MID"/>
+<story></story>
+<expr type="option">現在要做什麼？（點選走廊可以出去哦）</expr>
+<expr type="what">要到哪裡找星雲？（點選走廊可以出去哦）</expr>
+<expr type="where">請問要選擇什麼？</expr>
+<option type="select">調查畫面</option>
+<areadest pos="1" dest="">'天花板'</areadest>
+<areadest pos="2" dest="">'天花板'</areadest>
+<areadest pos="3" dest="">'天花板'</areadest>
+<areadest pos="4" dest="">'天花板'</areadest>
+<areadest pos="5" dest="找兒~"></areadest>
+<areadest pos="6" dest="">'小窗戶'</areadest>
+<areadest pos="7" dest="">'牆壁喔~不在這裡XD'</areadest>
+<areadest pos="8" dest="">'壁畫'</areadest>
+<areadest pos="9" dest="找兒~"></areadest>
+<areadest pos="10" dest="">'看來不在這裡'</areadest>
+<areadest pos="11" dest="">'椅子'</areadest>
+<areadest pos="12" dest="">'檯燈？'</areadest>
+<areadest pos="13" dest="">'她不會在塌塌米下啦~'</areadest>
+<areadest pos="14" dest="">'她不在桌子底下喲~'</areadest>
+<areadest pos="15" dest="">'她不在桌子底下喲~'</areadest>
+<areadest pos="16" dest="">'她不會在塌塌米下啦~'</areadest>
+</stage>
+<stage name="不泡" next="?">
+<room id="undefined" name="現代日本・屋外・温泉" >
+<scene src="../db/pic/room/52975169.jpg" name="現代日本・屋外・温泉"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="治癒之泉" src="../db/sound/music/34645612.MID"/>
+<story>算了，還是別泡了……看起來怪奇怪的。</story>
+<expr type="where">請問現在要做什麼?</expr>
+<expr type="what">請問要調查哪一部份？</expr>
+<expr type="option">請問現在要做什麼？</expr>
+<option type="move">選擇選項</option>
+<option type="select">調查畫面</option>
+<dest dest="離開">離開</dest>
+<dest dest="淹死">淹死在這</dest>
+<areadest pos="14" dest="">'好想淹死在這'</areadest>
+<areadest pos="15" dest="">'好想淹死在這'</areadest>
+</stage>
+<stage name="不知明的地方" next="?">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story>這裡是……
+
+好像是教堂，這裡真的是銀行嗎？（懷疑的目光）
+
+那……接下來我得要做什麼？</story>
+<expr type="option">那麼接下來該做什麼？</expr>
+<expr type="which">請問要使用什麼物件？</expr>
+<expr type="where">要做什麼事情？</expr>
+<option type="move">行動</option>
+<option type="use">使用物件</option>
+<itemdest dest="紅"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<dest dest="亂逛">亂逛</dest>
+<dest dest="舔地板">舔地板</dest>
+</stage>
+<stage name="不知明的地方-2" next="?">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>呃？又走回來啦了？
+
+那我現在要幹麻？
+</story>
+<expr type="option">請問現在要做什麼？</expr>
+<expr type="where">請問要做什麼？</expr>
+<expr type="which">請問要使用什麼物件？</expr>
+<option type="move">行動</option>
+<option type="use">使用物件</option>
+<itemdest dest="紅"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<dest dest="舔地板">舔地板</dest>
+</stage>
+<stage name="不知明的地方2" next="?">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story></story>
+<expr type="option">那麼接下來該做什麼？</expr>
+<expr type="which">請問要使用什麼物件？</expr>
+<expr type="where">要做什麼事情？</expr>
+<option type="move">行動</option>
+<option type="use">使用物件</option>
+<itemdest dest="紅"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<dest dest="亂逛">亂逛</dest>
+<dest dest="舔地板">舔地板</dest>
+</stage>
+<stage name="不要的啦~~~" next="選物品">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>可玲不會對這東西感興趣的。
+
+再選別樣吧！</story>
+</stage>
+<stage name="亂逛" next="不知明的地方-2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>走吧，那就來逛逛吧。
+
+怪老頭[啊]: 啊，是你啊！
+
+怪老頭[啊]: 上次把我骨灰帶走的人！！
+
+sys(shock)銀行逃犯：什麼？！怪老頭。
+
+等等，我有辦法了。
+
+銀行逃犯：你是依希靈七吧？
+
+怪老頭[啊]: 那誰呀？
+
+？
+
+銀行逃犯：不對，我說錯了，你是依希靈「淒」吧？
+
+怪老頭[喔唷]: 你怎麼知道？
+
+銀行逃犯：我厲害啊。
+
+怪老頭[嘿嘿]: 好，算你厲害。
+
+依希靈淒[普通]: 我也瞞不下去了。
+
+sys(shock)他怎麼變得回來？
+
+依希靈淒[普通]: 你很訝異吧，之前我都用醜醜的樣子面對你……
+
+依希靈淒[閉眼]: 現在終於能用帥帥的樣子面對你了。
+
+噁……
+
+銀行逃犯：你怎麼能隨意變化外貌？
+
+依希靈淒[驚]: 因為我已經死了。
+
+依希靈淒[普通]: 這是送你的紅藥水，因為你猜對了。我從你身上聞出淡淡的憂愁，紅藥水可以幫助你。
+
+sys(give:紅色藥水)
+sys(showitem:紅色藥水)
+sys(hideitem)
+sys(clearscreen)</story>
+</stage>
+<stage name="井口" next="?">
+<room id="undefined" name="井" >
+<scene src="../db/pic/room/93793597.jpg" name="132"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story></story>
+<expr type="what">請問要調查哪一部份?(按照明燈可回去喔！)</expr>
+<option type="select">調查畫面</option>
+<areadest pos="2" dest="">'屋頂'</areadest>
+<areadest pos="3" dest="">'屋頂'</areadest>
+<areadest pos="7" dest="">'天空'</areadest>
+<areadest pos="9" dest="回去"></areadest>
+<areadest pos="10" dest="">'樹林'</areadest>
+<areadest pos="11" dest="">'好像有東西……但算了吧?呵呵~~'</areadest>
+<areadest pos="12" dest="回去"></areadest>
+<areadest pos="13" dest="">'回去的話要按上面一點喔~'</areadest>
+<areadest pos="14" dest="">'想跳下去嗎?不要啦~~'</areadest>
+<areadest pos="15" dest="">'想跳下去嗎?不要啦~~'</areadest>
+<areadest pos="16" dest="">'回去的話要按上面一點喔~'</areadest>
+</stage>
+<stage name="人物介紹" next="?">
+<room id="undefined" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story></story>
+<expr type="where">請問想看誰的介紹？</expr>
+<option type="move">選擇選項</option>
+<dest dest="星雲介紹">星雲</dest>
+<dest dest="骷髏先生">骷髏先生</dest>
+<dest dest="小琪">小琪</dest>
+<dest dest="怪老頭">怪老頭</dest>
+<dest dest="警察">警察</dest>
+<dest dest="鈴兒">鈴兒</dest>
+<dest dest="奇奇">奇奇</dest>
+<dest dest="依希靈淒">依希靈淒</dest>
+<dest dest="琉亞">琉亞</dest>
+<dest dest="可玲">可玲</dest>
+<dest dest="綾乃">綾乃</dest>
+<dest dest="start">返回</dest>
+</stage>
+<stage name="作星結婚結局" next="作星結婚結後語">
+<room id="undefined" name="教堂系列" >
+<scene src="../db/pic/room/36117231.jpg" name="教堂1"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story>星銀[笑]: 我們要手牽手到永遠哦～～
+
+作者：嗯！
+
+佐銀[笑]: 作者小姐，妳要對我妹妹好一點哦。
+
+sys(clearscreen)
+
+sys(remove:星雲)
+sys(remove:骨灰罈)
+sys(remove:紅色藥水)
+sys(remove:銅製古董鑰匙-大)
+sys(remove:醫療棉布)
+sys(remove:怪老頭寫真集)
+sys(clearscreen)</story>
+</stage>
+<stage name="作星結婚結後語" next="start">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story>恭喜您玩到：「作者與銀行逃犯結婚的GL結局」！
+
+真是個不錯的選擇，祝您下次玩到死亡結局。
+
+小提示之ㄧ：色情結局的玩法，是在銀行內部的電梯上去二樓，看到那一扇大門的時候用銅鑰匙把門打開，裡面就會……嘿嘿，這是隱藏攻略之ㄧ，本來不會透露的，但因為我和星銀小姐結婚太高興了，破例放的。
+
+加油～～！
+
+END</story>
+</stage>
+<stage name="作者" next="start">
+<room id="undefined" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>作者休息中……勿擾唷。</story>
+</stage>
+<stage name="作者的寬宏大量" next="選擇">
+<room id="undefined" name="水中" >
+<scene src="../db/pic/room/28381494.jpg" name="水中"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>作者：不過，看在你撿到那麼噁心的東西的份上，我讓你回到上一個選項！
+
+作者：這次要好好把握你生存的機會喲：）</story>
+</stage>
+<stage name="依希靈淒" next="人物介紹">
+<room id="undefined" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>依希靈淒[普通]: 星雲的父親，出場次數超少！
+
+每次提到怪老頭，他給的評語總是褒大於貶。
+
+不知他和怪老頭是什麼關係……
+
+依稀靈淒[普通2]: 
+
+他年輕時候的樣子，是個萬人迷。（嘔吐）
+
+但因為某些奇怪的緣故時常被婊，想正經卻又無法。
+
+唉，可憐。
+
+sys(clearscreen)</story>
+</stage>
+<stage name="內部" next="?">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>鈴兒[生氣]: 我先跟你說，這非常非常的危險，一有萬一，你就馬上逃走，知道嗎？
+
+銀行逃犯：嗯……
+
+鈴兒[不安]: 奇奇，你過來一下……
+
+奇奇[說話]: 什麼事呀？
+
+sys(shock)
+
+哇~~憑空冒出一人，嚇死我了！
+
+鈴兒[無奈笑]: 有事想麻煩你……
+
+奇奇[生氣說]: 不要！
+
+鈴兒[無奈笑]: 不要這樣……
+
+奇奇[生氣說]: 都已經30年了，妳不要纏著他不放，歷史沒辦法改變，自己為自己誦經祈禱吧！
+
+鈴兒[流淚]: ……
+
+！！
+
+銀行逃犯：你沒事吧？
+
+鈴兒[無奈笑]: 我沒事……
+
+銀行逃犯：到底發生了什麼事?那小男孩是誰?妳要找誰呀?為什麼?30年前到底發生什麼事?
+
+鈴兒[不安]: 你想知道嗎？</story>
+<expr type="where">請問要回答什麼?</expr>
+<option type="move">選擇選項</option>
+<dest dest="30年前2">嗯，我想。</dest>
+<dest dest="算囉~">算了，當我沒說……</dest>
+</stage>
+<stage name="內部啊~" next="?">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>鈴兒[不安]: 我的故事講完了……
+
+鈴兒[不安]: 你知道該怎麼幫忙嗎？
+
+鈴兒[不安]: 就是……
+
+鈴兒[不安]: 你去幫我找出星雲！
+
+sys(shock)
+
+銀行逃犯：哪裡找啊？
+
+鈴兒[無奈笑]: 聽說她的魂魄到了銀行，你能不能找找看？
+
+銀行逃犯：……
+
+鈴兒[不安]: 我只有一次的魔法，你快點決定要不要回銀行吧！</story>
+<expr type="where">你要回答什麼？</expr>
+<option type="move">選擇選項</option>
+<dest dest="回去找！">好，我要回去找星雲！</dest>
+<dest dest="找到了！">其實我已經找到她了……</dest>
+<dest dest="神社廁所">我想上廁所啊！</dest>
+</stage>
+<stage name="出啦~" next="?">
+<room id="undefined" name="地下室" >
+<scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>骷髏先生[一般]: ……
+
+骷髏先生[笑]: 你想出去?
+
+銀行逃犯：嗯啊！
+
+骷髏先生[笑]: 好啊~
+
+銀行逃犯：真的?
+
+骷髏先生[邪]: 當然是真的~不過我要一樣東西做交換！
+
+銀行逃犯：好啊~</story>
+<expr type="where">你要給他什麼做交換?</expr>
+<option type="move">選擇選項</option>
+<dest dest="肝">你的肝臟……</dest>
+<dest dest="腎">你的腎臟……</dest>
+<dest dest="重選啦~">你的寶貝……</dest>
+</stage>
+<stage name="別打啦！" next="神社溫泉">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>星雲[正常]: 鈴兒愛我！？
+銀行逃犯：嗯嗯！！
+星雲[無神]: 我好亂！！！
+銀行逃犯：什麼！？
+星雲[染血（哀傷）]: 我用我的力量，理智地看到了一些東西......我必須，讓你看到真相。
+銀行逃犯：啊！咦！？
+銀行逃犯：星雲小姐！！
+sys(closer:c)
+sys(shock)
+sys(clearscreen)
+
+星雲小姐不見了，我的身體，感覺要移動了！！
+啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！！
+sys(closer:off)</story>
+</stage>
+<stage name="別智障淹死吧。" next="回去銀行">
+<room id="undefined" name="現代日本・屋外・温泉" >
+<scene src="../db/pic/room/52975169.jpg" name="現代日本・屋外・温泉"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<story>奇奇[無神]: ......
+
+怎麼搞的，是剛剛那個小男孩？
+他看起來好像不太對，要不要幫幫他？
+小薇[喜]: 奇奇......你來了啊。
+sys(shock)咦？
+哪裡冒出來的小女生？
+他們是在約會嗎？可是怎麼會沒發現我？
+小薇[樂]: 謝謝你。
+sys(clearscreen)
+sys(shock)我以為終於有溫和的畫面，沒想到那穿紅衣服的小女孩拿出一把刀，狠狠的刺進了小男孩的脖子裡！！
+小薇[喜]: 哈哈哈哈哈哈哈哈哈！
+小女孩一邊刺，一邊笑，我有非常非常不好的預感......
+銀行逃犯：哇靠！這裏到底發生什麼事了？噗嚕！（水中的聲音被嗆到）
+小薇[喜]: 咦？難道這裏有其他人嗎？
+銀行逃犯：！
+sys(shock)
+銀行逃犯：算了，不管怎麼樣，直接給他問個明白好了，不然我也一直達不到我要的目的。
+（出水面）
+小薇[怒]: 哇！真的有別人欸。
+銀行逃犯：欸小女孩，妳可以告訴我，為什麼妳要殺他嗎？
+銀行逃犯：還有，30年前神社倒塌造成的冤魂究竟和銀行有什麼關係？巫女小姐跟依稀靈淒，還有之前遇到，在銀行的人跟妳，又有什麼關係？
+小薇[喜]: 哦......你想知道啊......
+銀行逃犯：嗯。
+小薇[樂]: 其實你問我是對極了，我是這片土地的土地神。我來告訴你吧。
+小薇[喜]: 三十年前的故事你聽過了吧，就是神社沒有蓋好，導致一對朋友互相不信任而關係崩毀，當時神社就是蓋在我這片土地之上。
+銀行逃犯：嗯嗯。
+小薇[喜]: 我只是做了個小惡作劇讓神社倒塌，沒想到之後引發這麼多問題，呵呵呵呵呵呵。
+銀行逃犯：......
+小薇[樂]: 好啦不鬧你。
+小薇[喜]: 其實在蓋神社之前這裡原本就是一間非常大又新穎的銀行，由一對雙胞胎姊妹所經營。表面上經營得很成功，實際上卻是一間做黑的公司，由銀行去掩蓋。
+銀行逃犯：難怪有那麼多奇怪的東西......
+銀行逃犯：但是，是什麼樣的黑公司呢？
+小薇[喜]: 我才不要說，呵呵呵呵，我就是喜歡她們做的東西，才會讓銀行存在在我的土地上啊。
+銀行逃犯：......
+小薇[喜]: 雙胞胎姊妹把銀行越做越大，之後雇的也都是不尋常的人類，去幫她們保守秘密，以及執行一些特殊的指令，那些不尋常的人類，呵呵，也令我感到非常感興趣呢。
+銀行逃犯：！！
+銀行逃犯：那些人分別是誰？妳能說嗎？
+小薇[喜]: 你覺得為什麼我要告訴你呢？因為我知道你會去從中摧毀她們的體系，與她們為敵，讓我有好戲可以看，不至於無聊，我才想告訴你啊。
+幹！這個女的有夠變態。
+小薇[喜]: 人類真的很有趣。
+小薇[喜]: 雙胞胎姊妹分別是紅楓跟籃飄，沒錯，是籃球的「籃」飄，她本人非常在意母親幫她取錯字。高層官員是小雪、綾乃、 依稀靈魂、骷髏先生，職員則有依稀靈淒、警察、琉亞。
+小薇[樂]: 我把影像傳到你腦中喔，關於他們在我腦中曾經殘留過的印象。
+紅楓[笑]:我想要的東西是市面上永遠買不到。
+籃飄[悲哀]: 野心太大會反撲自己嗎？年輕女孩總是這樣。
+小雪[無言]: 我需要永保年輕。
+綾乃[臉紅]:什麼色色的東西，儘管交給我！我會掌控一切的。
+依稀靈魂[奸笑]: 這樣我能徹底擁有他嗎？
+骷髏先生[邪]: 我不喜歡沒禮貌的小孩，所以，能給我你的肝臟嗎？
+依稀靈淒[自信2]: 我相信這裡能給我想要的一切.......
+依希靈淒[閉眼]: 可是我也失去了一切。
+銀行逃犯：！？
+警察[崩潰]: 我知道這裏有了解我的人，可是秘密究竟能埋多久呢？
+琉亞[翼-普通]: 我是為了單純的目的而來，可是為何我漸漸忘卻了我是誰......
+銀行逃犯：！！！
+sys(clearscreen)
+sys(shock)
+銀行逃犯：最後那個女孩......
+銀行逃犯：是.....琉亞？
+銀行逃犯：我的妹妹！？
+小薇[喜]: 好了喔，我只能給你看影像，剩下你必須自己推敲。
+小薇[樂]: 順便再跟你說依稀靈淒的故事好了。
+小薇[喜]: 依稀靈淒，是依稀靈魂的弟弟，是星雲，那死於非命少女的父親，同時也是奇奇的主人，算是半個主角。
+小薇[喜]: 60年前，被哥哥依稀靈魂騙去當銀行的職員，以為相信哥哥可以獲得幸福，並跟他愛的女朋友結婚，殊不知發生了慘事，使得女朋友死於非命，僅留下了一名女嬰，便是星雲小姐。他為了女兒，為銀行賣命30年。終於有一天，上司紅楓對依稀靈淒說，你完成你的使命了，我可以賜你一塊地，你蓋間神社，供奉這裏的土地神吧。就在他帶著星雲，想展開新生活之際，不好意思，土地神就是在下我，就來了一點點小搗亂～呵呵。
+小薇[喜]: 那天的所有人都死了，因為我跟紅楓小姐的約定。我為了讓故事繼續有趣。很抱歉，為了不無聊，就算依稀靈淒再怎麼虔誠供奉我，也是白搭，我選擇紅楓的美麗世界。
+小薇[樂]: 但是.....
+銀行逃犯：？
+小薇[樂]: 你不一樣。
+銀行逃犯：什麼！
+小薇[喜]: 因為你的出現，會讓整個銀行世界顛覆。
+小薇[樂]: 我覺得更好玩。
+小薇[樂]: 我只能告訴你到這，記住，要是你讓我無聊，我會立刻通知紅楓小姐殺了你。
+銀行逃犯：！！
+小薇[喜]: 我想應該是不會，你跟銀行還真是有緣啊，
+小薇[樂]: 去找你妹妹吧，並摧毀紅楓她們的美麗世界吧。
+
+sys(clearscreen)
+
+她消失了......
+雖然不知道能不能信，但總算是有了點線索。
+銀行逃犯：而且那個女孩，果然是琉亞。
+銀行逃犯：我來找妳了，琉亞！</story>
+</stage>
+<stage name="到銀行找星雲~" next="?">
+<room id="undefined" name="靈異走廊" >
+<scene src="../db/pic/room/26974929.jpg" name="靈異走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：真的回來了！
+
+不可置信……鈴兒小姐的魔法太厲害了。
+
+那，我看看要到哪裡找星雲吧。</story>
+<expr type="where">請問要到哪裡找星雲？</expr>
+<option type="move">選擇選項</option>
+<dest dest="不明的房間">不明的房間</dest>
+<dest dest="井口">井口</dest>
+<dest dest="地下室">地下室</dest>
+<dest dest="女廁所4">女廁所</dest>
+<dest dest="男廁所3">男廁所</dest>
+</stage>
+<stage name="前" next="?">
+<room id="undefined" name="走廊x" >
+<scene src="../db/pic/room/73352226.jpg" name="日"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>沒東東耶……</story>
+<expr type="where">沒東西，還要往哪？</expr>
+<option type="move">選擇選項</option>
+<dest dest="左">左</dest>
+<dest dest="右">右</dest>
+</stage>
+<stage name="剝光" next="?">
+<room id="undefined" name="門內房" >
+<scene src="../db/pic/room/73914125.jpg" name="中午"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>綾乃[害羞笑]: 呵呵呵……
+
+sys(shock)撕衣服中……
+
+銀行逃犯：嗚……（泣）
+
+sys(shock)
+
+sys(clearscreen)
+
+sys(shock)
+
+sys(shock)綾乃：哈，啊哈～～ˇˇ
+
+sys(shock)
+
+（完事後）
+
+綾乃[普通]: 謝謝妳，讓我那麼爽～～
+
+綾乃[笑]: 這是妳的衣服，拿去吧！
+
+銀行逃犯：嗚……我的第一次……
+
+綾乃[吐舌頭]: 可是我還是不滿足耶……
+
+銀行逃犯：……
+
+銀行逃犯：不，不要啊～～～～～～～～～～～
+
+sys(shock)
+
+sys(clearscreen)
+
+sys(shock)
+
+於是，妳一次又一次的被強姦……
+
+更慘的是，其實綾乃是男的……（才對女孩有興趣嘛）
+
+他有變裝僻罷了……（（啥
+
+綾乃[笑]: 爽完了，放妳走吧！</story>
+<expr type="where">接下來妳要怎麼做？</expr>
+<option type="move">選擇選項</option>
+<dest dest="走跑乃">逃走</dest>
+<dest dest="女朋乃">當他的女朋友</dest>
+</stage>
+<stage name="原地" next="剝光">
+<room id="undefined" name="門內房" >
+<scene src="../db/pic/room/73914125.jpg" name="中午"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="治癒之泉" src="../db/sound/music/34645612.MID"/>
+<story>不……不太想逃走耶……
+
+綾乃[害羞笑]: 那把衣服脫掉吧！
+
+銀行逃犯：一定要嗎？
+
+綾乃[害羞笑]: 不然……我來硬的吧！
+
+靠！！！
+
+綾乃[害羞笑]: 嘿嘿嘿……
+
+啊啊啊啊啊！！
+
+sys(shock)
+
+sys(shock)</story>
+</stage>
+<stage name="去銀行的過去篇。" next="可玲的過去的結局">
+<room id="undefined" name="門內房" >
+<scene src="../db/pic/room/32611322.jpg" name="晚上"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>可玲[難為情]: 請問......有人嗎？
+紅楓[普通]: 來到這裡有何指教？
+可玲[難過]: 這裡有一位叫依稀靈淒的人嗎？
+紅楓[不屑]: 找他什麼事呢？
+可玲[難過]: 咦？
+紅楓[不屑]: 我們的員工，都是簽訂生死約的，生前為銀行努力賣命，死後靈魂繼續留下且器官捐贈銀行，妳懂嗎？
+紅楓[笑]: 就算妳是哪個員工的親屬，也不能帶走他喔。
+可玲[痛]: 什麼！
+紅楓[笑]: 不好意思喔。
+可玲[難過]: 那，我可以見見他一面嗎？
+紅楓[不屑]: 誰介紹來的？
+依稀靈魂[普通]: 老闆，發生什麼事了？
+可玲[害羞]: 大哥！？
+依稀靈魂[自信]: 小妹啊？
+紅楓[不屑]: 是依稀靈魂介紹她來的嗎？
+紅楓[不屑]: 你也是夠壞，賣了一個弟弟還要再賣一個妹妹嗎？
+可玲[生氣]: 什麼！？
+可玲[生氣]: 靈魂大哥，這究竟是怎麼一回事！？
+依稀靈魂[奸笑]: 小妹，妳知道，我們依稀家以前是有魔力的一家，握有重大的權力，統治著銀行這塊土地。
+依稀靈魂[奸笑]: 可是有一天，傾頹了，變成沒落的貴族。
+依稀靈魂[自信]: 紅楓小姐，也就是現任蓋這棟銀行的老闆，握有土地的一切，並且有不凡的嗜好以致事業成功。
+可玲[難過]: 什.....麼嗜好？
+依稀靈魂[自信]: 人體器官收藏家。
+依稀靈魂[奸笑]: 這裡表面上是銀行，進行著一些輕微的借貸工作，背地裡是一個黑市，專門販賣器官、收藏器官，藉此大賺錢。
+依稀靈魂[自信]: 我只是想幫紅楓小姐一臂之力罷了，作為想跟她交往的禮物，他一直希望能得到具有魔力的身體的器官。
+依稀靈魂[自信]: 如果順利，在她得到的不久之後，我們便能順利結婚。
+依稀靈魂[自信]: 以往失去的一切都能回來！
+可玲[難過]: 所以.....！
+依稀靈魂[奸笑]: 那個笨弟弟，我只是跟他說說銀行能賺大錢，馬上能跟女朋友結婚，他就上鉤了。
+依稀靈魂[自信]: 之後我們會給他一個合理的圈套，給他做神社主人，在請土地神大人摧毀神社壓死他，如此一來，魔力器官便能順利到手，一舉數得！
+依稀靈魂[自信]: 反正土地神大人也是站在我們這邊的。
+依稀靈魂[怒]: 順帶一提，跟紅楓小姐結婚後，永恆的生命也在等著我，只要不停的換器官，就能永保年輕！
+紅楓[不屑]: 我已經50多歲了，再活個50年，只要銀行不倒，器官源不斷，我就能永保年輕。
+紅楓[笑]: 雖然這不是我主要的目的啦！
+紅楓[不屑]: 我最愛收集器官，年輕，只是附加條件。
+紅楓[不屑]: 哈哈哈哈哈哈哈！
+sys(shock)
+可玲[痛]: 瘋了......你們全瘋了！
+依稀靈魂[自信]: 我說小妹啊。
+可玲[痛]: 什麼？
+依稀靈魂[自信]: 既然妳那麼聰明，又知道了那麼多實情。
+可玲[難過]: ......大哥！
+依稀靈魂[黑眼-自信]: 呵呵。
+紅楓[不屑]: 靈魂，我想要她的器官。
+依稀靈魂[奸笑]: 沒問題。
+sys(shock)
+sys(shock)
+sys(shock)
+sys(clearscreen)</story>
+</stage>
+<stage name="叫星雲" next="找到星雲的結局">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="相信" src="../db/sound/music/22305436.mid"/>
+<story>銀行逃犯：既然星雲不肯出來，那我只好一間一間開了。
+
+銀行逃犯：星雲？（開第一間門）
+
+sys(showitem:蟑螂)
+蟑螂：啾咪？
+銀行逃犯：......（用力關上門！）
+sys(shock)
+sys(hideitem)
+
+好噁心啊......不管了，繼續開下一間吧。
+銀行逃犯：希望這次有正常一點的東西出現......
+（開第二間門）
+怪老頭[啊]: 啊！我的小屁屁被看光了！
+銀行逃犯：靠夭！！
+sys(shock)（用力關上門）
+sys(clearscreen)
+銀行逃犯：噁心！！！
+
+銀行逃犯：怪老頭為什麼會在女廁！？
+
+銀行逃犯：......
+
+銀行逃犯：算了，我繼續找吧。（拚命想忘掉剛剛的一切）
+
+（緩緩開啟第三間門）
+
+警察[正常]: 哦哇？
+sys(shock)
+sys(shock)銀行逃犯：哦哇哇哇哇哇哇哇！！！魔王啊啊啊啊啊！！
+警察[哭]: ......
+
+銀行逃犯：......？
+
+警察[崩潰]: 拜託不要告訴別人......
+
+銀行逃犯：什麼？
+
+我沒聽錯吧，是不是把「我要逮補你」聽成「不要告訴別人」了？
+
+警察[哭]: 其實我是男的......
+sys(shock)銀行逃犯：......
+銀行逃犯：什麼世界啊啊啊啊啊啊啊啊啊啊！！！
+sys(shock)
+sys(clearscreen)（用力關門）
+
+銀行逃犯：唉，累死了，找個人那麼累。
+
+銀行逃犯：還讓我看到了世界的黑暗面....（絕望貌）
+
+銀行逃犯：唉，其實我很崇拜警察大人的......
+
+銀行逃犯：家裡都掛著她的裸體海報，啊不是！我在說什麼啊！
+sys(shock)
+銀行逃犯：......
+
+銀行逃犯：開下一扇門吧。
+（閉著眼睛拉開了第四扇門）
+星雲[說話]: 啊......
+
+銀行逃犯：星雲！！？</story>
+</stage>
+<stage name="可憐鈴(尿)" next="滾出神社！！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>銀行逃犯：啊啊啊啊啊～忍不住啦！
+
+鈴兒[不安]: ？
+
+sys(shock)
+
+sys(shock)（唰啦啦啦啦……）
+
+鈴兒[生氣]: ……
+
+鈴兒[生氣]: ……
+
+鈴兒[生氣]: ……
+
+鈴兒[生氣]: 你……
+
+sys(shock)
+
+sys(shock)銀行逃犯：！？
+
+鈴兒[生氣]: 給我滾出去！！
+
+sys(shock)
+
+sys(clearscreen)</story>
+</stage>
+<stage name="可玲" next="人物介紹">
+<room id="undefined" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>可玲[普通]: 一個善解人意的女孩子，自稱萬事通。不過她知道的事也太多了……
+
+最喜歡怪怪的東西。
+
+有不了解的事情問她，一定都能獲得解答。
+
+sys(clearscreen)</story>
+</stage>
+<stage name="可玲的過去~" next="可玲的過去~2">
+<room id="undefined" name="日本小吃店" >
+<scene src="../db/pic/room/98241264.jpg" name="小吃店"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>依稀靈淒[自信2]: 可玲，妳來了。
+
+可玲[笑]: 嗯。
+
+依希靈淒[普通2]: 我有一件非常非常重要的事要說。 
+
+可玲[害羞]:什麼事呀？
+
+依稀靈淒[難過2]:就是……
+
+依稀靈淒[難過22]:我們分手吧！
+
+sys(shock)
+
+sys(shock)
+
+可玲[難過]: 為什麼？
+
+依稀靈淒[驚2]: 不要問為什麼，有些事乃天生命定。
+
+可玲[注意]: 什麼！？（可玲OS：你在供三小。）
+
+依稀靈淒[不屑2]: 我不能說出來，但是......真的不能牽扯妳進來。
+可玲[難過]: 你......
+
+依稀靈淒[難過2]: 我哥哥，要來接我了，先走一步。
+可玲[痛]: 不.....！
+依稀靈魂[奸笑]: 妹妹，放手吧。
+可玲[注意]: 大哥......
+依稀靈魂[奸笑]: 弟，沒關係，就告訴她吧。
+依稀靈魂[自信,l]:妹，我們其實是要去銀行工作，而銀行不能攜帶伴侶，所以弟弟必須離開妳一段時日。
+ 
+依稀靈魂[不屑,l]: 抱歉。
+依稀靈淒[難過2,r]:嗯......的確是這樣。
+ 
+可玲[難過]: 不是這樣子的吧......
+可玲[難過]: 等一下！！
+sys(clearscreen)
+sys(shock)</story>
+</stage>
+<stage name="可玲的過去~2" next="去銀行的過去篇。">
+<room id="undefined" name="日本古街系列" >
+<scene src="../db/pic/room/59572913.jpg" name="10"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>可玲[難過]: 怎麼可能，去個銀行需要拋棄我。
+可玲[害羞]: 我要去找他們。
+sys(clearscreen)
+銀行逃犯：有點識曾相似的感覺，好像去銀行工作的人一定會消失，啊，琉亞。
+銀行逃犯：想起了失蹤多時的妹妹，心中總湧起一股莫名的痛。</story>
+</stage>
+<stage name="可玲的過去的結局" next="可玲與星雲">
+<room id="undefined" name="火" >
+<scene src="../db/pic/room/15111229.jpg" name="火"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>可玲[難過]: 後來，我就被依稀靈魂殺了。
+可玲[難過]: 其實我有生了一個女嬰，是依稀靈淒的孩子，現在在保母那，我已經吩咐過，要是我去了銀行有三長兩短，女嬰就會送還給依稀靈淒。
+可玲[難過]: 依稀靈淒是魔法世家，希望他的女兒......
+可玲[生氣]: 也會遺傳到魔力！
+可玲[難過]: 她能順利的帶依稀靈淒走就好了。
+可玲[難過]: 星雲.....我的女兒，加油。
+sys(clearscreen)</story>
+</stage>
+<stage name="右" next="?">
+<room id="undefined" name="靈異走廊" >
+<scene src="../db/pic/room/26974929.jpg" name="靈異走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>沒東東耶……
+
+咦？那是？
+
+sys(showitem:蟑螂)
+
+sys(shock)啊啊啊啊啊啊啊～～～～
+
+小強！
+
+快跑吧！
+
+sys(clearscreen)</story>
+<expr type="where">再來要去哪？</expr>
+<option type="move">好噁心喔</option>
+<dest dest="左">左</dest>
+<dest dest="前">前</dest>
+</stage>
+<stage name="咦?那是什麼?" next="下水道">
+<room id="undefined" name="神社" >
+<scene src="../db/pic/room/93442623.jpg" name="134"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="食通先生櫻" src="../db/sound/music/65481254.mid"/>
+<story>我看看喔……
+
+這好像是刻在地上的古老文字，幸好我對這些還有點小研究。
+
+上面寫：「凡是到這裡拜拜的人，都會被……」
+
+被什麼？後面就沒了耶……
+
+這時，地上突然打開一個大洞！
+
+哇啊啊啊啊啊啊啊啊啊～～～～～～～～～～</story>
+</stage>
+<stage name="喝自尿" next="找到星雲的結局">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>銀行逃犯：那我就喝自己的尿好了。
+
+唰啦啦啦啦────────（用手接取中）
+
+銀行逃犯：這樣.....應該夠了吧？
+
+銀行逃犯：黃黃的......好濃哦，看來我應該很久沒有喝水了。啊！不管啦，喝就對了！
+
+咕嚕咕嚕咕嚕咕嚕......
+
+銀行逃犯：噗哈，真的是人間美味！
+sys(shock)作者：......
+作者：噁心耶。
+
+銀行逃犯：吵耶，耶？等等，那是什麼聲音？
+
+（拉開第四間門）
+星雲[正常]: 啊......
+
+銀行逃犯：星......星雲！！？</story>
+</stage>
+<stage name="回2樓" next="懷孕">
+<room id="undefined" name="家門" >
+<scene src="../db/pic/room/19642722.jpg" name="家門"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story>呼～幸好沒繼續待在那裡，真是太恐怖了。
+
+咦？肚子怎麼怪怪的？
+
+去醫院檢查一下好了。</story>
+</stage>
+<stage name="回到銀行啦~~" next="回去銀行">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>小琪[淺笑]: 沒關係，人難免都會搞錯的。
+
+小琪[淺笑]: 直直走就到了，我先走了，掰掰。
+
+銀行逃犯：嗯……
+
+sys(clearscreen)</story>
+</stage>
+<stage name="回去" next="?">
+<room id="undefined" name="井" >
+<scene src="../db/pic/room/93793597.jpg" name="132"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：要回去了嗎?</story>
+<expr type="where">你要……</expr>
+<option type="move">選擇選項</option>
+<dest dest="找兒~">回去吧！</dest>
+<dest dest="井口">還不想……</dest>
+</stage>
+<stage name="回去找！" next="到銀行找星雲~">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>鈴兒[普通]: 好，那你閉上眼睛吧！
+
+銀行逃犯：……（閉眼）
+
+鈴兒[笑2]: su315k41ek711p412041!（翻譯：你是大笨蛋）
+
+哇，好厲害，咒語都聽不懂。
+
+sys(play:魔法)
+
+sys(shock)
+
+sys(shock)
+
+sys(clearscreen)</story>
+</stage>
+<stage name="回去銀行" next="?">
+<room id="undefined" name="學校走廊" >
+<scene src="../db/pic/room/37221723.jpg" name="走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="相信" src="../db/sound/music/22305436.mid"/>
+<story>……
+
+……
+
+回來了……
+
+感覺怪空虛的……</story>
+<expr type="where">請問要去哪？</expr>
+<option type="move">選擇選項</option>
+<dest dest="女廁所2">女廁所</dest>
+<dest dest="男廁所">男廁所</dest>
+<dest dest="不知明的地方">不知明的地方</dest>
+</stage>
+<stage name="地(尿)" next="滾出神社！！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>銀行逃犯：對不起，冒犯啦！！
+
+（唰啦啦啦啦）
+
+鈴兒[生氣]: ……
+
+鈴兒[生氣]: 你……我打掃的那麼辛苦……
+
+sys(shock)
+
+sys(shock)
+
+鈴兒[生氣]: 你給我滾出去！！
+
+sys(clearscreen)</story>
+</stage>
+<stage name="地下室" next="?">
+<room id="undefined" name="地下室" >
+<scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>骷髏先生[笑]: 哈囉，你好啊。
+
+銀行逃犯：你是……？還有……
+
+銀行逃犯：你有沒有看見一個女孩子？
+
+骷髏先生[一般]: 我是骷髏先生，至於女孩子……要有點條件我才告訴你哦。
+
+銀行逃犯：什麼條件？
+
+骷髏先生[一般]: 眼珠給我吧。
+
+sys(shock)銀行逃犯：！！
+
+銀行逃犯：給你的話我就不用找啦！
+
+骷髏先生[笑]: 那給我你身上的東西。
+
+骷髏先生[笑]: 衣服全給我好了。
+
+sys(shock)
+
+sys(shock)
+
+sys(shock)銀行逃犯：！！
+
+銀行逃犯：變態，你說什麼？
+
+骷髏先生[邪笑]: 不給我的話……
+
+骷髏先生[笑]: 就嫁給我吧！
+sys(clearscreen)</story>
+<expr type="where">請問你要選......？</expr>
+<option type="move">選擇選項</option>
+<dest dest="嫁">'當然是嫁給他享福啦</dest>
+<dest dest="找兒~">不理他，回去找星雲比較實際。</dest>
+</stage>
+<stage name="地牢~" next="地牢~2">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>警察[微笑]: 以後，你就永遠住在這裡啦，這裡有水有食物有放風時間還有陳水扁哦，是奢華的極致，別人要想來還來不了呢。
+
+銀行逃犯：嗚嗚嗚……我可以放棄嗎……
+
+sys(clearscreen)</story>
+</stage>
+<stage name="地牢~2" next="start">
+<room id="undefined" name="天空異像" >
+<scene src="../db/pic/room/61578377.jpg" name="天空異像"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>對不起，你被警察抓到……一輩子都在監牢與陳●扁相愛……
+
+你玩到了：「被警察抓到的結局」，然後搞上陳●扁
+
+祝你下次玩到搞馬●九的結局！
+sys(clearscreen)
+
+sys(remove:星雲)
+sys(remove:骨灰罈)
+sys(remove:紅色藥水)
+sys(remove:銅製古董鑰匙-大)
+sys(remove:醫療棉布)
+sys(remove:怪老頭寫真集)
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="垃圾桶" next="男廁所-22">
+<room id="undefined" name="男廁所" >
+<scene src="../db/pic/room/59775181.jpg" name="男廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>喔喔喔喔喔！
+
+垃圾好香啊！（好噁……）
+
+（翻垃圾桶中……）
+
+稍微舔一舔好了。
+
+於是我伸出紅紅的舌頭舔了舔那紅紅的汁液，有點腥，不過我得忍下去！
+
+好像沒找到什麼……</story>
+</stage>
+<stage name="奇奇" next="人物介紹">
+<room id="undefined" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>奇奇[正常]: 一個很可愛的小男孩，似乎十分討厭鈴兒。
+
+除了對鈴兒之外，對其他人都很和善。
+
+不知為何，每次他看到小琪都會發抖……
+
+sys(clearscreen)</story>
+</stage>
+<stage name="女廁所" next="?">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<story>這裡是女廁耶。
+
+來上個廁所吧。
+
+星雲[怒]: 哇啊啊啊啊！
+
+sys(shock)
+
+星雲[說話]: 你是誰呀？怎麼偷看我上廁所？
+
+銀行逃犯：對對對不起，我不是故意的！
+
+星雲[微笑]: 算了，反正我也沒在上廁所。
+
+……那妳在幹嘛？
+
+星雲[微笑]: 要我幫助你嗎？我可以當你的隊友喔。</story>
+<expr type="where">要星雲當你的隊友嗎？</expr>
+<option type="move">選擇選項</option>
+<dest dest="8">要啊要啊</dest>
+<dest dest="9">才不要咧</dest>
+</stage>
+<stage name="女廁所2" next="?">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story>這裡是女廁所耶……
+
+嗯……</story>
+<expr type="option">現在要做什麼?</expr>
+<expr type="where">請問要選擇什麼？</expr>
+<expr type="which">請問要使用什麼物件？</expr>
+<option type="move">行動</option>
+<option type="use">使用物件</option>
+<itemdest dest="鑰匙打開"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<dest dest="上廁所">上廁所</dest>
+</stage>
+<stage name="女廁所4" next="?">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="魔法" src="../db/sound/effect/73021453.wav"/>
+<story>銀行逃犯：星雲？
+
+銀行逃犯：妳在這裡嗎？
+
+銀行逃犯：我好像聽到了一點聲音，可是她不願意出來也沒辦法呀......</story>
+<expr type="where">接下來該怎麼做？</expr>
+<option type="move">選擇選項</option>
+<dest dest="叫星雲">開廁所的門</dest>
+<dest dest="喝自尿">喝自己的尿</dest>
+</stage>
+<stage name="女朋乃" next="走跑乃">
+<room id="undefined" name="門內房" >
+<scene src="../db/pic/room/73914125.jpg" name="中午"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="治癒之泉" src="../db/sound/music/34645612.MID"/>
+<story>既然生米煮成熟飯了，那我無須耗時再多找一位男朋友，乾脆我就和他交往吧！
+
+銀行逃犯：綾乃……
+
+綾乃[害羞笑]: 要再來一次嗎？
+
+銀行逃犯：不、不是的，我是想說……
+
+綾乃[臉紅]: ？
+
+銀行逃犯：我可以做你的女朋友嗎？
+
+綾乃[臉紅]: ……
+
+綾乃[害羞笑]: 我很感激妳的心意，但我已經有300位女朋友了，妳要成為第301個嗎？
+
+銀行逃犯：……
+
+綾乃[害羞笑]: 不然我再插妳一次表達心意？
+
+銀行逃犯：……</story>
+</stage>
+<stage name="姦星雲" next="菜花星雲">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="魔法" src="../db/sound/effect/73021453.wav"/>
+<story>銀行逃犯：沒辦法了，星雲小姐，對不起啊啊啊啊！！
+sys(clearscreen)
+sys(shock)
+sys(shock)
+然後銀行逃犯餓虎撲上了星雲，剝光她的衣服，但是發現了一個很嚴重的問題......
+
+銀行逃犯：靠，我忘了......我是女的......
+
+銀行逃犯：管他的，1、2、3，變性！！
+
+於是銀行逃犯變成了男生。
+sys(shock)
+在一陣翻雲覆雨之後......
+
+星雲[無神]: ......
+
+星雲[無神]: 好.....舒服哦！
+
+星雲[正常]: 突然清醒了不少。
+
+星雲[微笑]: 這樣.....我就能了無遺憾的投胎去了，銀行逃犯，謝謝你，讓我那麼的舒爽，愛你哦，掰掰^^
+
+sys(clearscreen)
+
+銀行逃犯：......
+
+銀行逃犯：幹！！！！！！！！
+
+銀行逃犯：星雲有菜花啊啊啊啊啊啊！！！！！！！
+sys(clearscreen)</story>
+</stage>
+<stage name="嫁" next="結婚">
+<room id="undefined" name="向日葵花田" >
+<scene src="../db/pic/room/44617658.jpg" name="向日葵田"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story>骷髏先生[笑]: 真的？
+
+銀行逃犯：是……是的！（一臉嬌羞貌）
+
+（謎：現在背景是怎樣？）
+
+骷髏先生[一般]: 妳叫什麼名字？銀行逃犯？
+
+銀行逃犯：我……叫星銀。
+
+骷髏先生[笑]: 真是漂亮又年輕的女孩呢。
+
+星銀[笑]: 謝謝！
+
+sys(clearscreen)
+
+骷髏先生[笑,r]: 那讓我們遠走高飛吧。
+
+星銀[笑,l]: 嗯！
+
+佐銀[生氣]: 等等！
+
+sys(shock)
+
+sys(clearscreen)
+
+星銀[驚]: 哥？
+
+佐銀[生氣]: 其實我才是真的銀行逃犯！
+
+sys(shock)
+
+星銀[驚]: 什麼，是我才對吧？
+
+佐銀[生氣]: 笨蛋，我才是啦，而且……
+
+佐銀[普通]: 而且……其實......
+
+佐銀[笑]: 我看上骷髏先生了！！
+
+骷髏先生[難過]: ……我……我
+
+骷髏先生[難過]: 真的？
+
+佐銀[笑]: 嗯！
+
+sys(clearscreen)</story>
+</stage>
+<stage name="小琪" next="人物介紹">
+<room id="undefined" name="system" >
+<scene src="transparent.png" name="transparent"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>小琪[平常]: 一個會魔法和武術的少女，一般她都在下水道遊玩。
+
+是一個非常重義氣的女孩，但惹她生氣……
+
+就會發生十分悲慘的事。
+
+sys(clearscreen)</story>
+</stage>
+<stage name="小琪下水道" next="?">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>小琪[平常]: 我講完了……
+
+小琪[淺笑]: 也到銀行了。
+
+小琪[淺笑]: 那我先走了喔。
+
+銀行逃犯：等等！
+
+小琪[害羞不語]: ？</story>
+<expr type="where">你要回答什麼？</expr>
+<option type="move">選擇選項</option>
+<dest dest="看見">妳說的那個女孩……我有看見！</dest>
+<dest dest="回到銀行啦~~">啊……對不起！她和我認識的星雲不是同一人！！</dest>
+</stage>
+<stage name="小雪上床" next="?">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="輕鬆音樂" src="../db/sound/music/85386446.mid"/>
+<story>小雪[普通]: ......
+
+銀行逃犯：果然不行嗎？（失望）
+
+小雪[笑]: 不......</story>
+</stage>
+<stage name="左" next="?">
+<room id="undefined" name="走廊x" >
+<scene src="../db/pic/room/19270522.jpg" name="夜晚"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<story>咦，這是什麼呀？
+
+sys(showitem:骨灰罈)
+
+撿到一瓶骨灰！
+
+sys(hideitem)
+
+怪老頭[嘿嘿]: 小朋友，你有沒有看到我的骨灰呀？嘻嘻！
+
+sys(shock)</story>
+<expr type="where">你要給他嗎？</expr>
+<option type="move">選擇選項</option>
+<dest dest="1">好啊，給他吧！</dest>
+<dest dest="2">才不要給他咧……</dest>
+</stage>
+<stage name="幫助" next="內部">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>鈴兒[不安]: 唉……
+
+鈴兒[不安]: 好吧！那你過來，我給你看一樣東西。
+
+鈴兒[不安]: 小琪，不好意思，妳先回去吧！
+
+小琪[生氣]: 喔，好吧！
+
+sys(clearscreen)</story>
+</stage>
+<stage name="廁所" next="廁所2">
+<room id="undefined" name="走廊x" >
+<scene src="../db/pic/room/19171462.jpg" name="陰天"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>這裡是我和怪老頭昨天晚上一到銀行相遇的地方。
+
+早上了嗎？
+
+躂躂躂……
+
+躂躂躂……
+
+sys(shock)那，那是……警察的腳步聲！
+
+嗚哇啊啊啊啊啊啊！
+
+快快，躲到哪？
+
+某女聲：快來這裡……
+
+什麼，哪裡？女廁嗎？
+
+不管了，先過去再說吧。</story>
+</stage>
+<stage name="廁所2" next="?">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>（到了女廁……）
+
+可玲[笑]: 你好啊！
+
+銀行逃犯：妳是？
+
+可玲[普通]: 我是可玲，你是銀行逃犯吧？
+
+sys(shock)
+
+sys(shock)！！
+
+銀行逃犯：妳，妳怎麼知道？
+
+可玲[笑]: 我是萬事通☆
+
+銀行逃犯：那妳知道怎麼出去嗎？
+
+可玲[沒問題]: 當然囉，不過有條件的。你要給我一樣我有興趣的東西當作獎勵。
+
+銀行逃犯：哦，簡單，那好呀。</story>
+<expr type="which">請問你要給可玲什麼?</expr>
+<option type="use">使用物件</option>
+<itemdest dest="怪老頭寫真集"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+</stage>
+<stage name="待斃" next="?">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>銀行逃犯：嗚啊。（被星雲抓住）
+
+星雲[染血（絕望）]: 呼哈哈哈哈，我要吃掉你哈哈哈哈！！！！
+
+銀行逃犯：幹！快想辦法啊！
+
+警察[怒]: 有人說髒話？
+
+銀行逃犯：媽的！這時候別來攪局！！（把警察一腳踢進星雲的嘴巴裡）
+sys(shock)
+sys(shock)
+星雲[染血（絕望）]: 嘎嘿嘿嘿嘿！！真好吃啊啊啊！！！
+
+銀行逃犯：.......（瞪大雙眼）</story>
+<expr type="where">接下來該怎麼辦？</expr>
+<option type="move">選擇選項</option>
+<dest dest="姦星雲">強姦星雲</dest>
+</stage>
+<stage name="怪老頭" next="人物介紹">
+<room id="undefined" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>怪老頭[嘿嘿]: 一個非常怪的老頭。
+
+沒啥咪智商……
+
+sys(clearscreen)</story>
+</stage>
+<stage name="怪老頭寫真集" next="可玲的過去~">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>sys(showitem:怪老頭寫真集)
+
+（取出怪老頭寫真集）
+
+sys(hideitem)
+
+可玲[害羞]: ……
+
+可玲[害羞]: 這個……
+
+銀行逃犯：怎麼了嗎？
+
+可玲[難過]: 這個是……我……我……
+
+sys(shock)這麼怪異的東西竟然能讓性格爽朗大方又乾脆的可玲小姐結巴，這到底是什麼來頭？
+
+可玲[汗]: 說來話長啦！
+
+sys(shock)（倒地）
+
+銀行逃犯：妳給我從實說來。
+
+可玲[沒問題]: OK
+
+好乾脆是哪招？
+
+可玲[笑]: 要從很久很久以前說起……</story>
+</stage>
+<stage name="想出去" next="?">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>星雲[微笑]: 你想出去嗎？
+
+銀行逃犯：嗯。
+
+星雲[說話]: 對不起耶……我無能為力……
+
+銀行逃犯：為什麼？
+
+星雲[微笑]: ……
+
+星雲[微笑]: 好吧，為了你，我試試看，畢竟你是我隊友嘛。
+
+她……心地真善良！
+
+星雲[天使化（微笑）]: 看我的吧。
+
+星雲[使用力量（微笑）]: （使用力量中……）
+
+sys(shock)
+
+星雲[使用力量（說話）]: ……有點困難喔……
+
+加油啊，我的命運看妳了！
+
+sys(shock)
+
+星雲[天使化（無神）]: 嗚哇。
+
+sys(clearscreen)銀行逃犯：怎麼了？妳還好嗎？
+
+小雪[笑]: 嘻嘻。
+
+sys(shock)銀行逃犯：誰？
+
+小雪[普通]: 是我。
+
+銀行逃犯：妳是誰？
+
+小雪[普通]: 我是妖精小雪。
+
+銀行逃犯：啊，妳來的正好，妳快幫我看看星雲她怎麼了？
+
+小雪[笑]: 她犯了禁忌，我是來制止她的！
+
+銀行逃犯：什麼禁忌？
+
+小雪[普通]: 她試圖帶你逃出銀行，但警察已經通報銀行的總高官了，總高官對你下達了通緝令，一但有人想帶你逃出去，便殺了他。
+
+小雪[笑]: 但星雲小姐她的身份特殊，所以我不敢殺她，只有讓她昏迷一下子而已。
+
+銀行逃犯：我到底是犯了什麼大錯啊……真衰……還帶衰給星雲……
+
+銀行逃犯：那妳是銀行雇員？
+
+小雪[普通]: 是啊。
+
+銀行逃犯：然後呢？
+
+小雪[失望]: 你難道不擔心星雲小姐嗎？</story>
+<expr type="where">你要說什麼？</expr>
+<option type="move">選擇選項</option>
+<dest dest="星雲都昏">星雲都昏了，還理她幹嘛？</dest>
+<dest dest="愛小雪">其實我愛的是妳……小雪。</dest>
+<dest dest="小雪上床">我可以和妳上床嗎？</dest>
+<dest dest="關心星雲">星雲她沒事嗎？</dest>
+</stage>
+<stage name="懷孕" next="懷結局">
+<room id="undefined" name="病床" >
+<scene src="../db/pic/room/48045140.jpg" name="病床"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="相信" src="../db/sound/music/22305436.mid"/>
+<story>小雪[開朗笑]: 您好，我是代理醫生。
+
+銀行逃犯：您好，我身體有點不舒服，可否幫我檢查一下？
+
+小雪[開朗笑]: 好的！
+
+（檢查中）
+
+小雪[困惑]: ……
+
+銀行逃犯：怎麼了嗎？
+
+小雪[困惑]: 請問一下喔，您最近有沒有發生性行為呢？
+
+銀行逃犯：……呃……
+
+小雪[開朗笑]: 恭喜您～您懷孕了！
+
+sys(shock)銀行逃犯：靠！死綾乃～～
+
+sys(clearscreen)</story>
+</stage>
+<stage name="懷結局" next="start">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="輕鬆音樂" src="../db/sound/music/85386446.mid"/>
+<story>恭喜您～您玩到了「被綾乃強姦致懷孕的結局」！這是遊戲中最好的結局了～
+
+您想知道您後來怎麼了嗎？
+
+讓醫生來告訴您～～
+
+小雪[開朗笑]: 您接下來會氣沖沖的去找綾乃先生算帳，結果與他的300位女朋友打架，不小心打到流產，然後綾乃先生救活您後，再次強姦您！
+
+小雪[開朗笑]: 真的是很好的結局，祝您下次玩到被我強姦的結局！！
+
+sys(clearscreen)祝您下次愉快！
+
+sys(clearscreen)
+
+sys(remove:星雲)
+sys(remove:骨灰罈)
+sys(remove:紅色藥水)
+sys(remove:銅製古董鑰匙-大)
+sys(remove:醫療棉布)
+sys(remove:怪老頭寫真集)
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="打開~" next="醫院">
+<room id="undefined" name="男廁所" >
+<scene src="../db/pic/room/59775181.jpg" name="男廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>sys(showitem:染血信紙)得到染血信紙！！
+
+sys(shock)
+
+銀行逃犯：這什麼呀？
+
+銀行逃犯：我看看上面寫啥咪東東喔……
+
+銀行逃犯：親愛的怪老頭：我愛你！
+
+sys(shock)
+
+sys(shock)銀行逃犯：……
+
+銀行逃犯：那這樣為啥會染血呢？明明只是很噁的情書……= =
+
+sys(hideitem)
+
+突然！
+
+sys(shock)銀行逃犯倒地！
+
+怪老頭[啊]: 竟然偷拿別人的情書，不要臉！你要的話我寫給你啊。≧///≦
+
+噁……
+
+原來如此，難怪會染血，因為每個人拿到都被怪老頭打……
+
+怪老頭[啊]: 哼！
+
+sys(clearscreen)
+
+sys(clearscreen)</story>
+</stage>
+<stage name="打開了！" next="女廁所">
+<room id="undefined" name="昏暗廁所" >
+<scene src="../db/pic/room/46965724.jpg" name="昏暗廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="緑の海辺" src="../db/sound/music/58341357.mid"/>
+<story>打開了！
+
+sys(showitem:銅製古董鑰匙-大)
+
+得到鑰匙。
+
+sys(hideitem)
+
+sys(give:銅製古董鑰匙-大)
+
+好了，現在要去哪裡？
+
+那邊有通道，走過去看看吧。</story>
+</stage>
+<stage name="找兒~" next="?">
+<room id="undefined" name="靈異走廊" >
+<scene src="../db/pic/room/26974929.jpg" name="靈異走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="相信" src="../db/sound/music/22305436.mid"/>
+<story></story>
+<expr type="where">還要去哪找星雲？</expr>
+<option type="move">選擇選項</option>
+<dest dest="不明的房間">不明的房間</dest>
+<dest dest="井口">井口</dest>
+<dest dest="地下室">地下室</dest>
+<dest dest="女廁所4">女廁所</dest>
+<dest dest="男廁所3">男廁所</dest>
+</stage>
+<stage name="找到了！" next="?">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>鈴兒[不安]: 真的嗎？
+
+銀行逃犯：……</story>
+<expr type="where">你要說什麼？（按黑色的地方可回上一層）</expr>
+<expr type="option">你要怎麼證明你找到星雲？</expr>
+<expr type="which">請問要使用什麼物件？</expr>
+<option type="move">回答</option>
+<option type="use">使用物件</option>
+<itemdest dest="找到星雲"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<dest dest="沒關係啦~~~~">我認錯了，她和我認識的星雲不一樣！</dest>
+<dest dest="神社廁所">我想上廁所啊！</dest>
+</stage>
+<stage name="找到星雲" next="?">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story></story>
+</stage>
+<stage name="拜拜" next="?">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>來拜拜吧～
+
+光是這樣會幸運嗎？
+
+啊我都做很多的壞事了，神明不知道會不會原諒我欸……
+
+鈴兒[臉紅笑]: 你好！
+
+sys(shock)！！
+
+銀行逃犯：哇！妳是？
+
+鈴兒[笑]: 我是這間神社的巫女，請問需要幫忙嗎？
+
+沒想到這破爛神社還有巫女……
+
+銀行逃犯：要怎麼回去呢？
+
+鈴兒[笑2]: 走回去呀～
+
+……好欠扁！！
+
+鈴兒[笑]: 騙你的啦！你是從銀行來的嗎？
+
+銀行逃犯：妳怎麼知道？
+
+鈴兒[笑2]: 因為這所神社已經廢棄多年，沒有怪老頭的骨灰是到不了的。
+
+原來如此……
+
+銀行逃犯：那妳知道怎麼回去嗎？
+
+鈴兒[不安]: 知道是知道……
+
+銀行逃犯：怎麼了？
+
+鈴兒[流淚]: 我被契約綁在這無法走……
+
+！！那我怎麼回去？
+
+鈴兒[無奈笑]: 沒關係，我請我的朋友小琪帶你回去吧！
+
+小琪[淺笑]: 你好，我是小琪。
+
+sys(clearscreen)</story>
+<expr type="where">你要……</expr>
+<option type="move">選擇選項</option>
+<dest dest="走吧！">和小琪走。</dest>
+<dest dest="脫離契約">幫助鈴兒脫離契約。</dest>
+</stage>
+<stage name="撞啦~" next="?">
+<room id="undefined" name="system" >
+<scene src="transparent.png" name="transparent"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story></story>
+</stage>
+<stage name="攻略" next="start">
+<room id="undefined" name="草原1" >
+<scene src="../db/pic/room/50751701.jpg" name="畫在紙上的樣子"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>想遇到更多刺激的故事，要多多選擇比較黯淡的路線。（例如惡作劇、說話不禮貌、多去陰暗的地方都有好笑的事發生）
+
+也要詳讀人物介紹。
+
+而更深層的隱藏劇情則要破關後才會從其他結局取得，請多留意結局後語。</story>
+</stage>
+<stage name="星雲" next="?">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="相信" src="../db/sound/music/22305436.mid"/>
+<story>星雲[微笑]: 叫我出來有什麼事嗎？</story>
+<expr type="where">請問要回答什麼？</expr>
+<option type="move">選擇選項</option>
+<dest dest="無聊">我好無聊喔</dest>
+<dest dest="想出去">我想逃出去</dest>
+</stage>
+<stage name="星雲介紹" next="人物介紹">
+<room id="undefined" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>星雲[正常]: 星雲，一個穿紅衣服的少女。
+
+常常出現在廁所，以前好像有什麼過去……
+
+sys(clearscreen)</story>
+</stage>
+<stage name="星雲與小琪" next="?">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<story>星雲[微笑]: 安安^^，叫我出來幹嘛？
+
+小琪[平常]: ……
+
+星雲[微笑]: 她是？
+
+銀行逃犯：小琪，鈴兒小姐的好朋友。
+
+星雲[怒]: 鈴兒？別和我提那女人的事！
+
+小琪[生氣]: 怎麼可以這樣說鈴兒？
+
+銀行逃犯：好了啦，兩位小姐請息怒！
+
+星雲[怒]: 不用你管！
+
+sys(shock)（被推開）銀行逃犯：啊啊！
+
+星雲[天使化（說話）]: 我要殺了妳這女人！！
+
+小琪[生氣]: 妳這個怪物，妳想的美！
+
+sys(clearscreen)
+
+sys(shock)
+
+sys(shock)
+
+小琪和星雲就這樣打了起來。
+
+星雲[使用力量（說話）]: 看我的！
+
+小琪[淺笑]: （防禦魔法）沒用的。
+
+銀行逃犯：拜託，妳們兩個不要再打了！
+
+小琪[生氣]: 那你是要眼睜睜的看我被打死嗎？
+
+銀行逃犯：不是的......
+
+星雲[使用力量（說話）]: 喂，你，銀行逃犯。
+
+銀行逃犯：咦，啊，是？
+
+星雲[使用力量（微笑）]: 你知道什麼？
+
+銀行逃犯：我知道什麼？
+
+銀行逃犯：我什麼都知道啊，拜託妳一下，有點自覺好不好，自己死了都不知道！
+
+星雲[天使化（沉默）]: ......
+
+星雲[天使化（說話）]: 你說......我死了？</story>
+<expr type="where">請問你要說什麼？</expr>
+<option type="move">選擇選項</option>
+<dest dest="別打啦！">該死，其實鈴兒是愛妳的！</dest>
+<dest dest="笨星雲">媽的，閉嘴啦，沒自覺的笨女人。</dest>
+</stage>
+<stage name="死亡" next="start">
+<room id="undefined" name="天空異像" >
+<scene src="../db/pic/room/61578377.jpg" name="天空異像"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<story>就這樣，你被星雲殺死……
+
+到了天堂，過著不幸福又不快樂了的日子。
+
+對不起，你玩到了「被星雲殺死的結局」，祝您下次玩到被姦殺的結局！
+
+sys(clearscreen)
+
+sys(remove:星雲)
+sys(remove:骨灰罈)
+sys(remove:紅色藥水)
+sys(remove:銅製古董鑰匙-大)
+sys(remove:醫療棉布)
+sys(remove:怪老頭寫真集)
+sys(clearscreen)
+THE END</story>
+</stage>
+<stage name="死亡2" next="作者">
+<room id="undefined" name="天空異像" >
+<scene src="../db/pic/room/61578377.jpg" name="天空異像"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>很可惜，你被骷髏先生殺了……
+
+你玩到了「被骷髏先生殺死的結局」
+
+THE END</story>
+</stage>
+<stage name="死翹翹" next="start">
+<room id="undefined" name="天空異像" >
+<scene src="../db/pic/room/61578377.jpg" name="天空異像"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>很抱歉，你和星雲一起跳樓自殺，所以都死了……
+
+你玩到了：「和星雲一起死的結局」
+
+sys(clearscreen)
+
+sys(remove:星雲)
+sys(remove:骨灰罈)
+sys(remove:紅色藥水)
+sys(remove:銅製古董鑰匙-大)
+sys(remove:醫療棉布)
+sys(remove:怪老頭寫真集)
+sys(clearscreen)
+祝你下次好運～
+
+END</story>
+</stage>
+<stage name="求小琪" next="待斃">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="相信" src="../db/sound/music/22305436.mid"/>
+<story>銀行逃犯：星呀呀.....雲呀啊啊啊啊啊啊啊！
+
+銀行逃犯：小琪小姐，求您幫幫我吧！（轉頭）
+
+星雲[天使化（無神）]: 啊哈哈......
+
+星雲[染血（絕望）]: 啊哈哈哈哈哈！！
+
+銀行逃犯：小琪！！
+
+星雲[染血（絕望）]: 小琪被我吃了喔......
+
+銀行逃犯：！！
+
+銀行逃犯心想：馬的，這究竟是哪一齣啊啊啊啊啊啊啊啊！我不是在逃離銀行嘛！！？</story>
+</stage>
+<stage name="沒關係啦~~~~" next="回去找！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="相信" src="../db/sound/music/22305436.mid"/>
+<story>鈴兒[笑2]: 沒關係啦～</story>
+</stage>
+<stage name="泡" next="作星結婚結局">
+<room id="undefined" name="現代日本・屋外・温泉" >
+<scene src="../db/pic/room/52975169.jpg" name="現代日本・屋外・温泉"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="治癒之泉" src="../db/sound/music/34645612.MID"/>
+<story>銀行逃犯：還是泡好了！
+
+（浸泡進去……）
+
+銀行逃犯：啦啦啦，頗舒服的～～
+
+sys(play:戰鬥)銀行逃犯：咦？
+
+銀行逃犯：那是什麼？
+
+佐銀[笑]: 
+
+sys(shock)銀行逃犯：嘎啊啊啊啊！！！
+
+銀行逃犯：哥哥？
+
+佐銀[生氣]: 小銀？
+
+佐銀[生氣]: 妳怎麼會來這裡？
+
+銀行逃犯：我……我……
+
+銀行逃犯：說來話長……
+
+佐銀[生氣]: ……
+
+銀行逃犯：其實我是來搶銀行的，但不知為何到了這裡。
+
+佐銀[普通]: 原來是這樣啊……
+
+佐銀[笑]: 其實我也是。
+
+sys(shock)銀行逃犯：啥咪？！
+
+佐銀[汗顏]: 瞞著妳真不好意思……
+
+作者：等等！
+
+佐銀[普通]: ？
+
+銀行逃犯：？
+
+作者：請問你們的關係是……
+
+佐銀[笑]: 啊！說這個啊。
+
+佐銀[笑,r]: 其實我是銀行逃犯的哥哥。
+
+作者：？？
+
+作者：為什麼我的遊戲越來越偏激了？
+
+星銀[普通,l]:而且其實我，銀行逃犯，還只是個高中生，本名是星銀。
+
+作者：啥咪！
+
+星銀[眨眼,l]: 既然被哥哥發現了，那我就得回去和他結婚囉。
+
+佐銀[笑,r]: 沒錯！
+
+作者：什麼什麼，你們不是兄妹嗎？
+
+佐銀[生氣,r]: 不然作者妳要和我結婚嗎？
+
+作者：不，我……其實……
+
+sys(clearscreen)
+
+佐銀[普通]: ？
+
+作者：我比較想和星銀小姐，也就是銀行逃犯結婚！
+
+佐銀[生氣]: 真的？
+
+作者：對。
+
+佐銀[生氣]: 那我對作者妳付出的感情又怎麼說，妳要辜負我嗎？
+
+這什麼遊戲啊……
+
+作者：我真的是深深的愛著她，我們也已經有了兩個孩子了，哥哥，拜託你成全我們好嗎？
+
+兩個孩子是哪招！！？
+
+佐銀[笑]: 既然都有孩子了，好吧，我准許妳們兩個結婚。
+
+星銀[笑]: 謝謝哥哥。
+
+作者：謝謝大哥。
+
+sys(clearscreen)</story>
+</stage>
+<stage name="洞洞" next="洞街~">
+<room id="undefined" name="洞穴盡頭" >
+<scene src="../db/pic/room/50173845.jpg" name="花"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>可玲[注意]: 花……？
+
+凌夢[4]: 人類啊……找我什麼事？
+
+可玲[注意]: 妳就是凌夢小姐？
+
+凌夢[5]: ‥……
+
+凌夢[2]: 人類啊！找我什麼事？
+
+可玲[難過]: ……妳……認識依稀靈淒嗎？
+
+凌夢[10]: 妳跟他是什麼關係？
+
+可玲[注意]: ……？妳……
+
+可玲[痛]: 啊！
+
+sys(shock)
+
+凌夢[11]: 說……妳和他是什麼關係?
+
+可玲[痛]: 等等，妳怎麼了?
+
+凌夢[10]: 我……被他殺了！
+
+可玲[注意]: 什麼！?
+
+可玲[難過]: 怎麼可能……?
+
+可玲[難過]: 我聽小薇說……他不是妳丈夫嗎?
+
+凌夢[11]: 妳覺得……我這樣子有可能嗎?
+
+可玲[難過]: ……怎麼……可能?這一定有什麼誤會！！！
+
+凌夢[10]: 妳到底和他是什麼關係?
+
+可玲[難過]: 我是他女朋友……
+
+凌夢[10]: ‥……
+
+凌夢[10]: 我……要殺了妳……
+
+可玲[痛]: 等等……這一定有什麼誤會！！
+
+凌夢[10]: ‥……來……我帶妳去看……為什麼吧。</story>
+</stage>
+<stage name="洞穴" next="進入洞穴">
+<room id="undefined" name="洞穴入口" >
+<scene src="../db/pic/room/14561360.jpg" name="入口早上"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>可玲[害羞]: ……
+
+可玲[笑]: 真的在這裡面嗎？
+
+可玲[沒問題]: 那我一定要找到依稀靈魂所說的那個女孩。</story>
+</stage>
+<stage name="洞穴~" next="洞穴盡頭~">
+<room id="undefined" name="洞穴道路" >
+<scene src="../db/pic/room/90305613.jpg" name="活路2"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>小薇[樂]: 來，請繼續走。
+
+可玲[害羞]: ……怎麼……變出一條路?
+
+小薇[喜]: 姊姊拜拜~~~
+
+sys(clearscreen)</story>
+</stage>
+<stage name="洞穴盡頭~" next="洞洞">
+<room id="undefined" name="洞穴盡頭" >
+<scene src="../db/pic/room/96565033.jpg" name="無花"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>可玲[難過]: ……
+
+可玲[難過]: ……
+
+可玲[注意]: 那是……?</story>
+</stage>
+<stage name="洞街~" next="街街~">
+<room id="undefined" name="日本古街系列" >
+<scene src="../db/pic/room/59572913.jpg" name="10"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>可玲[注意]: 這裡是……?我……遇見依稀靈魂的地方！
+
+凌夢[11]: 仔細看吧！這是5年前的這裡……
+
+依稀靈魂[黑眼-普通]: 妳是誰?有點可疑喔……
+
+凌夢[13]: 我叫凌夢，請問有什麼事嗎?
+
+依稀靈魂[黑眼-自信]: ……凌夢小姐，我叫依稀靈淒，是個警察。為了保護妳不受恐怖人士的威脅，請過來。
+
+凌夢[6]: ?
+
+可玲[痛]: 他怎麼可以冒充依稀靈淒？</story>
+</stage>
+<stage name="淹死" next="別智障淹死吧。">
+<room id="undefined" name="水中" >
+<scene src="../db/pic/room/28381494.jpg" name="水中"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="治癒之泉" src="../db/sound/music/34645612.MID"/>
+<story>噗嚕嚕嚕嚕......
+
+（這……這裡是水中啊）
+
+我真的，就要死了嗎？
+
+好吧，其實……逃不出去，淹死也很好啊！
+
+再見了……各位。
+
+……
+
+……
+
+？
+
+sys(play:戰鬥)
+
+這……這什麼聲音？！</story>
+</stage>
+<stage name="滾出神社！！" next="神社溫泉">
+<room id="undefined" name="白天廟會" >
+<scene src="../db/pic/room/67379384.jpg" name="162"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="食通先生櫻" src="../db/sound/music/65481254.mid"/>
+<story>銀行逃犯：……
+
+銀行逃犯：被趕出來了……
+
+銀行逃犯：這裡不一樣了？
+
+銀行逃犯：在辦廟會嗎？
+
+銀行逃犯：好香的味道……是……溫泉！！
+
+銀行逃犯：快過去看看！</story>
+</stage>
+<stage name="無聊" next="?">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：我好無聊喔……
+
+星雲[怒]: 無聊就不要煩我！
+
+銀行逃犯：嗚……</story>
+<expr type="where">接下來你要說什麼？</expr>
+<option type="move">選擇選項</option>
+<dest dest="想出去">那我想逃出去……</dest>
+<dest dest="跳樓">我想跳樓自殺……</dest>
+<dest dest="砍了">我想砍了你……</dest>
+</stage>
+<stage name="燒~" next="燒燒紅">
+<room id="undefined" name="火" >
+<scene src="../db/pic/room/15111229.jpg" name="火"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="相信" src="../db/sound/music/22305436.mid"/>
+<story>幾年過去了……
+
+去銀行工作的琉亞沒回來過，打從第一天我就開始懷疑了……那銀行，不知道到底什麼來頭！
+
+我必須查清楚。
+
+還有，我對不起琉亞，我不該讓她去工作的！
+
+我要到銀行去把她搶回來！
+
+星銀[難過]: 所以，以後我就是銀行搶犯了。
+
+sys(clearscreen)
+
+我決心搶回琉亞！
+
+sys(shock)
+
+sys(clearscreen)</story>
+</stage>
+<stage name="燒燒紅" next="?">
+<room id="undefined" name="火" >
+<scene src="../db/pic/room/15111229.jpg" name="火"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>琉亞[翼-擔憂]: 是，是這樣嗎？
+
+星銀[難過]: 嗯……
+
+星銀[普通]: 妳看我還從學校翹課來搶銀行～
+
+星銀[笑]: 妳總該相信了吧？
+
+琉亞[翼-著急]: 姊……姊……
+
+星銀[眨眼]: 我們一起回去吧！
+
+琉亞[翼-擔憂]: 可是在這銀行一帶的地方，有對姐妹在監視我。
+
+星銀[驚]: 這銀行到底是多古怪啊……
+
+琉亞[翼-羞]: 姊姊，妳必須打倒那對姐妹並遇見一個叫綾乃的魔王，才有辦法拿到生命之珠拯救我！
+
+星銀[驚]: ……
+
+我現在是在玩啥款的遊戲啊……？</story>
+</stage>
+<stage name="琉亞" next="人物介紹">
+<room id="undefined" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>琉亞[普通2]:一個挺漂亮的女孩子，好像因為什麼而喪失記憶…… 
+
+琉亞[表情名稱]: 
+
+她現在因不明原因而在打工，專門在奇怪的地方使用幻覺。
+
+琉亞[普通]: 
+
+琉亞曾經只是一名普通的學生，與銀行逃犯（你）似乎以前有什麼過去。
+
+sys(clearscreen)</story>
+</stage>
+<stage name="男廁所" next="?">
+<room id="undefined" name="男廁所" >
+<scene src="../db/pic/room/59775181.jpg" name="男廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>來到男廁了，好像沒有人的樣子。
+
+其實滿鬆了一口氣的，萬一在這遇到怪老頭，那根本生不如死啊啊。
+
+那麼，接下來要做什麼呢。</story>
+<expr type="option">請問接下來該做什麼？</expr>
+<expr type="which">請問要使用什麼東西？</expr>
+<expr type="where">請問要做什麼？</expr>
+<option type="move">行動</option>
+<option type="use">使用物件</option>
+<itemdest dest="紅"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<dest dest="上廁所22">上廁所</dest>
+<dest dest="垃圾桶">翻垃圾桶</dest>
+<dest dest="馬桶水">喝馬桶水</dest>
+</stage>
+<stage name="男廁所-22" next="?">
+<room id="undefined" name="男廁所" >
+<scene src="../db/pic/room/59775181.jpg" name="男廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>再看看要做什麼吧。</story>
+<expr type="where">請問要選擇什麼？</expr>
+<expr type="which">請問要使用什麼物件？</expr>
+<expr type="option">請問現在要做什麼？</expr>
+<option type="move">行動</option>
+<option type="use">使用物件</option>
+<itemdest dest="紅"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<dest dest="上廁所22">上廁所</dest>
+<dest dest="垃圾桶">翻垃圾桶</dest>
+<dest dest="馬桶水">喝馬桶水</dest>
+</stage>
+<stage name="男廁所3" next="?">
+<room id="undefined" name="男廁所" >
+<scene src="../db/pic/room/59775181.jpg" name="男廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story></story>
+</stage>
+<stage name="看見" next="?">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>小琪[平常]: 真的嗎？</story>
+<expr type="where">請問要回答什麼？（按一下可回到上一頁）</expr>
+<expr type="option">請問你要怎麼證明你有遇見星雲？</expr>
+<expr type="which">要使用什麼？</expr>
+<option type="use">使用物件</option>
+<option type="move">回答</option>
+<itemdest dest="星雲與小琪"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<dest dest="小琪下水道">啊……她和我認識的星雲不一樣，我搞錯了，對不起！</dest>
+</stage>
+<stage name="砍了" next="警察局">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：我想砍了妳……
+
+星雲[微笑]: 是嗎？那讓你見識一下我的厲害。
+
+星雲[說話]: 警察大人，救命啊～～
+
+警察[正常]: 怎麼了？
+
+星雲[正常]: 他要殺了我！！
+
+警察[怒]: 你好大的膽子啊！！
+
+sys(shock)
+
+sys(shock)我連刀子都還沒拿出來咧，啊那警察是哪冒出來的啊？！！
+
+警察[微笑]: 呵呵，跟我走吧！
+
+（銬上手銬）
+
+銀行逃犯：不，星雲大人、警察大人饒命啊……</story>
+</stage>
+<stage name="神社" next="?">
+<room id="undefined" name="神社" >
+<scene src="../db/pic/room/93442623.jpg" name="134"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="緑の海辺" src="../db/sound/music/58341357.mid"/>
+<story>我的天啊啊啊啊啊～～～～～
+
+這裡不是神社嗎？
+
+用骨灰竟然能到這！這是什麼怪銀行呀？
+
+……
+
+我真衰。
+
+那麼，現在要幹嘛？</story>
+<expr type="option">請問現在要做什麼？</expr>
+<expr type="where">請問要選擇什麼？</expr>
+<expr type="what">請問要調查哪一部份？</expr>
+<option type="select">調查畫面</option>
+<option type="move">行動</option>
+<dest dest="拜拜">參拜</dest>
+<areadest pos="1" dest="">'雲朵……'</areadest>
+<areadest pos="2" dest="">'上面有天空之城嗎?呵呵~~'</areadest>
+<areadest pos="3" dest="">'天空……真美……'</areadest>
+<areadest pos="4" dest="">'美麗的天和樹……'</areadest>
+<areadest pos="5" dest="">'樹頂'</areadest>
+<areadest pos="6" dest="">'神社屋頂'</areadest>
+<areadest pos="7" dest="">'屋頂'</areadest>
+<areadest pos="8" dest="">'天空?'</areadest>
+<areadest pos="9" dest="">'現在是白天……不用點燈啦~'</areadest>
+<areadest pos="10" dest="">'不想進去……'</areadest>
+<areadest pos="11" dest="">'不捐錢，誠意到就好啦~~'</areadest>
+<areadest pos="12" dest="">'現在是白天……不用點燈啦~'</areadest>
+<areadest pos="13" dest="">'燈捏~'</areadest>
+<areadest pos="14" dest="咦?那是什麼?"></areadest>
+<areadest pos="15" dest="咦?那是什麼?"></areadest>
+<areadest pos="16" dest="">'地板？'</areadest>
+</stage>
+<stage name="神社廁所" next="?">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>鈴兒[無奈笑]: ……
+
+鈴兒[無奈笑]: 不好意思，我們神社沒廁所喔……
+
+sys(shock)銀行逃犯：什麼？
+
+銀行逃犯：那我不就要憋死了？</story>
+<expr type="where">接下來你要做什麼？</expr>
+<option type="move">選擇選項</option>
+<dest dest="可憐鈴(尿)">尿在鈴兒身上……</dest>
+<dest dest="地(尿)">只好隨地亂尿</dest>
+</stage>
+<stage name="神社溫泉" next="?">
+<room id="undefined" name="現代日本・屋外・温泉" >
+<scene src="../db/pic/room/52975169.jpg" name="現代日本・屋外・温泉"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="治癒之泉" src="../db/sound/music/34645612.MID"/>
+<story>銀行逃犯：好漂亮喔……
+
+銀行逃犯：要不要來泡個溫泉啊？</story>
+<expr type="where">要不要泡溫泉？</expr>
+<option type="move">選擇選項</option>
+<dest dest="泡">好，雖然溫泉來路不明。</dest>
+<dest dest="不泡">還是算了吧，泉水看起來怪怪的</dest>
+</stage>
+<stage name="笑話" next="銀行">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：好無聊唷，我來講講笑話吧！
+
+小琪[平常]: 喔！好呀～
+
+銀行逃犯：從前從前……有一個小女孩，她因為被倒塌的神社壓死，所以都躲在廁所裡上廁所，哈哈哈，好笑嗎？
+
+小琪[生氣]: 原來你早知道了！
+
+銀行逃犯：？什麼？
+
+小琪[生氣]: 對不起！你說的笑話害我想起以前不大好的回憶，恕我失陪！
+
+sys(clearscreen)
+
+！！
+
+那我怎麼回去？
+
+銀行逃犯：小琪小姐！妳回來吧！對不起！
+
+好吧……我走走看吧……</story>
+</stage>
+<stage name="笨星雲" next="?">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>星雲[天使化（沉默）]: ......
+
+銀行逃犯：對咩，笨女人，自己死了都不知道！
+
+星雲[天使化（說話）]: 我懂了，原來我真的死了啊......
+
+星雲[天使化（無神）]: 然後當務之急是要殺掉你......！
+
+銀行逃犯：！！？
+
+銀行逃犯：為什麼！？
+
+星雲[天使化（無神）]: 一起走吧......
+
+（星雲緩慢地伸出手來抓你）</story>
+<expr type="where">請問要怎麼辦？</expr>
+<option type="move">選擇選項</option>
+<dest dest="姦星雲">只好強姦星雲了</dest>
+<dest dest="求小琪">求小琪幫幫自己</dest>
+<dest dest="待斃">坐以待斃</dest>
+</stage>
+<stage name="算囉~" next="回去銀行">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>鈴兒[笑2]: 嗯，這樣才乖。
+
+鈴兒[笑]: 我只有一次魔法，我送你到銀行吧！
+
+為什麼不直接讓我回家？
+
+鈴兒[臉紅笑]: 哇啦伊啦啊啊～～（聽起來很像亂念的但其實是咒語）
+
+sys(play:魔法)
+
+sys(shock)
+
+sys(shock)
+
+sys(clearscreen)</story>
+</stage>
+<stage name="紅" next="過去篇~">
+<room id="undefined" name="火" >
+<scene src="../db/pic/room/15111229.jpg" name="火"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>好恐怖！
+
+是血？……紅色的一片！
+
+警察[怒]: 死小偷，我終於找到你了！
+
+哇？為什麼警察在這啊？
+
+sys(clearscreen)
+
+咦……什麼都沒有呀……
+
+琉亞[普通]: 
+
+銀行逃犯：琉亞？
+
+sys(clearscreen)
+
+銀行逃犯：琉亞！是妳吧？回來呀，以前的事我對不起妳呀。
+
+嗚……
+
+琉亞……
+
+琉亞[笑]: 
+
+sys(clearscreen)琉亞？
+
+琉亞[翼-普通]: 你是誰呀？
+
+sys(shock)琉……琉亞？
+
+銀行逃犯：琉亞！你不認得我了嗎？我是小銀啊！
+
+琉亞[翼-著急]: 小銀？
+
+琉亞[翼-著急]: 我不認識啊！
+
+sys(shock)
+
+銀行逃犯：什麼？
+
+琉亞[表情名稱]: 你不要擔心，我不是壞人啦！我是這家銀行的雇員，專門使用幻覺來迷惑闖入這裡的人。但我看你好像不是壞人的樣子，所以只是嚇嚇你。
+
+銀行逃犯：妳……剛才是幻覺嗎？
+
+琉亞[翼-怒]: 當然不是啊！我自己不是幻覺啦！
+
+銀行逃犯：喔喔！對不起，失禮了……
+
+琉亞[表情名稱]: 沒關係啦！
+
+銀行逃犯：對了……琉亞……
+
+琉亞[翼-著急]: 你怎麼會知道我的名字？
+
+銀行逃犯：先別管那麼多啦！妳認不認識這個女孩子？
+
+琉亞[普通]: 
+
+（拿出照片）
+
+琉亞[翼-著急]: 你怎麼這張照片？
+
+銀行逃犯：先別管，她是妳對不對？
+
+銀行逃犯：以前的妳。
+
+琉亞[翼-擔憂]:……
+
+銀行逃犯：我知道妳在擔憂什麼，我知道妳的一切，因為我是妳姊姊！
+
+sys(clearscreen)
+
+sys(shock)
+
+sys(shock)
+
+作者：妳是女的？
+
+銀行逃犯：吼，本來就是！
+
+銀行逃犯：想起我了嗎？我是星銀啊！
+
+琉亞[翼-泣]: 我……
+
+sys(shock)銀行逃犯：怎麼了？
+
+琉亞[翼-泣]: 我……我完全想不起來……
+
+原來妳是喪失記憶啊，難怪……
+
+琉亞[翼-泣]: 妳真的……是我的姊姊嗎?
+
+銀行逃犯：那張相片是證據！
+
+銀行逃犯：我還有一張相片，妳和我的合照。
+
+﹝拿出照片﹞
+
+星銀[普通,l]:
+
+琉亞[普通,r]:
+
+銀行逃犯：就是這張。</story>
+</stage>
+<stage name="結婚" next="start">
+<room id="undefined" name="教堂系列" >
+<scene src="../db/pic/room/36117231.jpg" name="教堂1"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>佐銀[笑]: 讓我們迎向未來吧！
+
+骷髏先生[笑]: 好。
+
+（於是，銀行逃犯的哥哥，便和骷髏先生結婚了！）
+
+恭喜你玩到BL結局！！
+
+祝您下次玩到GL結局～
+
+sys(clearscreen)
+
+sys(remove:星雲)
+sys(remove:骨灰罈)
+sys(remove:紅色藥水)
+sys(remove:銅製古董鑰匙-大)
+sys(remove:醫療棉布)
+sys(remove:怪老頭寫真集)
+sys(clearscreen)
+
+sys(clearscreen)
+
+END</story>
+</stage>
+<stage name="綾乃" next="人物介紹">
+<room id="undefined" name="system" >
+<scene src="transparent.png" name="transparent"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>綾乃[普通]: 
+
+綾乃，看起保守又正直的女孩，其實骨子裡非常非常的色！
+
+若碰到她，可說是玩到最衰的部份了……（但或許是最快樂的部分？）
+
+sys(clearscreen)</story>
+</stage>
+<stage name="續" next="續2">
+<room id="undefined" name="荒廢神社" >
+<scene src="../db/pic/room/12181235.jpg" name="荒廢神社"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>突然！
+
+sys(shock)
+
+sys(shock)
+
+sys(shock)
+
+sys(shock)
+
+sys(shock)
+
+sys(shock)
+
+sys(shock)碰嘎啦碰嘎嘎嘎嘎啦碰！！！！！！！！！
+
+神社居然倒了！
+
+鈴兒[流淚]: 怎麼辦？真的倒了！星雲呢？
+
+鈴兒[流淚]: 星雲！妳還好吧？星雲！
+
+星雲[無神]: ……
+
+鈴兒[流淚,l]: 星雲！
+
+星雲[無神,r]: 鈴兒……
+
+鈴兒[流淚,l]: 妳先別說話，我找人幫忙！
+
+星雲[無神,r]: 鈴兒……妳早知道？
+
+鈴兒[流淚,l]: ？
+
+星雲[無神,r]: 鈴兒，妳早知道……神社會倒……是嗎……
+
+鈴兒[流淚,l]: ！
+
+sys(shock)
+
+鈴兒[流淚]: 不是的……我是……
+
+星雲[無神,r]: 我不會放過妳的……就算死也是一樣！
+
+鈴兒[流淚,l]:！
+
+sys(shock)
+
+sys(shock)
+
+sys(clearscreen)
+
+星雲[染血（絕望）]: ……
+
+sys(clearscreen)
+
+鈴兒[流淚]: ……
+
+鈴兒[流淚]: 不要！！！！！！！！！
+
+sys(clearscreen)</story>
+</stage>
+<stage name="續-87638" next="續2-73597">
+<room id="undefined" name="荒廢神社" >
+<scene src="../db/pic/room/12181235.jpg" name="荒廢神社"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>突然！
+
+sys(shock)
+
+sys(shock)
+
+sys(shock)
+
+sys(shock)
+
+sys(shock)
+
+sys(shock)
+
+sys(shock)碰嘎啦碰嘎嘎嘎嘎啦碰！！！！
+
+神社居然倒了！
+
+鈴兒[流淚]: 怎麼辦？真的倒了，星雲呢？
+
+鈴兒[流淚]: 星雲，妳還好吧？星雲！
+
+星雲[無神]: ……
+
+鈴兒[流淚,l]: 星雲！
+
+星雲[無神,r]: 鈴兒……
+
+鈴兒[流淚,l]: 妳先別說話，我找人幫忙！
+
+星雲[無神,r]: 鈴兒……妳早知道？
+
+鈴兒[流淚,l]: ？
+
+星雲[無神,r]: 鈴兒……妳早知道……神社會倒……是嗎……
+
+鈴兒[流淚,l]: ！
+
+sys(shock)
+
+鈴兒[流淚]: 不是的……我是……
+
+星雲[無神,r]: 我不會放過妳的……就算死也是一樣！
+
+鈴兒[流淚,l]:！（雖然很感傷，可是怎麼有一股肥皂劇的劇情的FEEL？）
+
+sys(shock)
+
+sys(clearscreen)
+
+星雲[染血（絕望）]: ……
+
+sys(clearscreen)
+
+鈴兒[流淚]: ……
+
+鈴兒[流淚]: 不要！
+
+sys(clearscreen)</story>
+</stage>
+<stage name="續2" next="小琪下水道">
+<room id="undefined" name="病床" >
+<scene src="../db/pic/room/48045140.jpg" name="病床"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>小琪[平常]: 巫女小姐！
+
+鈴兒[不安]: 唔……這裡是?
+
+小琪[平常]: 這裡是醫院，我在神社外面聽到妳的慘叫趕來的！
+
+sys(shock)
+
+鈴兒[流淚]: 妳有沒有看到一位穿紅衣服的少女?
+
+小琪[平常]: ……
+
+鈴兒[流淚]: 拜託告訴我！
+
+小琪[平常]: 我趕到的時候，她已經被壓死了……
+
+sys(shock)
+
+sys(shock)
+
+鈴兒[流淚]: ！！
+
+依希靈淒[閉眼]: ……
+
+鈴兒[流淚]: 神社主人！
+
+依希靈淒[普通]: 我一直把妳當我女兒的好朋友的……
+
+依希靈淒[閉眼]: 沒想到……
+
+鈴兒[流淚]: 不是的！
+
+依希靈淒[普通]: 不用在解釋了！
+
+依希靈淒[普通]: 我已經幫妳訂下終生契約，妳要一生一輩子永遠留在神社工作為自己贖罪！
+
+sys(shock)
+
+鈴兒[流淚]: ！！
+
+小琪[生氣]: 太過份了！看我的！！
+
+sys(shock)
+
+sys(shock)
+
+依希靈淒[驚]: 什麼?
+
+怪老頭[啊]: 什麼?
+
+小琪[生氣]: 哼！你就一輩子當怪老頭吧！
+
+怪老頭[啊]: 可惡！看我的！哇啦哇啦哇啦~~~~~~(咒語)
+
+奇奇[瞇眼笑]: 主人找我什麼事?
+
+怪老頭[啊]: 幫我解決那2個女人！
+
+奇奇[微笑]: 收到！
+
+sys(clearscreen)
+
+sys(shock)
+
+sys(shock)
+
+sys(shock)
+
+結果……
+
+怪老頭的式神奇奇放火燒了整棟醫院！
+
+大家都死了，除了奇奇以外……
+
+怪老頭尤其被燒成了灰……</story>
+</stage>
+<stage name="續2-73597" next="內部啊~">
+<room id="undefined" name="病床" >
+<scene src="../db/pic/room/48045140.jpg" name="病床"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>小琪[平常]: 巫女小姐！
+
+鈴兒[不安]: 唔……這裡是？
+
+小琪[平常]: 這裡是醫院，我在神社外面聽到妳的慘叫趕來的！
+
+sys(shock)
+
+鈴兒[流淚]: 妳有沒有看到一位穿紅衣服的少女？
+
+小琪[平常]: ……
+
+鈴兒[流淚]: 拜託告訴我！
+
+小琪[平常]: 我趕到的時候，她已經被壓死了……
+
+sys(shock)
+
+sys(shock)
+
+鈴兒[流淚]: ！！
+
+依希靈淒[閉眼]: ……
+
+鈴兒[流淚]: 神社主人！
+
+依希靈淒[普通]: 我一直把妳當我女兒的好朋友的……
+
+依希靈淒[閉眼]: 沒想到……
+
+鈴兒[流淚]: 不是的。
+
+依希靈淒[普通]: 不用在解釋了！
+
+依希靈淒[普通]: 我已經幫妳訂下終生契約，妳要一生一輩子永遠留在神社工作為自己贖罪。
+
+sys(shock)
+
+鈴兒[流淚]: ！
+
+小琪[生氣]: 太過份了，看我的！
+
+sys(shock)
+
+sys(shock)
+
+依希靈淒[驚]: 什麼？
+
+怪老頭[啊]: 什麼？
+
+小琪[生氣]: 哼！你就一輩子當怪老頭吧！
+
+怪老頭[啊]: 可惡，看我的！哇啦哇啦哇啦～～（咒語）
+
+奇奇[瞇眼笑]: 主人找我什麼事？
+
+怪老頭[啊]: 幫我解決那兩個女人！
+
+奇奇[微笑]: 收到！
+
+sys(clearscreen)
+
+sys(shock)
+
+sys(shock)
+
+sys(shock)
+
+結果……
+
+怪老頭的式神奇奇放火燒了整棟醫院！
+
+大家都死了，除了奇奇以外……
+
+怪老頭尤其被燒成了灰……</story>
+</stage>
+<stage name="肝" next="醫院2">
+<room id="undefined" name="地下室" >
+<scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>骷髏先生[笑]: 真的？
+
+銀行逃犯：對啊！反正我也用不到～～
+
+骷髏先生[邪笑]: 好……
+
+銀行逃犯：啊～～～～～～～～
+
+sys(shock)
+
+骷髏先生[笑]: 那我們走吧！
+
+銀行逃犯：咳咳咳……（吐血）
+
+sys(clearscreen)</story>
+</stage>
+<stage name="脫離契約" next="?">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>……
+
+銀行逃犯：巫女小姐……
+
+鈴兒[無奈笑]: 我叫鈴兒……
+
+銀行逃犯：沒關係啦！要怎麼才能幫你脫離契約呢？
+
+鈴兒[不安]: 你想幫助我？
+
+銀行逃犯：嗯！
+
+鈴兒[生氣]: 不行！太危險了，你還是快跟小琪走吧！我的事不是一般人可以幫得上忙的！
+
+銀行逃犯：可是……
+
+鈴兒[不安]: 沒什麼可是不可是的，難道你想死？</story>
+<expr type="where">請問要回答什麼?</expr>
+<option type="move">選擇選項</option>
+<dest dest="幫助">我就是死也要幫助妳！</dest>
+<dest dest="走吧！">好吧，我聽妳的話，小棋，我們走吧！</dest>
+</stage>
+<stage name="腎" next="醫院2">
+<room id="undefined" name="地下室" >
+<scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>骷髏先生[笑]: 真的？
+
+銀行逃犯：對啊！反正我也用不到～～
+
+骷髏先生[邪笑]: 好……
+
+銀行逃犯：啊～～～～～～～～
+
+sys(shock)
+
+骷髏先生[笑]: 那我們走吧！
+
+銀行逃犯：咳咳咳……（吐血）
+
+sys(clearscreen)</story>
+</stage>
+<stage name="舔啦~" next="?">
+<room id="undefined" name="system" >
+<scene src="transparent.png" name="transparent"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story></story>
+</stage>
+<stage name="舔地板" next="不知明的地方">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>雖然地板滑滑的，但還是覺得好噁心喔……
+
+（舔地板中）
+
+銀行逃犯：噁……
+
+啊！嘎啊，那啥？
+
+sys(showitem:蟑螂)
+
+sys(shock)啊啊啊啊啊啊啊啊啊啊啊啊啊～～～～～～～～
+
+X，好噁心啊。
+
+但事到如今只能跟牠硬拼啦！
+
+蟑螂：啾咪？
+
+竟然給我耍可愛，不知銀行逃犯才是世上最可愛的東西嗎？看我抓起蟑螂！吞下去！
+
+銀行逃犯：好好吃……嗝！
+
+蟑螂：等一下啦，啾咪！
+
+作者：都吃下去了，還敢叫，你給我閃邊納涼去！
+
+蟑螂：嗚……（退場）
+
+sys(hideitem)
+
+銀行逃犯：好囉，肚子飽了，等蟑螂消化後，我就要再出發啦。
+
+（過了一小時……）
+
+sys(showitem:蟑螂)
+
+蟑螂：嗨，各位，我終於又出場了。咦？這不是馬桶嗎！？
+
+作者os：這三小遊戲？
+
+sys(shock)
+
+sys(hideitem)</story>
+</stage>
+<stage name="菜花星雲" next="start">
+<room id="undefined" name="病床" >
+<scene src="../db/pic/room/48045140.jpg" name="病床"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>雖然能順利幫助星雲投胎是很好啦，
+可是，恭喜你玩到「得到菜花並解不開銀行謎團卻讓星雲順利投胎」的結局～
+如何？玩到越後面越好玩吧？
+下次加油吧～
+
+sys(clearscreen)
+
+sys(remove:星雲)
+sys(remove:骨灰罈)
+sys(remove:紅色藥水)
+sys(remove:銅製古董鑰匙-大)
+sys(remove:醫療棉布)
+sys(remove:怪老頭寫真集)
+sys(clearscreen)
+
+END
+</story>
+</stage>
+<stage name="街街~" next="?">
+<room id="undefined" name="洞穴入口" >
+<scene src="../db/pic/room/14561360.jpg" name="入口早上"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>依稀靈魂[黑眼-自信]: ……
+
+凌夢[13]: 請問有什麼事嗎?
+
+依稀靈魂[黑眼-自信]: 我需要靈魂……
+
+凌夢[7]: ?
+
+凌夢[8]: 依稀靈淒先生，您在說什麼?
+
+依稀靈魂[黑眼-自信]: 呵呵……
+
+sys(shock)
+
+sys(shock)
+
+小薇[怒]: 等等！你在做什麼?為什麼拿刀這麼危險?
+
+依稀靈魂[黑眼-汗]: ……
+
+依稀靈魂[驚]: ……
+
+依稀靈魂[自信]: 我是她的丈夫，我叫依稀靈淒，現在我必須出去一陣子，拜托妳照顧凌夢喔~
+
+小薇[泣]: 可是她好像死了耶……
+
+依稀靈魂[驚]: ……
+
+依稀靈魂[驚]: 妳看錯了……
+
+依稀靈魂[黑眼-自信]: 拜拜！
+
+小薇[泣]: ?</story>
+</stage>
+<stage name="被殺" next="死亡2">
+<room id="undefined" name="地下室" >
+<scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<story>骷髏先生[邪]: 呵呵！
+
+？
+
+骷髏先生[邪笑]: 不好意思，你出不去了。
+
+銀行逃犯：為什麼？？
+
+骷髏先生[邪笑]: 因為你的態度讓我不爽，我決定殺了你！
+
+什麼啊啊啊，這哪門子的不爽？OAO
+
+sys(shock)
+
+哇啊啊啊啊啊啊啊啊啊啊啊！
+
+sys(clearscreen)
+</story>
+</stage>
+<stage name="要開始囉~" next="?">
+<room id="undefined" name="學校走廊" >
+<scene src="../db/pic/room/37221723.jpg" name="走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story></story>
+<expr type="where">要跳過故事嗎？（故事其實不會太長捏）</expr>
+<option type="move">選擇選項</option>
+<dest dest="開始1">要跳過</dest>
+<dest dest="開始">不要跳過</dest>
+</stage>
+<stage name="警察" next="人物介紹">
+<room id="undefined" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>警察[微笑]: 一個非常盡責的女警。
+
+但就因為她太盡責，所以玩家在遊戲中絕對不能被她抓到。
+
+背後好像還隱藏著什麼......
+
+愛吃的東西是雞腿。
+
+sys(clearscreen)</story>
+</stage>
+<stage name="警察局" next="地牢~">
+<room id="undefined" name="警察局" >
+<scene src="../db/pic/room/88070078.jpg" name="警察局"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>警察[微笑]: 來來來，過來吧！
+
+銀行逃犯：嗚嗚嗚……</story>
+<expr type="where">請問要做什麼?</expr>
+</stage>
+<stage name="走吧！" next="離開下水道">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>小琪[淺笑]: 我們走吧！
+
+鈴兒[笑2]: 路上請小心，下次請再來光顧。</story>
+</stage>
+<stage name="走跑乃" next="回2樓">
+<room id="undefined" name="門內房" >
+<scene src="../db/pic/room/73914125.jpg" name="中午"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="治癒之泉" src="../db/sound/music/34645612.MID"/>
+<story>趕，趕快逃走吧！
+
+sys(clearscreen)</story>
+</stage>
+<stage name="跳樓" next="死翹翹">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：我想跳樓自殺耶……
+
+星雲[微笑]: 好哇，我們一起跳！
+
+銀行逃犯：……在這之前要不要吃垃圾？反正都要死囉~
+
+星雲[微笑]: 好呀好呀~
+
+sys(clearscreen)(翻垃圾桶中……)
+
+翻出一樣東西！
+
+sys(showitem:蟑螂)銀行逃犯：哇啊啊啊啊啊啊啊啊啊~~~~~~~~~
+
+星雲[微笑]: 好可愛的小強啊~我可以吃嗎?
+
+銀行逃犯：……請便……
+
+sys(hideitem)(於是，星雲把蟑螂給吞下去了！！)
+
+銀行逃犯：好吃嗎?
+
+星雲[怒]: 怎麼可能會好吃?都沒有調味料！
+
+銀行逃犯：好吧！吃了都吃了，我們一起跳了吧！
+
+星雲[微笑]: 嗯！
+
+sys(clearscreen)
+
+sys(shock)
+
+sys(shock)哇啊啊啊啊啊啊啊啊啊~~~~~~~~~~~~~~~~~~~~~
+
+(高空往下掉……)</story>
+</stage>
+<stage name="逃哇" next="剝光">
+<room id="undefined" name="門內房" >
+<scene src="../db/pic/room/73914125.jpg" name="中午"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="治癒之泉" src="../db/sound/music/34645612.MID"/>
+<story>咦？房門被反鎖了？？
+
+綾乃[害羞笑]: 嘿嘿嘿……
+
+不……
+
+不要啊啊啊啊啊啊啊～～～～～～～～
+
+sys(shock)
+
+sys(shock)
+
+sys(clearscreen)</story>
+</stage>
+<stage name="進入洞穴" next="洞穴~">
+<room id="undefined" name="洞穴道路" >
+<scene src="../db/pic/room/41110402.jpg" name="死路"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>(進入洞穴)
+
+可玲[注意]: 這裡就是了……
+
+小薇[怒]: 哇！
+
+sys(shock)
+
+可玲[笑]: 哇~~好可愛喔~~
+
+小薇[喜]: 什麼?說我可愛?
+
+小薇[樂]: 我好高興喔~~~
+
+可玲[注意]: ……
+
+可玲[普通]: 來……跟姊姊說，妳是誰?
+
+小薇[樂]: 我是住在這裡的殭屍小薇~~
+
+可玲[笑]: 小薇啊~那妳知道依稀靈淒在哪嗎?
+
+小薇[喜]: 當然知道！
+
+可玲[害羞]: ……
+
+可玲[害羞]: 真的?
+
+小薇[樂]: 對啊~他是凌夢大姐的丈夫啊~~~
+
+sys(shock)
+
+sys(shock)
+
+可玲[難過]: 什……什麼?
+
+小薇[樂]: 姊姊妳要找凌夢大姐的話繼續往前走吧！</story>
+</stage>
+<stage name="過去篇~" next="燒~">
+<room id="undefined" name="街道" >
+<scene src="../db/pic/room/99238980.jpg" name="街"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="治癒之泉" src="../db/sound/music/34645612.MID"/>
+<story>星銀[普通]: 琉亞，妳說妳想去銀行工作？
+
+琉亞[普通]: 是呀，姊姊！
+
+星銀[笑]: 不錯喔，我支持妳。
+
+琉亞[笑]: 謝謝。
+
+sys(clearscreen)</story>
+</stage>
+<stage name="選擇" next="?">
+<room id="undefined" name="男廁所" >
+<scene src="../db/pic/room/59775181.jpg" name="男廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story></story>
+<expr type="where">要打開信件嗎？（好好把握生存的機會喔）</expr>
+<option type="move">選擇選項</option>
+<dest dest="打開~">我要打開，因為我好奇心重。</dest>
+<dest dest="不打開">才不要打開，我是乖孩子。</dest>
+</stage>
+<stage name="選物品" next="?">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story></story>
+<expr type="which">請問要使用什麼物件？</expr>
+<option type="use">使用物件</option>
+<itemdest dest="怪老頭寫真集"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+</stage>
+<stage name="醫院" next="作者的寬宏大量">
+<room id="undefined" name="病床" >
+<scene src="../db/pic/room/48045140.jpg" name="病床"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>……
+
+因為你被怪老頭打傷，所以送進醫院……
+
+對不起！你玩到了：「被怪老頭打傷送進醫院的結局」
+
+祝你下次好運:)</story>
+</stage>
+<stage name="醫院2" next="start">
+<room id="undefined" name="病床" >
+<scene src="../db/pic/room/48045140.jpg" name="病床"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>很可惜，你因為失去了內臟，死了！
+
+恭喜您玩到～
+
+「失去內藏而死的死亡結局」
+sys(clearscreen)
+
+sys(remove:星雲)
+sys(remove:骨灰罈)
+sys(remove:紅色藥水)
+sys(remove:銅製古董鑰匙-大)
+sys(remove:醫療棉布)
+sys(remove:怪老頭寫真集)
+sys(clearscreen)
+
+祝您下次玩到BL結局～</story>
+</stage>
+<stage name="重選啦~" next="?">
+<room id="undefined" name="地下室" >
+<scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>作者：妳是女的耶……
+
+作者：沒這種東西啦！！</story>
+<expr type="where">妳要給他什麼做交換?</expr>
+<option type="move">選擇選項</option>
+<dest dest="肝">肝臟</dest>
+<dest dest="腎">腎臟</dest>
+</stage>
+<stage name="鈴兒" next="人物介紹">
+<room id="undefined" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>鈴兒[普通]: 待在神社的巫女，非常信任小琪。
+
+但之前好像發生什麼事……對紅色的東西十分敏感。
+
+脾氣很好，不常生氣。
+
+sys(clearscreen)</story>
+</stage>
+<stage name="銀行" next="回去銀行">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/56965235.jpg" name="教堂夜"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story>……
+
+……
+
+走回來是走回來了……
+
+不過啊……這裡是哪裡呢？
+
+琉亞[開朗笑]: 你好～
+
+銀行逃犯：琉亞？
+
+琉亞[普通2]:咦，你認識我？
+
+銀行逃犯：琉亞，是我啊！妳忘了嗎?
+
+琉亞[大叫]: 我不認識你啊。
+
+銀行逃犯：什麼？
+
+sys(clearscreen)
+
+（琉亞跑走……）
+
+我印象中的琉亞是……
+
+琉亞[害羞]: 
+
+一個可愛又害羞的小女孩。
+
+什麼時候變這樣了？
+
+sys(clearscreen)</story>
+</stage>
+<stage name="鑰匙打開" next="女廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="戰鬥" src="../db/sound/music/27070356.MID"/>
+<story>喔喔喔！把門打開了耶。
+
+sys(showitem:蟑螂)
+
+獲得–可愛的小強！
+
+sys(shock)
+
+sys(shock)哇啊啊啊啊啊啊！
+
+這是蝦米好東東呀？快吐了。
+
+sys(hideitem)嘎！（關上門）</story>
+</stage>
+<stage name="門內" next="?">
+<room id="undefined" name="門內房" >
+<scene src="../db/pic/room/73914125.jpg" name="中午"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="治癒之泉" src="../db/sound/music/34645612.MID"/>
+<story>這裡是……房間？
+
+好漂亮哦。
+
+sys(shock)？
+
+銀行逃犯：誰？
+
+綾乃[普通]: 呵呵……
+
+銀行逃犯：妳是誰？
+
+綾乃[笑]: 我的名字叫綾乃，請問你是誰？
+
+銀行逃犯：哦，我是銀行逃犯，搶了銀行正準備逃出去哩！妳知道路該怎麼走嗎？
+
+綾乃[擔憂]: 哎呀，是壞人耶～壞壞，不告訴你！
+
+……
+
+不知道為什麼，我的臉好像突然紅了起來……
+
+綾乃[吐舌頭]: 騙你的啦！
+
+綾乃[普通]: 要告訴你可以，但要有條件哦～～
+
+銀行逃犯：什麼條件？
+
+應該不會太為難吧？
+
+綾乃[害羞笑]: 和我做愛好不好？
+
+……
+
+……
+
+sys(shock)
+
+sys(shock)靠！
+
+請不要用妳那清純的臉龐說出那麼ＸＸＸ的話好不好啊？！
+
+綾乃[臉紅]: 不行嗎？
+
+……
+
+好……卡哇依哦～～～
+
+綾乃[害羞笑]: 拜托啦！
+
+銀行逃犯：可是……
+
+綾乃[擔憂]: ？
+
+銀行逃犯：我是女的啊……
+
+sys(shock)怍者：妳是女的？！
+
+銀行逃犯：對……
+
+綾乃[害羞笑]: 沒關係的……呵呵～～
+
+好像有不好的事要發生了……</story>
+<expr type="where">下一步要做什麼？</expr>
+<option type="move">選擇選項</option>
+<dest dest="逃哇">逃哇～～</dest>
+<dest dest="原地">留在原地</dest>
+</stage>
+<stage name="開始" next="?">
+<room id="undefined" name="學校走廊" >
+<scene src="../db/pic/room/37221723.jpg" name="走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>在一個月不黑～風不高的夜晚～
+
+你是一個銀行逃犯，你搶了錢，為了躲避警察而跑了又跑。
+
+警察[怒]: 不要跑！你這死小偷！！
+
+銀行逃犯：哇哇哇哇～大人饒命啊！
+
+警察[哀]: 可惡的小偷呢？
+
+sys(shock)好好好好恐怖啊！
+
+幸好我跑到牆壁的夾層裡，不過再不逃的話警察又要來了，趕快找條路跑吧！
+
+sys(clearscreen)</story>
+<expr type="where">有叉路，請問要往哪？</expr>
+<option type="move">選擇選項</option>
+<dest dest="左">左</dest>
+<dest dest="前">前</dest>
+<dest dest="右">右</dest>
+</stage>
+<stage name="開始1" next="?">
+<room id="undefined" name="學校走廊" >
+<scene src="../db/pic/room/37221723.jpg" name="走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>遊戲開始！</story>
+<expr type="where">有叉路，請問要往哪去？</expr>
+<option type="move">選擇選項</option>
+<dest dest="左">左</dest>
+<dest dest="前">前</dest>
+<dest dest="右">右</dest>
+</stage>
+<stage name="離開" next="不泡">
+<room id="undefined" name="白天廟會" >
+<scene src="../db/pic/room/67379384.jpg" name="162"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="食通先生櫻" src="../db/sound/music/65481254.mid"/>
+<story>銀行逃犯：回到了廟會，現在不知道要做什麼......
+
+銀行逃犯：我又沒錢，該怎麼辦呢？
+
+銀行逃犯：算了，我還是回去溫泉那邊好了。</story>
+</stage>
+<stage name="離開下水道" next="?">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>小琪[淺笑]: 就往前一直走吧。
+
+銀行逃犯：嗯。
+
+sys(clearscreen)
+
+……
+
+……
+</story>
+<expr type="where">走的路上好悶，你要做什麼？</expr>
+<option type="move">選擇選項</option>
+<dest dest="笑話">講笑話</dest>
+<dest dest="30年前1">問小琪的身世</dest>
+</stage>
+<stage name="電梯" next="?">
+<room id="undefined" name="恐怕電梯" >
+<scene src="../db/pic/room/94480300.JPG" name="電梯裡"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story>怎麼回事……
+
+我竟然走到電梯這啦？
+
+好吧，不管是不是陰謀還是我單純路癡。
+
+上樓去……</story>
+<expr type="where">要上去幾樓？（名稱和所在地並無關聯喔。）</expr>
+<option type="move">選擇選項</option>
+<dest dest="2樓">美麗的2樓</dest>
+<dest dest="3樓">酷炫的3樓</dest>
+</stage>
+<stage name="頭髮啦~" next="?">
+<room id="undefined" name="地下室" >
+<scene src="../db/pic/room/38586040.jpg" name="地下室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story></story>
+</stage>
+<stage name="馬桶水" next="?">
+<room id="undefined" name="男廁所" >
+<scene src="../db/pic/room/59775181.jpg" name="男廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>這……這什麼水啊?
+
+應該很好喝吧?
+
+好像可樂喔~有點褐色稀稀的便便……
+
+管他的！乾杯啦~~~~
+
+咕嚕咕嚕咕嚕咕嚕咕嚕~~
+
+噗哈~真是太美味啦~~
+
+作者：……(三條線)= =
+
+咦?馬桶裡面有東西！
+
+(手伸到裡面攪啊攪，終於抓到了！)
+
+銀行逃犯：這是……
+
+sys(showitem:信)獲得信件！
+
+這是什麼啊?
+
+咦?一封信件??
+
+sys(hideitem)</story>
+<expr type="where">要打開信件嗎?</expr>
+<option type="move">選擇選項</option>
+<dest dest="打開~">我要打開~因為我好奇心重的啦~~</dest>
+<dest dest="不打開">才不要打開，我是乖孩子~呵呵！</dest>
+</stage>
+<stage name="骷髏先生" next="人物介紹">
+<room id="undefined" name="草原1" >
+<scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>骷髏先生[一般]: 酷酷的帥男子，平常都住在棺材裡。
+
+最討厭別人不禮貌，惹他生氣的話十分恐怖。
+
+但也是很強的人，如果跟你走的話，幾乎所有東西都不用怕了。
+
+若要讓他對你有好感想跟你走，重點是他的心情。
+
+sys(clearscreen)</story>
+</stage>
+<stage name="找到星雲的結局" next="?">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>星雲[正常]: 你是？
+銀行逃犯：我是銀行逃犯，有點事情想找妳.....</story>
+</stage>
+<stage name="可玲與星雲" next="可玲說完了">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>20年後
+星雲[正常]: 我是星雲，自小被放置在奶媽家，不知道我的父母是誰。還有身上的秘密，為什麼，只有我有魔法呢？因為如此，我會當作怪胎，沒有人願意和我當朋友。
+星雲[微笑]: 當時會來找我玩的，只有鈴兒一個人。
+鈴兒[笑]: 星雲，來玩～～
+星雲[微笑]: 我的世界，有她跟奶媽就夠了。
+星雲[說話]: 可是有一天，奶媽不幸以高齡之姿壽終正寢。
+星雲[說話]: 她臨走前，要我去銀行找我的父親，原來我的父親還活著！
+星雲[使用力量（說話）]: 既然知道這個秘密，找起父親，其實是不難的。
+（歷經使用魔法，找尋的許多波折）
+依希靈淒[普通]: 妳是！？
+星雲[天使化（微笑）]: 我是你的女兒.....
+依希靈淒[驚]: 啊......
+依希靈淒[閉眼]: 我以為，可玲死後我的一切就只剩我的命了，多年來我一直設法逃避哥哥依稀靈魂的追擊，沒想到......
+依希靈淒[普通]: 我還有妳！
+（父女相處了一段融洽的時刻）
+（可是好景不長）
+依稀靈魂[自信]: 呵呵呵呵.....
+依希靈淒[驚]: 哥哥！
+星雲[怒]: 你是誰，你散發出很強烈的殺氣，想殺他嗎！想取我爸的命要先過我這關。
+星雲[天使化（說話）]: 而且，你全身散發的味道差異很大.....
+星雲[天使化（說話）]: 受過傷移植過器官？還是.....為了永保年輕去換器官......！？
+依稀靈魂[自信]: 唉呀，我還以為有了累贅的你這次逃不掉了，沒想到這女娃比我還厲害.....
+依稀靈魂[奸笑]: 我對殺你沒興趣了。
+依稀靈魂[自信]: 要不要跟女兒一起去接手新建的神社呢？
+依稀靈魂[自信]: 還有.....
+依稀靈魂[奸笑]: 躲在那邊的巫女小姐？
+鈴兒[不安]: ！
+依稀靈魂[自信]: 你們一起去吧。
+依稀靈魂[自信]: 我沒有什麼計謀喔先說，就算我再神通廣大，也無法動輒那麼大的一塊地方，如果我有那個能力，依稀靈淒怎麼能逃了20年我都還抓不住呢？
+依希靈淒[普通]: （這麼說好像也是）
+依稀靈魂[奸笑]: （我請土地神幫我忙讓神社倒塌就好啦，這麼一來，我要的器官都能到手，還能一舉數得壓死這麼多人，呵呵）
+依稀靈魂[自信]: 意下如何呢？
+依希靈淒[閉眼]: 好吧，托女兒的福，我們一起去把那神社蓋起來，彌補這些年來的缺憾吧。
+星雲[微笑]: 好＾＾
+鈴兒[臉紅笑]: 一起走吧！
+sys(clearscreen)
+（三人以為的幸福快樂日子終於要到來，殊不知.....）
+（一場陰謀的延續竟是30年）
+</story>
+</stage>
+<stage name="可玲說完了" next="?">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>可玲[難為情]: 這就是我的視角的過去。
+可玲[害羞]: 依稀靈淒就是怪老頭喔。
+可玲[痛]: 多少年破不了的銀行陰謀.....你能幫幫我嗎？
+銀行逃犯：我.....有那個能力嗎？
+可玲[沒問題]: 你一定可以的.....！
+可玲[難過]: 況且，其實我們的是同類吧。
+可玲[難過]: 你也有親人在銀行內，不是嗎？
+銀行逃犯：！
+sys(shock)她知道琉亞的事嗎？
+銀行逃犯：我.....
+可玲[普通]: 什麼也別說了，帶星雲去找鈴兒吧。
+sys(showitem:星雲)
+sys(hideitem)
+sys(give:星雲)
+可玲[害羞]: 她們會明白一切的。
+sys(clearscreen)
+銀行逃犯：可玲小姐消失了......
+銀行逃犯：為了琉亞跟我跟她們，我會努力的！
+銀行逃犯：回去找鈴兒吧。
+</story>
+<expr type="where">你</expr>
+<expr type="which">接下來要使用？</expr>
+<option type="use">使用物件</option>
+<itemdest dest="鈴兒與星雲1"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
+</stage>
+<stage name="鈴兒與星雲1" next="?">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：又到了神社。
+鈴兒[不安]: 你回來了？
+銀行逃犯：我不止回來了，我還找了星雲過來了！
+鈴兒[流淚]: 真的！？</story>
+<expr type="which">要怎麼證明找到星雲了呢？</expr>
+<option type="use">使用物件</option>
+<itemdest dest="鈴兒與星雲2"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+</stage>
+<stage name="鈴兒與星雲2" next="?">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story></story>
+</stage>
+</game>

@@ -1,0 +1,827 @@
+<style>
+
+
+
+img, embed, object, video {
+  max-width: 100%;
+}
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+
+ 
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+ 
+
+.content-btn, .content-btn2{
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ebebeb) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #ebebeb 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ebebeb');
+	background-color:#ffffff;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0px;
+	border:1px solid #dcdcdc;
+	
+	color:#6b6b6b;
+	font-family:arial;
+	font-size:0.8em;
+	font-weight:bold;
+	font-style:normal;
+	height:2em;
+	line-height:2em;
+	width:22%;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.content-btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ebebeb), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ebebeb 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#ffffff');
+	background-color:#ebebeb;
+}.content-btn:active {
+	position:relative;
+	top:1px;
+}
+.content-btn:focus {
+      
+      outline: 0;
+ }
+/* This button was generated using CSSButtonGenerator.com */
+
+
+body{
+	background-color: rgba(253, 253, 253, 1);
+}
+   		
+
+a:link {
+	color:#000080;
+    text-decoration: none;
+}
+a:visited {
+	color:#000080;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+
+
+
+.app-bar-emptyspace{
+	width:1%;
+}
+
+.app-bar {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 42px;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*background-color: rgba(68, 119, 176, 0.96);bass經典藍*/
+/*  background: -webkit-linear-gradient(#6688cc, #4477aa); /* For Safari 5.1 to 6.0 */
+ /* background: -o-linear-gradient(#6688cc, #4477aa); /* For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient(#6688cc, #4477aa); /* For Firefox 3.6 to 15 */
+  /*background: linear-gradient(#6688cc, #4477aa); /* Standard syntax */
+
+  background: -webkit-linear-gradient(#5577bb, #4477aa); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#5577bb, #4477aa); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#5577bb, #4477aa); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#5577bb, #4477aa); /* Standard syntax */
+	z-index:999;
+}
+
+.app-bar-bottom {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 42px;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  background: -webkit-linear-gradient(#5577bb, #4477aa); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#5577bb, #4477aa); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#5577bb, #4477aa); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#5577bb, #4477aa); /* Standard syntax */
+	z-index:999;
+}
+
+.app-bar button {
+    width: 40px;
+    height: 42px;
+    background-image: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    -webkit-transition: background-color 0.2s ease-out;
+    transition: background-color 0.2s ease-out;
+}		
+
+
+.small-head{
+	width:99.8%;
+	background-color: #4477aa;
+	 border-left: 0px solid #dddddd;
+	  border-right: 0px solid #dddddd;
+    margin-bottom:25px;
+}
+
+
+
+
+.app-bar-actions {
+	width:100%;
+	float:right;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+.search {
+	float:right;
+    display:block;
+    width: 80%;
+    height: 28px;
+
+    margin: 5px;
+	margin-right:0px;
+    margin-top: 8px;
+
+	box-sizing: border-box;
+    border: none;
+}
+.search-img{
+	float:right;
+	width:40px;
+	height:40px;
+	
+}
+
+.app-bar-logo{
+
+	width:55%;
+}
+
+
+.tab-bar {
+	display:none;
+   width:60%;
+   flex-direction: row;
+   font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+.tab-bar button {
+    width: 18%;
+    height: 42px;
+    margin: 0px;
+    font-size: 0.9em;
+    color: #fafafa;
+	border: none;
+    background-color: rgba(68, 119, 176, 0.15);
+	font-weight:700;
+}
+.tab-bar button:hover {
+    background-color: rgba(50, 100, 160, 0.9);
+}
+.tab-bar button:focus {
+      background-color: rgba(50, 100, 160, 0.9);
+      outline: 0;
+ }
+
+
+
+
+
+
+.app-bar-bottom button {
+    width: 60px;
+    height: 46px;
+    background-image: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    -webkit-transition: background-color 0.2s ease-out;
+    transition: background-color 0.2s ease-out;
+}	
+
+
+.tab-bar-bottom {
+   width:100%;
+   flex-direction: row;
+   font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+.tab-bar-bottom button {
+    width: 18%;
+    height: 46px;
+    margin: 0px;
+    font-size: 0.9em;
+    color: #fafafa;
+	border: 3px;
+    background-color: rgba(68, 119, 176, 0.15);
+	font-weight:550;
+	 
+}
+.tab-bar-bottom button:hover {
+    background-color: rgba(50, 100, 160, 0.9);
+}
+.tab-bar-bottom button:focus {
+      background-color: rgba(50, 100, 160, 0.9);
+      outline: 0;
+ }
+
+
+
+
+.forum-block{
+	width:100%;
+	background-color: #fafafa;
+	padding-bottom:5px;
+}
+.forum-block:hover{
+	background-color: #f6f6f6;
+}
+
+
+.link-title{
+	margin: 12px;
+	margin-bottom:5px;
+	 font-weight: bold;
+	 font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+	 color: #000080;
+     font-size:0.92em;
+}
+
+.game-title{
+	margin: 12px;
+	 font-weight: bold;
+	 font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+	 color: #000080;
+     font-size:1em;
+}
+
+.content-title{
+	margin: 12px;
+	 font-weight: bold;
+	 font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+	 color: inherit;
+     font-size:1em;
+	/*background-color: rgba(68, 119, 176, 1);//bass經典藍色 
+    background-color: rgba(220, 220, 166, 0.92);//bass經典黃色 
+    background-color: rgba(210, 210, 156, 0.92);//bass經典黃色  
+	font-family: Comic Sans MS,arial,helvetica,sans-serif;//微軟字體
+	
+	*/
+}
+
+
+.head-title{
+     padding: 3px;
+	 padding-left:15px;
+	 font-weight: ;
+	 font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+	 color: #fafafa;
+     font-size:0.9em;
+
+	/*background-color: rgba(68, 119, 176, 1);//bass經典藍色 
+    background-color: rgba(220, 220, 166, 0.92);//bass經典黃色 
+    background-color: rgba(210, 210, 156, 0.92);//bass經典黃色  
+	font-family: Comic Sans MS,arial,helvetica,sans-serif;//微軟字體
+	
+	*/
+}
+
+.content-desc{
+	font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+	text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+    margin: 10px;
+    margin-top: 5px;
+    word-break: break-all;
+	font-size:0.9em;
+}
+.newpost-notify{
+	font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+	text-decoration: none;
+    color: #0a0a0a;
+    font-weight: normal;
+    margin: 18px;
+    margin-top: 5px;
+	margin-bottom: 5px;
+
+    word-break: break-all;
+	font-size:0.8em;
+	background-color: rgba(220, 220, 166, 0.7);
+	padding:5px;
+}
+
+
+.forum-desc{
+	font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+	text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+    margin: 3px;
+    margin-top:3px;
+	
+    word-break: break-all;
+	font-size:0.9em;
+	background-color: rgba(210, 210, 156, 1);
+	padding:2px; 
+}
+
+
+
+.tell-text{
+	font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+	text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+    margin: 0px;
+    word-break: break-all;
+	font-size:0.9em;
+	background-color: rgba(220, 220, 166, 0.7);
+	padding:12px; 
+}
+
+
+.forum-desc :hover {
+/*    background-color: #dadada;*/
+}
+
+
+.content-input{	
+	font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+	text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+    margin-left: 0px;
+    word-break: break-all;
+	font-size:0.8em;
+	height:2em;
+	width:96%;
+}
+
+
+
+.content-info{
+	font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+	text-decoration: none;
+    color: inherit;
+    font-weight: normal;
+    margin: 10px;
+    word-break: break-all;
+	font-size:1em;
+	min-height:100px;
+}
+
+.content-bighead{
+	margin:10px;
+
+    margin-left: 16px;
+	margin-right: 10px;
+	float:left;
+	height:150px;
+}
+
+.content-badge{
+	margin-left:12px;
+    margin-right: 0px;
+	float:center;
+	width:16px;
+}
+
+
+.content-game-cover{
+	margin:12px;
+    margin-right: 15px;
+	margin-top: 0px;
+	float:left;
+	width:160px;
+	border:0px solid #888;
+}
+
+
+.content-game-cover-ad{
+	margin:12px;
+    margin-right: 15px;
+	margin-top: 0px;
+	
+	width:180px;
+	border:0px solid #888;
+}
+
+.content-char{
+	margin:12px;
+    margin-right: 15px;
+	float:left;
+	width:150px;
+}
+
+.content-room{
+	margin:12px;
+    margin-right: 15px;
+	float:left;
+	width:200px;
+}
+
+.content-novel-cover{
+	margin:12px;
+    margin-right: 15px;
+	float:left;
+	width:160px;
+}
+
+.gamebox{
+    width: 100%;
+    border-bottom: 1px solid #fafafa;
+	background-color: #fafafa;
+
+	margin-bottom:30px;
+	
+}
+
+
+.bass-contact-info{
+	text-align:center;
+	font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+	text-decoration: none;
+    color: #111111;
+    font-weight: normal;
+    padding:50px 30px 0px 30px;
+    height:100px;
+	font-size:1em;
+	min-height:100px;
+}
+
+
+.bottom-bar{
+	     width: 100%;
+		 height:400px;
+		 background-color: rgba(210, 210, 156, 0.92);
+		 -webkit-order: 99;
+		 order: 99;
+		 padding-bottom:50px;
+}
+
+
+.rwd-ad{
+    padding:10px;
+}
+
+
+
+.btn-container{
+	width:100%;
+	margin-top:5px;
+	margin-bottom:5px;
+
+	text-align:center
+	/*margin-right:0px;因為靠右會讓畫面右邊有空白*/
+}
+
+
+	  .site {
+	  	width:100%;
+		 border: 0px solid #4477aa;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+      }
+	
+   
+	  .container {
+	  	width:100%;
+		
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+      }
+	
+		
+	  .container2 {
+	  padding-top:42px;
+	  	width:0%;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+		display:none;
+      }
+
+
+		.smalltalk{
+			overflow-x: hidden;
+			width:100%;
+			height:245px;		
+		}
+
+
+		.app-bar .logo {
+
+			flex: 1;
+			font-size: 1.25em;;
+			line-height:2.2em;
+			margin-top: 1px;
+			margin-left:0px;
+			margin-right:12px;
+			color: #fafafa;
+			font-family: "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+
+			float: none;
+			max-width: 26%;
+			font-weight:700;
+	
+		}
+
+		.tab-bar button {
+			 font-size: 0.9em;
+         }	
+
+		.logo-img{
+			height:2em;
+			width:2em;
+			margin:0px;
+			margin-left:3px;
+			margin-top:3px;
+			float:left;
+		}
+		
+		.ad-img{
+			width:100%;
+		}
+
+
+      .c1, .c3, .c5{
+        width: 100%;
+        border-bottom: 1px solid #dddddd;
+		background-color: #fafafa;
+		padding-bottom:0px;
+      }
+
+	  .c2, .c4, .c6{
+        width: 100%;
+        border-bottom: 1px solid #dddddd;
+		background-color: #f6f6f6;
+		padding-bottom:0px;
+	  }
+
+
+	.google-rwd-feed{
+		width:85%;
+	}
+
+
+	#cse-search-box{
+		display:none;
+	}	
+
+@media (min-width: 501px) {/*平板*/
+
+	#cse-search-box{
+		display:inline;
+	}	
+
+		.app-bar-logo{
+			width:70%;
+		}
+
+
+}
+
+@media (min-width: 801px) {/*桌機板*/
+		/*
+		.c1{-webkit-order: 2;order: 2;	}.c2{-webkit-order: 1;order: 1;	}.c3{-webkit-order: 4;order: 4;	}.c4{-webkit-order: 3;order: 3;	}.c5{-webkit-order: 6;order: 6;	}.c6{-webkit-order: 5;order: 5;	}
+		*/
+
+		.container{
+				  -webkit-order: 3;
+				  order: 3;
+		}
+		.container2{
+				background-color: #f6f6f6;
+				  -webkit-order: 2;
+				  order: 2;
+		}
+
+
+
+
+		.app-bar-logo{
+			width:16%;
+		}
+
+		.tab-bar {
+			display:inline;
+		}
+
+		.tab-bar-bottom {
+			display:none;
+		}
+
+		.app-bar-bottom{
+			display:none;
+		}
+
+		.content-btn {
+			height:1.7em;
+			line-height:1.4em;
+			width:42%;
+		}
+
+		.content-btn2 {
+			height:28px;
+			line-height:26px;
+			width:11.5%;
+		}
+
+
+        .c1,.c3 ,.c5{
+          width: 70%;
+        }
+        .c2,.c4,.c6 {
+		  
+          width: 30%;
+        }
+
+		.content-bighead{
+
+			height:135px;
+		}
+
+		.ad-img{
+			width:98%;
+		}
+
+
+		.smalltalk{
+			width:96%;
+		}
+
+
+
+		.content-game-cover{
+			width:200px;			
+		}
+
+		.gamebox{
+			
+		}
+
+		.tab-bar button {
+			font-size: 1em;
+			font-weight:700;
+		}
+		.app-bar .logo {
+   		 font-size: 1.2em;
+   		 max-width: 20%;
+   		 padding-right:20px;
+   		 padding-top:1px;
+		 font-weight:700;
+
+		}		     
+		
+		.content-desc{
+			margin: 12px;	
+		    margin-top: 5px;
+
+		}
+
+
+		.link-title{
+			margin-left: 26px;
+		}
+
+		.forum-desc{/*手機板要100%寬度 電腦版則留一點空白*/
+			margin-left: 20px;
+			margin-right: 20px;
+			padding:5px;
+		}
+		.tell-text{
+			margin:10px;
+
+			margin-left: 21px;
+			margin-right: 21px;
+			
+		}
+}
+
+@media (min-width: 960px) {
+	  .container {
+	  	width:100%;
+
+      }
+/*		
+	  .container2 {
+	  	width:15.5%;
+		display:inline;
+      }
+*/
+
+
+        .c1,.c3 ,.c5{
+          width: 80%;
+        }
+        .c2,.c4,.c6 {
+		  
+          width: 20%;
+        }
+
+		.app-bar-logo{
+			width:15%;
+		}
+
+        .site {
+          width: 960px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        
+
+}
+
+
+@media (min-width: 1180px) {
+
+
+		.app-bar-logo{
+			width:17%;
+		}
+		.app-bar-emptyspace{
+			width:2%;
+		}
+/*.container{	      -webkit-order: 1;		  order: 1;}.container2{	      -webkit-order: 2;		  order: 2;}*/
+}
+
+
+@media (min-width: 1370px) {
+
+
+
+
+		.app-bar-logo{
+			width:15%;
+		}
+		.app-bar-emptyspace{
+			width:8%;
+		}
+		
+
+        .site {
+          width: 920px;
+          margin-left: auto;
+          margin-right: auto;
+        }		
+		
+/*.container{	      -webkit-order: 1;		  order: 1;}.container2{	      -webkit-order: 2;		  order: 2;}*/
+}
+
+
+</style>

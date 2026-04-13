@@ -1,0 +1,19 @@
+{
+  "short_name": "BASS遊戲",
+  "name": "BASS遊戲製作平台",
+  "icons": [
+    {
+      "src": "url.gif",
+      "sizes": "48x48"
+    },
+    {
+      "src": "url.gif",
+      "sizes": "96x96"
+    },
+    {
+      "src": "url.gif",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.php"
+}

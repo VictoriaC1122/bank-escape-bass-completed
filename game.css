@@ -1,0 +1,426 @@
+
+<style>
+
+.game-info{
+	font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+	text-decoration: none;
+    color: #fdfdfd;
+    font-weight: normal;
+    margin: 10px;
+    word-break: break-all;
+	font-size:3em;
+	min-height:100px;
+	z-index:9;
+}
+	
+.story{
+	font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+	text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+
+    word-break: break-all;
+	font-size:1em;
+
+}
+
+	.selecting{
+		position: relative; 
+		width: 25%;
+		height:25%;
+	}
+
+	#map{
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+		position: absolute; 
+		left:0px;
+		top:0px;
+		z-index:40;
+		width: 100%;
+		height:100%;
+		height:auto;	
+	}
+
+	#fulltellframe{
+		position: absolute; 
+		background-color: rgba(0,0,0,0.6);
+		left:0px;
+		top:0px;
+		z-index:25;
+		width: 100%;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+	}
+
+	#sysprompt{
+		display:none;
+		position: absolute; 
+		background-color: rgba(0,0,0,0.7);
+		left:0px;
+		top:0px;
+		z-index:70;
+		width: 100%;
+		height:100%;
+		text-align:left;
+		
+	}
+
+
+	#game-functions{
+		
+		position: absolute; 
+		background-color: rgba(0,0,0,0.8);
+		left:0px;
+		top:0px;
+		z-index:60;
+		width: 100%;
+		height: 100%;
+		
+	}
+	
+	#game-savefile{
+		
+		position: absolute; 
+		background-color: rgba(0,0,0,0.8);
+		left:0px;
+		top:0px;
+		z-index:65;
+		width: 100%;
+		height: 100%;
+		
+	}
+
+	#review{
+		position: absolute; 
+		background-color: rgba(0,0,0,0.7);
+		left:0px;
+		top:0px;
+		z-index:55;
+		width: 100%;
+		padding-bottom:20px;
+		overflow: scroll;
+		overflow-x: hidden;
+		
+		text-align:left;
+	}
+
+    #review::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    #review::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background: rgba(0,0,0,0.1);
+        border: 1px solid #ccc;
+    }
+    #review::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: -webkit-linear-gradient(left, #fff, #e4e4e4);
+        background: -moz-linear-gradient(left, #fff, #e4e4e4);
+        background: -o-linear-gradient(left, #fff, #e4e4e4);
+        background: linear-gradient(left, #fff, #e4e4e4);
+        border: 1px solid #aaa;
+    }
+    #review::-webkit-scrollbar-thumb:hover {
+        background: #fff;
+    }
+    
+    #review::-webkit-scrollbar-thumb:active{
+        background: -webkit-linear-gradient(left, #22ADD4, #1E98BA);
+        background: -moz-linear-gradient(left, #22ADD4, #1E98BA);
+        background: -o-linear-gradient(left, #22ADD4, #1E98BA);
+        background: linear-gradient(left, #22ADD4, #1E98BA);
+    }
+
+	#showingcover{
+		padding-top:0;
+		position: absolute; 
+		background-color: rgba(0,0,0,0.6);
+		left:0px;
+		top:-0px;
+		z-index:40;
+		width: 100%;
+	}
+
+	#player{
+		position: absolute; 
+		left:0px;
+		top:0px;
+		width: 100%;
+		z-index:50;
+		display: none;
+		pointer-events: none;
+	}
+
+    #msger{
+        z-index:200;
+    }
+
+
+	.fulltell{
+		font-size: 1em;
+		font-weight: bold;
+		font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+		color: rgb(245,245,245);
+		z-index:25;		
+		margin-left:36px;
+		margin-right:6px;
+  
+		-webkit-user-select: none; 
+		-moz-user-select: none;    
+		-khtml-user-select: none;  
+		-ms-user-select: none;  		
+	}
+
+
+	.content-btn{
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ebebeb) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #ebebeb 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ebebeb');
+	background-color:#ffffff;
+	border-radius: 3px;
+	text-indent:0px;
+	border:1px solid #dcdcdc;
+	
+	color:#6b6b6b;
+	font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+	font-size:0.8em;
+	font-style:normal;
+	height:2.2em;
+	line-height:2.2em;
+	width:22%;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+
+	  }
+
+/***************main screen part****************************/
+
+	#main_frame{
+		overflow:hidden;
+		margin:0 auto;
+
+		position: relative; 
+		top:0px;
+		left:0px;
+		width:100%;
+		min-height:300px;
+		background-color: #000;
+		color:#fdfdfd;
+		text-align:center;
+	}
+
+    #temp_bgimg{
+		position: absolute; 
+		left:0px;
+		top:0px;
+		z-index:0;
+		width: 100%;
+		height:auto;	
+	}
+
+	#bgimg{
+		position: absolute; 
+		left:0px;
+		top:0px;
+		z-index:0;
+		width: 100%;
+		height:auto;	
+	}
+
+
+	#effectlayer{
+		position: absolute; 
+		left:0px;
+		top:0px;
+		z-index:6;
+		width: 100%;
+		height:auto;	
+	}
+	
+	#effectlayer2{
+		position: absolute; 
+		left:0px;
+		top:0px;
+		z-index:7;
+		width: 100%;
+		height:auto;	
+	}
+	
+	#effectlayer3{
+		position: absolute; 
+		left:0px;
+		top:0px;
+		z-index:8;
+		width: 100%;
+		height:auto;	
+	}
+
+	#storyframe{
+		position: absolute; 
+		left:0px;
+		z-index:10;
+		width: 100%;
+		height: 250px;
+		background-repeat:no-repeat;
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+	}
+	
+	.wait-indicator{
+        position: absolute;
+        right: 12px;
+        bottom: 8px;
+        pointer-events: none;
+        user-select: none;
+    }
+    
+    .wait-indicator span{
+        display: inline-block;
+        font-size: 40px;
+        line-height: 1;
+        color: rgba(255,255,255,0.8);
+        animation: waitDot 1s infinite;
+    }
+    
+    .wait-indicator span:nth-child(2){
+        animation-delay: 0.2s;
+    }
+    
+    .wait-indicator span:nth-child(3){
+        animation-delay: 0.4s;
+    }
+    
+    @keyframes waitDot{
+        0%, 80%, 100% { opacity: 0.15; }
+        40% { opacity: 1; }
+    }
+
+
+	#charcenter{	
+		display: inline-block;
+		position: absolute;
+		left:25%;
+		top:0px;
+		z-index:4;
+	}
+
+	#charleft{	
+	    display: inline-block;
+		position: absolute;
+		left:0%;
+		top:0px;
+		z-index:3;
+	}
+
+	#charright{	
+	    display: inline-block;
+		position: absolute;
+		left:50%;
+		top:0px;
+		z-index:3;
+	}
+
+	#story{
+
+		font-size: 1.3em;
+		font-weight: bold;
+		font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+		color: rgb(245,245,245);
+
+	}
+
+
+	#item{
+
+		position: absolute; 
+		left:34%;
+		top:15%;		
+		width:32%;
+		z-index:5;
+		/*background-color: rgba(0,0,0,0.5);*/
+	}
+	
+	#itemdesc{
+		background-color:  rgba(0,0,0,0.8);
+		color: rgba(250,250,250,0.8);
+		padding:10px;
+	}
+
+
+	#control{
+		margin:0 auto;
+	
+		position: relative; 
+		z-index:200;
+		background-color: #fafafa;
+	}
+
+
+
+	#nametag{
+		display:none;
+		position: absolute; 
+		left:1em;	
+		width:6em;
+		text-align:center;
+		z-index:11;
+	}
+	
+
+@media (min-width: 890px) {/*桌機板*/
+		/*
+		.c1{-webkit-order: 2;order: 2;	}.c2{-webkit-order: 1;order: 1;	}.c3{-webkit-order: 4;order: 4;	}.c4{-webkit-order: 3;order: 3;	}.c5{-webkit-order: 6;order: 6;	}.c6{-webkit-order: 5;order: 5;	}
+		*/
+		.c1,.c3 {
+			 width:78%;
+		}
+		.c2 ,.c4{
+			width:22%;
+		}	 
+
+		.container{
+			width:85%;
+		}
+		.container2{
+			width:15%;
+				background-color: #f6f6f6;
+				display:inline;
+		}
+        .site {
+          width: 87%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+}
+
+@media (min-width: 1280px) {/*桌機板*/
+
+        .site {
+          width: 1200px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+}
+
+</style>
+
+
