@@ -1484,7 +1484,9 @@ sys(clearscreen)
 </room>
 <story>銀行逃犯：真的回來了！
 
-不可置信……鈴兒小姐的魔法太厲害了。
+不可置信……這銀行又把我丟回奇怪的走廊了。
+
+也許是鈴兒小姐的魔法，也許是星雲殘留的力量，反正這裡沒有一條路像正常銀行。
 
 那，我看看要到哪裡找星雲吧。</story>
 <expr type="where">請問要到哪裡找星雲？</expr>
@@ -2595,7 +2597,7 @@ sys(shock)
 
 sys(clearscreen)</story>
 </stage>
-<stage name="關心星雲" next="找到星雲的結局">
+<stage name="關心星雲" next="到銀行找星雲~">
 <room id="undefined" name="藍天" >
 <scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
 </room>
