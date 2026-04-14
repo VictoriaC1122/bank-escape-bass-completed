@@ -2597,7 +2597,7 @@ sys(shock)
 
 sys(clearscreen)</story>
 </stage>
-<stage name="關心星雲" next="到銀行找星雲~">
+<stage name="關心星雲" next="調查星雲原因">
 <room id="undefined" name="藍天" >
 <scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
 </room>
@@ -2623,6 +2623,72 @@ sys(clearscreen)</story>
 小雪[笑]: 這就是人生喔。
 
 sys(clearscreen)</story>
+</stage>
+<stage name="調查星雲原因" next="?">
+<room id="undefined" name="靈異走廊" >
+<scene src="../db/pic/room/26974929.jpg" name="靈異走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>銀行逃犯：星雲已經在我身邊了。
+
+sys(showitem:星雲)
+
+那顆愛心浮在掌心，光卻比剛才暗很多。
+
+銀行逃犯：所以現在不是找星雲，是找「為什麼她會被銀行綁住」。
+
+小雪剛才說真正的出口不在這裡。也就是說，出口、星雲昏迷、神社契約，應該是同一件事。
+
+銀行逃犯：可惡，逃銀行竟然還要做閱讀理解。
+
+sys(hideitem)</story>
+<expr type="where">要從哪裡查星雲被綁住的原因？</expr>
+<option type="move">選擇選項</option>
+<dest dest="亂逛">追查怪老頭與骨灰</dest>
+<dest dest="廁所2-星雲原因">躲進女廁問那個神秘女聲</dest>
+<dest dest="不知明的地方">去教堂走廊查出口</dest>
+<dest dest="井口">去井口確認神社氣息</dest>
+</stage>
+<stage name="廁所2-星雲原因" next="?">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="相信" src="../db/sound/music/22305436.mid"/>
+<story>（到了女廁……）
+
+可玲[笑]: 你好啊！
+
+銀行逃犯：又是女廁所！不對，妳是誰？
+
+可玲[普通]: 我是可玲，你是銀行逃犯吧？
+
+銀行逃犯：妳連這個都知道，那妳知不知道星雲為什麼會變成這樣？
+
+可玲[笑]: 我是萬事通☆
+
+銀行逃犯：太好了，萬事通小姐，快救救她。
+
+可玲[沒問題]: 可以，不過我需要一樣東西。星雲身上的契約是舊契約，要用舊契約主人的線索才能打開。
+
+銀行逃犯：舊契約主人……該不會是怪老頭？
+
+可玲[笑]: 你比看起來聰明一點點。
+
+銀行逃犯：一點點不要特別強調！</story>
+<expr type="which">請問你要給可玲什麼?</expr>
+<option type="use">使用物件</option>
+<itemdest dest="怪老頭寫真集"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="不要的啦~~~"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
 </stage>
 <stage name="懷孕" next="懷結局">
 <room id="undefined" name="病床" >
