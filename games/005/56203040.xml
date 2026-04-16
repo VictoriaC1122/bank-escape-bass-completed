@@ -567,6 +567,26 @@ sys(hideitem)
 </item></itemdest>
 <itemdest dest="門內"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
 </item></itemdest>
+<itemdest dest="物品反應001"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應002"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應003"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應004"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應005"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應006"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應007"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應008"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應009"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="物品反應010"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
 </stage>
 <stage name="3" next="?">
 <room id="undefined" name="昏暗廁所" >
@@ -748,6 +768,26 @@ sys(clearscreen)</story>
 </item></itemdest>
 <itemdest dest="紅"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
 </item></itemdest>
+<itemdest dest="物品反應011"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應012"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應013"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應014"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應015"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應016"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應017"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應018"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應019"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應020"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
 </stage>
 <stage name="4" next="?">
 <room id="undefined" name="旅館房間" >
@@ -769,6 +809,28 @@ sys(clearscreen)</story>
 <itemdest dest="神社"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
 </item></itemdest>
 <itemdest dest="紅"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="物品反應021"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應022"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應023"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應024"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應025"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應026"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應027"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應028"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應029"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應030"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應031"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
 </item></itemdest>
 <dest dest="6">對啦，我就是要摘！又不會怎樣！！</dest>
 </stage>
@@ -819,6 +881,30 @@ sys(shock)
 <option type="move">想辦法逃出去</option>
 <option type="use">住下來吧</option>
 <itemdest dest="神社"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
+<itemdest dest="物品反應032"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應033"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應034"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應035"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應036"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應037"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應038"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應039"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應040"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應041"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應042"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="物品反應043"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
 </item></itemdest>
 <dest dest="電梯">我就是要出去啦！</dest>
 <dest dest="6">算了，還是住這吧。</dest>
@@ -1058,6 +1144,30 @@ sys(give:怪老頭寫真集)</story>
 <option type="use">使用物件</option>
 <itemdest dest="紅"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
 </item></itemdest>
+<itemdest dest="物品反應044"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應045"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應046"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應047"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應048"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應049"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應050"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應051"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應052"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應053"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應054"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
+<itemdest dest="物品反應055"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
 <dest dest="亂逛">亂逛</dest>
 <dest dest="舔地板-星雲原因">舔地板</dest>
 </stage>
@@ -1076,6 +1186,30 @@ sys(give:怪老頭寫真集)</story>
 <option type="use">使用物件</option>
 <itemdest dest="紅"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
 </item></itemdest>
+<itemdest dest="物品反應056"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應057"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應058"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應059"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應060"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應061"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應062"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應063"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應064"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應065"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="物品反應066"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
+<itemdest dest="物品反應067"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
 <dest dest="舔地板-星雲原因">舔地板</dest>
 </stage>
 <stage name="不知明的地方2" next="?">
@@ -1091,6 +1225,30 @@ sys(give:怪老頭寫真集)</story>
 <option type="use">使用物件</option>
 <itemdest dest="紅"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
 </item></itemdest>
+<itemdest dest="物品反應068"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應069"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應070"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應071"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應072"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應073"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應074"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應075"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應076"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應077"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應078"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
+<itemdest dest="物品反應079"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
 <dest dest="亂逛">亂逛</dest>
 <dest dest="舔地板">舔地板</dest>
 </stage>
@@ -1098,165 +1256,111 @@ sys(give:怪老頭寫真集)</story>
 <room id="undefined" name="女廁所" >
 <scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story>可玲不會對這東西感興趣的。
+<story>可玲[普通]: 這個不對。
 
-再選別樣吧！</story>
+銀行逃犯：不對也講得太快。
+
+可玲[沒問題]: 這裡要能證明怪老頭身分的東西。再選。</story>
 </stage>
 <stage name="可玲拒收星雲" next="選物品">
 <room id="undefined" name="女廁所" >
 <scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story>銀行逃犯：這個可以嗎？星雲變成的愛心，很稀有吧。
+<story>銀行逃犯：星雲的愛心可以嗎？
 
-可玲[普通]: 稀有是稀有，可是你把人家的心拿來當禮物，聽起來超像黑心銀行。
+可玲[普通]: 不行。人家的心不是禮物。
 
-銀行逃犯：我現在人在銀行逃命，說服力是有點低。
-
-可玲[沒問題]: 這顆愛心只能證明星雲被契約壓住，不能當獎勵。拿回去，等你想救她的時候，它才會有用。
-
-銀行逃犯：好啦好啦，我不當怪人了。再選一個。</story>
+可玲[沒問題]: 它只能證明星雲被契約壓住，不能換出口。</story>
 </stage>
 <stage name="可玲拒收骨灰" next="選物品">
 <room id="undefined" name="女廁所" >
 <scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story>銀行逃犯：那這罐骨灰呢？感覺很有故事。
+<story>銀行逃犯：那骨灰罈？
 
-可玲[普通]: 有故事到不能亂送人的程度。
+可玲[普通]: 太重了。不是重量，是因果。
 
-銀行逃犯：不能亂送？
-
-可玲[沒問題]: 這不是普通骨灰，是銀行拿來鎖神社契約的東西。你把它給我，我也只會被它一起拖進帳本裡。
-
-銀行逃犯：帳本也太愛加人名。
-
-可玲[笑]: 所以留著吧。等你要碰神社和依稀靈淒的事，它才是鑰匙。</story>
+可玲[沒問題]: 它是神社契約核心，現在亂給我，只會讓鎖更緊。</story>
 </stage>
 <stage name="可玲拒收棉布" next="選物品">
 <room id="undefined" name="女廁所" >
 <scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story>銀行逃犯：醫療棉布如何？乾淨、柔軟、逃亡必備。
+<story>銀行逃犯：醫療棉布如何？
 
-可玲[普通]: 我看起來像正在流血嗎？
+可玲[普通]: 你覺得我哪裡需要包紮？
 
-銀行逃犯：妳看起來像知道太多。
-
-可玲[笑]: 這倒是真的。可是這塊棉布沾的是火災留下的藥味，不是給我擦臉的。
-
-銀行逃犯：火災？
-
-可玲[沒問題]: 你之後會需要它去分辨燒傷、幻覺和真正的傷口。把救命的東西拿來交換出口，不划算啦。</story>
+可玲[沒問題]: 它是火災線索，不是交換出口的票。</story>
 </stage>
 <stage name="可玲拒收紅藥水" next="選物品">
 <room id="undefined" name="女廁所" >
 <scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story>銀行逃犯：這瓶紅藥水看起來很高級，送妳。
+<story>銀行逃犯：紅藥水很高級耶。
 
-可玲[普通]: 不要。你想讓女廁所變成銀行密室的入口嗎？
+可玲[普通]: 高級到會把女廁開成密室入口。
 
-銀行逃犯：它真的有那麼危險？
-
-可玲[沒問題]: 這是高層用來打開契約通道的藥。該在教堂走廊那種契約味很重的地方用，不是在我面前亂開門。
-
-銀行逃犯：懂了，這不是飲料，是爆炸按鈕。</story>
+可玲[沒問題]: 去契約走廊用，別在我面前亂開門。</story>
 </stage>
 <stage name="可玲拒收大鑰匙" next="選物品">
 <room id="undefined" name="女廁所" >
 <scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story>銀行逃犯：古董鑰匙一把。夠有誠意吧？
+<story>銀行逃犯：古董鑰匙，誠意滿分。
 
-可玲[普通]: 誠意有，方向錯。
+可玲[笑]: 誠意有，方向錯。
 
-銀行逃犯：鑰匙不就是拿來交換情報的標準配備嗎？
-
-可玲[笑]: 這把鑰匙開的是門，不是我的興趣。我要的是能指出怪老頭真身的線索。
-
-銀行逃犯：所以妳不是貪財，是貪八卦？
-
-可玲[沒問題]: 說得好聽一點，叫情報投資。</story>
+可玲[沒問題]: 我要能指認怪老頭的證物，不是開門工具。</story>
 </stage>
 <stage name="星雲原因拒用星雲" next="廁所2-星雲原因">
 <room id="undefined" name="女廁所" >
 <scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story>銀行逃犯：星雲本人都在這裡了，不能直接用她來查嗎？
+<story>銀行逃犯：星雲本人不行嗎？
 
-可玲[普通]: 不行。你不能拿病人本人當病歷。
+可玲[普通]: 不行。病人不是病歷。
 
-銀行逃犯：好像很有道理，但聽起來很痛。
-
-可玲[沒問題]: 這顆愛心只能讓我確認星雲還活著，而且被舊契約抓住。要解開原因，需要契約主人的線索。
-
-銀行逃犯：也就是怪老頭相關的東西？
-
-可玲[笑]: 對。你終於把腦袋接上電了。</story>
+可玲[沒問題]: 先找能對上契約主人的證物。</story>
 </stage>
 <stage name="星雲原因拒用骨灰" next="廁所2-星雲原因">
 <room id="undefined" name="女廁所" >
 <scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story>銀行逃犯：骨灰罈不就是依稀靈淒的東西？這個應該最準吧。
+<story>銀行逃犯：骨灰應該最準吧。
 
-可玲[普通]: 太準了，反而不能直接碰。
+可玲[普通]: 太準，所以危險。
 
-銀行逃犯：還有這種事？
-
-可玲[沒問題]: 骨灰是銀行鎖神社的核心。現在拿它硬查，契約會以為有人要搶鑰匙，星雲身上的鎖會縮得更緊。
-
-銀行逃犯：所以要先用比較不危險的線索打開外殼。
-
-可玲[笑]: 對，例如怪老頭留下來、蠢到契約都不會防備的東西。</story>
+可玲[沒問題]: 它是契約核心，現在碰會反咬星雲。</story>
 </stage>
 <stage name="星雲原因拒用棉布" next="廁所2-星雲原因">
 <room id="undefined" name="女廁所" >
 <scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story>銀行逃犯：醫療棉布能不能用？它跟火災和醫院應該有關。
+<story>銀行逃犯：棉布跟火災有關吧？
 
 可玲[普通]: 有關，但不是這一步。
 
-銀行逃犯：道具還分步驟，好麻煩。
-
-可玲[沒問題]: 這塊棉布能證明火災裡有人被救、有人被藏起來，可是星雲的契約不是醫療紀錄，是依稀靈淒留下的舊帳。
-
-銀行逃犯：先查契約主人，再查火災現場。
-
-可玲[笑]: 對，順序對了，謎團才會自己排隊。</story>
+可玲[沒問題]: 先查依稀靈淒，再查火災現場。</story>
 </stage>
 <stage name="星雲原因拒用紅藥水" next="廁所2-星雲原因">
 <room id="undefined" name="女廁所" >
 <scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story>銀行逃犯：紅藥水呢？契約味很重吧。
+<story>銀行逃犯：紅藥水呢？
 
-可玲[普通]: 你想在女廁所把銀行高層的門打開嗎？
+可玲[普通]: 在女廁用？你想叫銀行高層來嗎？
 
-銀行逃犯：不想，我連普通廁所門都不太想打開。
-
-可玲[沒問題]: 紅藥水要在教堂走廊那種契約通道重疊的地方用。現在用，只會讓紅楓和籃飄知道有人在查星雲。
-
-銀行逃犯：原來這瓶是定位器。
-
-可玲[笑]: 是鑰匙，也是鈴鐺。亂搖就會把壞人叫來。</story>
+可玲[沒問題]: 它是鑰匙，也是鈴鐺。去走廊再用。</story>
 </stage>
 <stage name="星雲原因拒用大鑰匙" next="廁所2-星雲原因">
 <room id="undefined" name="女廁所" >
 <scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
-<story>銀行逃犯：用古董鑰匙開舊契約，聽起來很合理吧？
+<story>銀行逃犯：鑰匙不能開舊契約嗎？
 
-可玲[普通]: 聽起來合理，所以通常是錯的。
+可玲[笑]: 聽起來合理，所以通常錯。
 
-銀行逃犯：妳這句話也太傷冒險者。
-
-可玲[沒問題]: 這把鑰匙只能開實體的門。星雲身上的是名字和記憶綁成的鎖，要用舊主人留下的「證明」去對照。
-
-銀行逃犯：證明……怪老頭寫真集？
-
-可玲[笑]: 雖然很不想承認，但對，就是那種丟臉到本人無法否認的證明。</story>
+可玲[沒問題]: 這把開門。星雲身上的鎖要證物。</story>
 </stage>
 <stage name="亂逛" next="不知明的地方-2">
 <room id="undefined" name="教堂走廊" >
@@ -1475,11 +1579,7 @@ sys(shock)
 <sound name="命運" src="../db/sound/effect/49795857.mid"/>
 <story>鈴兒[不安]: 我的故事講完了……
 
-鈴兒[不安]: 你知道該怎麼幫忙嗎？
-
-鈴兒[不安]: 就是……
-
-鈴兒[不安]: 你去幫我找出星雲！
+鈴兒[不安]: 拜託你，幫我找出星雲。
 
 sys(shock)
 
@@ -2326,6 +2426,30 @@ sys(shock)
 <option type="use">使用物件</option>
 <itemdest dest="鑰匙打開"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
 </item></itemdest>
+<itemdest dest="物品反應080"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應081"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應082"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應083"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應084"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應085"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應086"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應087"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應088"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應089"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="物品反應090"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
+<itemdest dest="物品反應091"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
 <dest dest="上廁所">上廁所</dest>
 </stage>
 <stage name="女廁所4" next="?">
@@ -2611,6 +2735,20 @@ sys(shock)！！
 <itemdest dest="可玲拒收紅藥水"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
 </item></itemdest>
 <itemdest dest="可玲拒收大鑰匙"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應092"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應093"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應094"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應095"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應096"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應097"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應098"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
 </item></itemdest>
 </stage>
 <stage name="待斃" next="?">
@@ -2898,6 +3036,28 @@ sys(hideitem)</story>
 </item></itemdest>
 <itemdest dest="紅-星雲原因"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
 </item></itemdest>
+<itemdest dest="物品反應099"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應100"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應101"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應102"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應103"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應104"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應105"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應106"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應107"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應108"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
+<itemdest dest="物品反應109"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
 <dest dest="舔地板">舔地板</dest>
 <dest dest="調查星雲原因">先回頭整理線索</dest>
 </stage>
@@ -2915,6 +3075,28 @@ sys(hideitem)</story>
 <itemdest dest="紅-星雲原因"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
 </item></itemdest>
 <itemdest dest="紅-星雲原因"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="物品反應110"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應111"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應112"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應113"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應114"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應115"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應116"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應117"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應118"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應119"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
+<itemdest dest="物品反應120"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
 </item></itemdest>
 <dest dest="舔地板">舔地板</dest>
 <dest dest="調查星雲原因">先回頭整理線索</dest>
@@ -3017,6 +3199,20 @@ sys(hideitem)</story>
 </item></itemdest>
 <itemdest dest="星雲原因拒用大鑰匙"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
 </item></itemdest>
+<itemdest dest="物品反應121"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應122"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應123"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應124"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應125"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應126"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應127"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
 </stage>
 <stage name="懷孕" next="懷結局">
 <room id="undefined" name="病床" >
@@ -3079,6 +3275,8 @@ END</story>
 <scene src="../db/pic/room/59775181.jpg" name="男廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
 <story>sys(showitem:染血信紙)得到染血信紙！！
+sys(remove:染血信紙)
+sys(give:染血信紙)
 
 sys(shock)
 
@@ -3160,6 +3358,30 @@ sys(give:銅製古董鑰匙-大)
 <option type="move">回答</option>
 <option type="use">使用物件</option>
 <itemdest dest="找到星雲"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應128"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應129"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應130"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應131"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應132"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應133"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應134"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應135"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應136"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應137"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="物品反應138"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
+<itemdest dest="物品反應139"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
 </item></itemdest>
 <dest dest="沒關係啦~~~~">我認錯了，她和我認識的星雲不一樣！</dest>
 <dest dest="神社廁所">我想上廁所啊！</dest>
@@ -3696,15 +3918,9 @@ sys(play:戰鬥)
 <sound name="食通先生櫻" src="../db/sound/music/65481254.mid"/>
 <story>銀行逃犯：……
 
-銀行逃犯：被趕出來了……
+被趕出來後，神社外面忽然變成廟會。
 
-銀行逃犯：這裡不一樣了？
-
-銀行逃犯：在辦廟會嗎？
-
-銀行逃犯：好香的味道……是……溫泉！！
-
-銀行逃犯：快過去看看！</story>
+銀行逃犯：好香……溫泉！先過去看看！</story>
 </stage>
 <stage name="無聊" next="?">
 <room id="undefined" name="藍天" >
@@ -3841,6 +4057,30 @@ sys(clearscreen)</story>
 <option type="use">使用物件</option>
 <itemdest dest="紅"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
 </item></itemdest>
+<itemdest dest="物品反應140"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應141"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應142"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應143"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應144"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應145"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應146"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應147"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應148"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應149"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應150"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
+<itemdest dest="物品反應151"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
 <dest dest="上廁所22">上廁所</dest>
 <dest dest="垃圾桶">翻垃圾桶</dest>
 <dest dest="馬桶水">喝馬桶水</dest>
@@ -3856,6 +4096,30 @@ sys(clearscreen)</story>
 <option type="move">行動</option>
 <option type="use">使用物件</option>
 <itemdest dest="紅"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應152"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應153"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應154"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應155"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應156"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應157"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應158"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應159"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應160"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應161"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="物品反應162"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
+<itemdest dest="物品反應163"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
 </item></itemdest>
 <dest dest="上廁所22">上廁所</dest>
 <dest dest="垃圾桶">翻垃圾桶</dest>
@@ -3884,6 +4148,30 @@ sys(clearscreen)</story>
 <option type="use">使用物件</option>
 <option type="move">回答</option>
 <itemdest dest="星雲與小琪"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應164"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應165"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應166"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應167"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應168"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應169"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應170"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應171"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應172"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應173"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="物品反應174"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
+<itemdest dest="物品反應175"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
 </item></itemdest>
 <dest dest="小琪下水道">啊……她和我認識的星雲不一樣，我搞錯了，對不起！</dest>
 </stage>
@@ -5035,6 +5323,20 @@ sys(clearscreen)</story>
 </item></itemdest>
 <itemdest dest="可玲拒收大鑰匙"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
 </item></itemdest>
+<itemdest dest="物品反應176"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應177"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應178"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應179"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應180"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應181"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應182"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
 </stage>
 <stage name="醫院" next="作者的寬宏大量">
 <room id="undefined" name="病床" >
@@ -5141,6 +5443,8 @@ sys(clearscreen)</story>
 <story>喔喔喔！把門打開了耶。
 
 sys(showitem:蟑螂)
+sys(remove:蟑螂)
+sys(give:蟑螂)
 
 獲得–可愛的小強！
 
@@ -5351,6 +5655,8 @@ END</story>
 銀行逃犯：這是……
 
 sys(showitem:信)獲得信件！
+sys(remove:信)
+sys(give:信)
 
 這是什麼啊?
 
@@ -5494,6 +5800,30 @@ sys(give:星雲)</story>
 <option type="use">使用物件</option>
 <itemdest dest="鈴兒與星雲1"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
 </item></itemdest>
+<itemdest dest="物品反應183"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應184"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應185"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應186"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應187"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應188"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應189"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應190"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應191"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應192"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應193"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="物品反應194"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
 </stage>
 <stage name="可玲說完了" next="?">
 <room id="undefined" name="女廁所" >
@@ -5543,6 +5873,30 @@ sys(clearscreen)
 <option type="use">使用物件</option>
 <itemdest dest="鈴兒與星雲1"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
 </item></itemdest>
+<itemdest dest="物品反應195"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應196"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應197"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應198"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應199"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應200"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應201"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應202"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應203"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應204"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應205"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="物品反應206"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
 </stage>
 <stage name="鈴兒與星雲1" next="?">
 <room id="undefined" name="神社拜拜處" >
@@ -5555,6 +5909,30 @@ sys(clearscreen)
 <expr type="which">要怎麼證明找到星雲了呢？</expr>
 <option type="use">使用物件</option>
 <itemdest dest="鈴兒星雲和解選擇"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+</item></itemdest>
+<itemdest dest="物品反應207"><item src="../db/pic/item/25476648.gif" name="藍色藥水" desc="神秘的藍色藥水，在不同的地方使用會有不同的功效，是個滿難得的物品。">
+</item></itemdest>
+<itemdest dest="物品反應208"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="物品反應209"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
+</item></itemdest>
+<itemdest dest="物品反應210"><item src="../db/pic/item/37679376.gif" name="染血信紙" desc="上面好像寫了什麼……?">
+</item></itemdest>
+<itemdest dest="物品反應211"><item src="../db/pic/item/95907882.gif" name="信" desc="被水泡爛的信紙……">
+</item></itemdest>
+<itemdest dest="物品反應212"><item src="../db/pic/item/44081488.gif" name="蟑螂" desc="可愛版蟑螂~^^">
+</item></itemdest>
+<itemdest dest="物品反應213"><item src="../db/pic/item/44084662.gif" name="心臟" desc="還在出血呢!">
+</item></itemdest>
+<itemdest dest="物品反應214"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+</item></itemdest>
+<itemdest dest="物品反應215"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+</item></itemdest>
+<itemdest dest="物品反應216"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<itemdest dest="物品反應217"><item src="../db/pic/item/58784771.gif" name="小雞玩具" desc="">
+</item></itemdest>
+<itemdest dest="物品反應218"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
 </item></itemdest>
 </stage>
 <stage name="鈴兒星雲和解選擇" next="?">
@@ -6779,5 +7157,2186 @@ sys(shock)
 sys(clearscreen)
 
 THE END</story>
+</stage>
+<!-- 全局物品誤用反應：讓每個可用物品場景都有合理回饋。 -->
+<stage name="物品反應001" next="2樓">
+<room id="undefined" name="家門" >
+<scene src="../db/pic/room/19642722.jpg" name="家門"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「藍色藥水」試試看。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。
+
+電梯前的大門只認鑰匙和神社氣息。</story>
+</stage>
+<stage name="物品反應002" next="2樓">
+<room id="undefined" name="家門" >
+<scene src="../db/pic/room/19642722.jpg" name="家門"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「紅色藥水」試試看。
+
+紅藥水發熱了一下，但這裡不是它該開的門。
+
+電梯前的大門只認鑰匙和神社氣息。</story>
+</stage>
+<stage name="物品反應003" next="2樓">
+<room id="undefined" name="家門" >
+<scene src="../db/pic/room/19642722.jpg" name="家門"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「怪老頭寫真集」試試看。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。
+
+電梯前的大門只認鑰匙和神社氣息。</story>
+</stage>
+<stage name="物品反應004" next="2樓">
+<room id="undefined" name="家門" >
+<scene src="../db/pic/room/19642722.jpg" name="家門"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「染血信紙」試試看。
+
+信紙上的血跡像在提醒你：先找對讀信的人。
+
+電梯前的大門只認鑰匙和神社氣息。</story>
+</stage>
+<stage name="物品反應005" next="2樓">
+<room id="undefined" name="家門" >
+<scene src="../db/pic/room/19642722.jpg" name="家門"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「信」試試看。
+
+泡爛的信貼在手上，字還是看不清。
+
+電梯前的大門只認鑰匙和神社氣息。</story>
+</stage>
+<stage name="物品反應006" next="2樓">
+<room id="undefined" name="家門" >
+<scene src="../db/pic/room/19642722.jpg" name="家門"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「蟑螂」試試看。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。
+
+電梯前的大門只認鑰匙和神社氣息。</story>
+</stage>
+<stage name="物品反應007" next="2樓">
+<room id="undefined" name="家門" >
+<scene src="../db/pic/room/19642722.jpg" name="家門"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「星雲」試試看。
+
+星雲的愛心微微發燙，像在說別亂用她。
+
+電梯前的大門只認鑰匙和神社氣息。</story>
+</stage>
+<stage name="物品反應008" next="2樓">
+<room id="undefined" name="家門" >
+<scene src="../db/pic/room/19642722.jpg" name="家門"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「心臟」試試看。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。
+
+電梯前的大門只認鑰匙和神社氣息。</story>
+</stage>
+<stage name="物品反應009" next="2樓">
+<room id="undefined" name="家門" >
+<scene src="../db/pic/room/19642722.jpg" name="家門"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「奇幻系列 紅藥水」試試看。
+
+奇幻紅藥水很努力發光，可惜契約不吃廉價版本。
+
+電梯前的大門只認鑰匙和神社氣息。</story>
+</stage>
+<stage name="物品反應010" next="2樓">
+<room id="undefined" name="家門" >
+<scene src="../db/pic/room/19642722.jpg" name="家門"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「小雞玩具」試試看。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。
+
+電梯前的大門只認鑰匙和神社氣息。</story>
+</stage>
+<stage name="物品反應011" next="3樓">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「藍色藥水」試試看。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。
+
+屋頂風太大，東西一拿出來就像被天空審問。</story>
+</stage>
+<stage name="物品反應012" next="3樓">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「紅色藥水」試試看。
+
+紅藥水發熱了一下，但這裡不是它該開的門。
+
+屋頂風太大，東西一拿出來就像被天空審問。</story>
+</stage>
+<stage name="物品反應013" next="3樓">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「怪老頭寫真集」試試看。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。
+
+屋頂風太大，東西一拿出來就像被天空審問。</story>
+</stage>
+<stage name="物品反應014" next="3樓">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「染血信紙」試試看。
+
+信紙上的血跡像在提醒你：先找對讀信的人。
+
+屋頂風太大，東西一拿出來就像被天空審問。</story>
+</stage>
+<stage name="物品反應015" next="3樓">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「信」試試看。
+
+泡爛的信貼在手上，字還是看不清。
+
+屋頂風太大，東西一拿出來就像被天空審問。</story>
+</stage>
+<stage name="物品反應016" next="3樓">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「蟑螂」試試看。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。
+
+屋頂風太大，東西一拿出來就像被天空審問。</story>
+</stage>
+<stage name="物品反應017" next="3樓">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「心臟」試試看。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。
+
+屋頂風太大，東西一拿出來就像被天空審問。</story>
+</stage>
+<stage name="物品反應018" next="3樓">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「銅製古董鑰匙-大」試試看。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。
+
+屋頂風太大，東西一拿出來就像被天空審問。</story>
+</stage>
+<stage name="物品反應019" next="3樓">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「醫療棉布」試試看。
+
+棉布吸到一點灰，沒有吸到答案。
+
+屋頂風太大，東西一拿出來就像被天空審問。</story>
+</stage>
+<stage name="物品反應020" next="3樓">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「小雞玩具」試試看。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。
+
+屋頂風太大，東西一拿出來就像被天空審問。</story>
+</stage>
+<stage name="物品反應021" next="4">
+<room id="undefined" name="旅館房間" >
+<scene src="../db/pic/room/19473024.jpg" name="旅館"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「藍色藥水」試試看。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。
+
+光明的路看似安全，其實只接受能指向神社的東西。</story>
+</stage>
+<stage name="物品反應022" next="4">
+<room id="undefined" name="旅館房間" >
+<scene src="../db/pic/room/19473024.jpg" name="旅館"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「紅色藥水」試試看。
+
+紅藥水發熱了一下，但這裡不是它該開的門。
+
+光明的路看似安全，其實只接受能指向神社的東西。</story>
+</stage>
+<stage name="物品反應023" next="4">
+<room id="undefined" name="旅館房間" >
+<scene src="../db/pic/room/19473024.jpg" name="旅館"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「怪老頭寫真集」試試看。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。
+
+光明的路看似安全，其實只接受能指向神社的東西。</story>
+</stage>
+<stage name="物品反應024" next="4">
+<room id="undefined" name="旅館房間" >
+<scene src="../db/pic/room/19473024.jpg" name="旅館"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「染血信紙」試試看。
+
+信紙上的血跡像在提醒你：先找對讀信的人。
+
+光明的路看似安全，其實只接受能指向神社的東西。</story>
+</stage>
+<stage name="物品反應025" next="4">
+<room id="undefined" name="旅館房間" >
+<scene src="../db/pic/room/19473024.jpg" name="旅館"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「信」試試看。
+
+泡爛的信貼在手上，字還是看不清。
+
+光明的路看似安全，其實只接受能指向神社的東西。</story>
+</stage>
+<stage name="物品反應026" next="4">
+<room id="undefined" name="旅館房間" >
+<scene src="../db/pic/room/19473024.jpg" name="旅館"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「蟑螂」試試看。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。
+
+光明的路看似安全，其實只接受能指向神社的東西。</story>
+</stage>
+<stage name="物品反應027" next="4">
+<room id="undefined" name="旅館房間" >
+<scene src="../db/pic/room/19473024.jpg" name="旅館"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「星雲」試試看。
+
+星雲的愛心微微發燙，像在說別亂用她。
+
+光明的路看似安全，其實只接受能指向神社的東西。</story>
+</stage>
+<stage name="物品反應028" next="4">
+<room id="undefined" name="旅館房間" >
+<scene src="../db/pic/room/19473024.jpg" name="旅館"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「心臟」試試看。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。
+
+光明的路看似安全，其實只接受能指向神社的東西。</story>
+</stage>
+<stage name="物品反應029" next="4">
+<room id="undefined" name="旅館房間" >
+<scene src="../db/pic/room/19473024.jpg" name="旅館"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「銅製古董鑰匙-大」試試看。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。
+
+光明的路看似安全，其實只接受能指向神社的東西。</story>
+</stage>
+<stage name="物品反應030" next="4">
+<room id="undefined" name="旅館房間" >
+<scene src="../db/pic/room/19473024.jpg" name="旅館"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「醫療棉布」試試看。
+
+棉布吸到一點灰，沒有吸到答案。
+
+光明的路看似安全，其實只接受能指向神社的東西。</story>
+</stage>
+<stage name="物品反應031" next="4">
+<room id="undefined" name="旅館房間" >
+<scene src="../db/pic/room/19473024.jpg" name="旅館"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「小雞玩具」試試看。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。
+
+光明的路看似安全，其實只接受能指向神社的東西。</story>
+</stage>
+<stage name="物品反應032" next="6">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「藍色藥水」試試看。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。
+
+黑暗裡有神社的氣味，普通物品幫不上忙。</story>
+</stage>
+<stage name="物品反應033" next="6">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「紅色藥水」試試看。
+
+紅藥水發熱了一下，但這裡不是它該開的門。
+
+黑暗裡有神社的氣味，普通物品幫不上忙。</story>
+</stage>
+<stage name="物品反應034" next="6">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「怪老頭寫真集」試試看。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。
+
+黑暗裡有神社的氣味，普通物品幫不上忙。</story>
+</stage>
+<stage name="物品反應035" next="6">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「染血信紙」試試看。
+
+信紙上的血跡像在提醒你：先找對讀信的人。
+
+黑暗裡有神社的氣味，普通物品幫不上忙。</story>
+</stage>
+<stage name="物品反應036" next="6">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「信」試試看。
+
+泡爛的信貼在手上，字還是看不清。
+
+黑暗裡有神社的氣味，普通物品幫不上忙。</story>
+</stage>
+<stage name="物品反應037" next="6">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「蟑螂」試試看。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。
+
+黑暗裡有神社的氣味，普通物品幫不上忙。</story>
+</stage>
+<stage name="物品反應038" next="6">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「星雲」試試看。
+
+星雲的愛心微微發燙，像在說別亂用她。
+
+黑暗裡有神社的氣味，普通物品幫不上忙。</story>
+</stage>
+<stage name="物品反應039" next="6">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「心臟」試試看。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。
+
+黑暗裡有神社的氣味，普通物品幫不上忙。</story>
+</stage>
+<stage name="物品反應040" next="6">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「銅製古董鑰匙-大」試試看。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。
+
+黑暗裡有神社的氣味，普通物品幫不上忙。</story>
+</stage>
+<stage name="物品反應041" next="6">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「醫療棉布」試試看。
+
+棉布吸到一點灰，沒有吸到答案。
+
+黑暗裡有神社的氣味，普通物品幫不上忙。</story>
+</stage>
+<stage name="物品反應042" next="6">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「奇幻系列 紅藥水」試試看。
+
+奇幻紅藥水很努力發光，可惜契約不吃廉價版本。
+
+黑暗裡有神社的氣味，普通物品幫不上忙。</story>
+</stage>
+<stage name="物品反應043" next="6">
+<room id="undefined" name="古代監牢" >
+<scene src="../db/pic/room/89642126.jpg" name="古代監牢"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「小雞玩具」試試看。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。
+
+黑暗裡有神社的氣味，普通物品幫不上忙。</story>
+</stage>
+<stage name="物品反應044" next="不知明的地方">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「藍色藥水」。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。
+
+教堂走廊的紅痕只對紅藥水有反應。</story>
+</stage>
+<stage name="物品反應045" next="不知明的地方">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「紅色藥水」。
+
+紅藥水發熱了一下，但這裡不是它該開的門。
+
+教堂走廊的紅痕只對紅藥水有反應。</story>
+</stage>
+<stage name="物品反應046" next="不知明的地方">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「怪老頭寫真集」。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。
+
+教堂走廊的紅痕只對紅藥水有反應。</story>
+</stage>
+<stage name="物品反應047" next="不知明的地方">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「染血信紙」。
+
+信紙上的血跡像在提醒你：先找對讀信的人。
+
+教堂走廊的紅痕只對紅藥水有反應。</story>
+</stage>
+<stage name="物品反應048" next="不知明的地方">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「信」。
+
+泡爛的信貼在手上，字還是看不清。
+
+教堂走廊的紅痕只對紅藥水有反應。</story>
+</stage>
+<stage name="物品反應049" next="不知明的地方">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「蟑螂」。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。
+
+教堂走廊的紅痕只對紅藥水有反應。</story>
+</stage>
+<stage name="物品反應050" next="不知明的地方">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「星雲」。
+
+星雲的愛心微微發燙，像在說別亂用她。
+
+教堂走廊的紅痕只對紅藥水有反應。</story>
+</stage>
+<stage name="物品反應051" next="不知明的地方">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「心臟」。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。
+
+教堂走廊的紅痕只對紅藥水有反應。</story>
+</stage>
+<stage name="物品反應052" next="不知明的地方">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「銅製古董鑰匙-大」。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。
+
+教堂走廊的紅痕只對紅藥水有反應。</story>
+</stage>
+<stage name="物品反應053" next="不知明的地方">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「醫療棉布」。
+
+棉布吸到一點灰，沒有吸到答案。
+
+教堂走廊的紅痕只對紅藥水有反應。</story>
+</stage>
+<stage name="物品反應054" next="不知明的地方">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「小雞玩具」。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。
+
+教堂走廊的紅痕只對紅藥水有反應。</story>
+</stage>
+<stage name="物品反應055" next="不知明的地方">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「骨灰罈」。
+
+骨灰罈變冷了一點，像在警告你別亂碰契約核心。
+
+教堂走廊的紅痕只對紅藥水有反應。</story>
+</stage>
+<stage name="物品反應056" next="不知明的地方-2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「藍色藥水」。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。
+
+這裡的契約門只認銀行內部的紅藥水。</story>
+</stage>
+<stage name="物品反應057" next="不知明的地方-2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「怪老頭寫真集」。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。
+
+這裡的契約門只認銀行內部的紅藥水。</story>
+</stage>
+<stage name="物品反應058" next="不知明的地方-2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「染血信紙」。
+
+信紙上的血跡像在提醒你：先找對讀信的人。
+
+這裡的契約門只認銀行內部的紅藥水。</story>
+</stage>
+<stage name="物品反應059" next="不知明的地方-2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「信」。
+
+泡爛的信貼在手上，字還是看不清。
+
+這裡的契約門只認銀行內部的紅藥水。</story>
+</stage>
+<stage name="物品反應060" next="不知明的地方-2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「蟑螂」。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。
+
+這裡的契約門只認銀行內部的紅藥水。</story>
+</stage>
+<stage name="物品反應061" next="不知明的地方-2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「星雲」。
+
+星雲的愛心微微發燙，像在說別亂用她。
+
+這裡的契約門只認銀行內部的紅藥水。</story>
+</stage>
+<stage name="物品反應062" next="不知明的地方-2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「心臟」。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。
+
+這裡的契約門只認銀行內部的紅藥水。</story>
+</stage>
+<stage name="物品反應063" next="不知明的地方-2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「銅製古董鑰匙-大」。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。
+
+這裡的契約門只認銀行內部的紅藥水。</story>
+</stage>
+<stage name="物品反應064" next="不知明的地方-2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「醫療棉布」。
+
+棉布吸到一點灰，沒有吸到答案。
+
+這裡的契約門只認銀行內部的紅藥水。</story>
+</stage>
+<stage name="物品反應065" next="不知明的地方-2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「奇幻系列 紅藥水」。
+
+奇幻紅藥水很努力發光，可惜契約不吃廉價版本。
+
+這裡的契約門只認銀行內部的紅藥水。</story>
+</stage>
+<stage name="物品反應066" next="不知明的地方-2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「小雞玩具」。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。
+
+這裡的契約門只認銀行內部的紅藥水。</story>
+</stage>
+<stage name="物品反應067" next="不知明的地方-2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「骨灰罈」。
+
+骨灰罈變冷了一點，像在警告你別亂碰契約核心。
+
+這裡的契約門只認銀行內部的紅藥水。</story>
+</stage>
+<stage name="物品反應068" next="不知明的地方2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「藍色藥水」。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。
+
+紅色印記還在等藥水，其他東西只會沾灰。</story>
+</stage>
+<stage name="物品反應069" next="不知明的地方2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「紅色藥水」。
+
+紅藥水發熱了一下，但這裡不是它該開的門。
+
+紅色印記還在等藥水，其他東西只會沾灰。</story>
+</stage>
+<stage name="物品反應070" next="不知明的地方2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「怪老頭寫真集」。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。
+
+紅色印記還在等藥水，其他東西只會沾灰。</story>
+</stage>
+<stage name="物品反應071" next="不知明的地方2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「染血信紙」。
+
+信紙上的血跡像在提醒你：先找對讀信的人。
+
+紅色印記還在等藥水，其他東西只會沾灰。</story>
+</stage>
+<stage name="物品反應072" next="不知明的地方2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「信」。
+
+泡爛的信貼在手上，字還是看不清。
+
+紅色印記還在等藥水，其他東西只會沾灰。</story>
+</stage>
+<stage name="物品反應073" next="不知明的地方2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「蟑螂」。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。
+
+紅色印記還在等藥水，其他東西只會沾灰。</story>
+</stage>
+<stage name="物品反應074" next="不知明的地方2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「星雲」。
+
+星雲的愛心微微發燙，像在說別亂用她。
+
+紅色印記還在等藥水，其他東西只會沾灰。</story>
+</stage>
+<stage name="物品反應075" next="不知明的地方2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「心臟」。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。
+
+紅色印記還在等藥水，其他東西只會沾灰。</story>
+</stage>
+<stage name="物品反應076" next="不知明的地方2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「銅製古董鑰匙-大」。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。
+
+紅色印記還在等藥水，其他東西只會沾灰。</story>
+</stage>
+<stage name="物品反應077" next="不知明的地方2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「醫療棉布」。
+
+棉布吸到一點灰，沒有吸到答案。
+
+紅色印記還在等藥水，其他東西只會沾灰。</story>
+</stage>
+<stage name="物品反應078" next="不知明的地方2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「小雞玩具」。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。
+
+紅色印記還在等藥水，其他東西只會沾灰。</story>
+</stage>
+<stage name="物品反應079" next="不知明的地方2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「骨灰罈」。
+
+骨灰罈變冷了一點，像在警告你別亂碰契約核心。
+
+紅色印記還在等藥水，其他東西只會沾灰。</story>
+</stage>
+<stage name="物品反應080" next="女廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「藍色藥水」試試看。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。
+
+這扇門很固執，只吃真正的鑰匙。</story>
+</stage>
+<stage name="物品反應081" next="女廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「紅色藥水」試試看。
+
+紅藥水發熱了一下，但這裡不是它該開的門。
+
+這扇門很固執，只吃真正的鑰匙。</story>
+</stage>
+<stage name="物品反應082" next="女廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「怪老頭寫真集」試試看。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。
+
+這扇門很固執，只吃真正的鑰匙。</story>
+</stage>
+<stage name="物品反應083" next="女廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「染血信紙」試試看。
+
+信紙上的血跡像在提醒你：先找對讀信的人。
+
+這扇門很固執，只吃真正的鑰匙。</story>
+</stage>
+<stage name="物品反應084" next="女廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「信」試試看。
+
+泡爛的信貼在手上，字還是看不清。
+
+這扇門很固執，只吃真正的鑰匙。</story>
+</stage>
+<stage name="物品反應085" next="女廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「蟑螂」試試看。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。
+
+這扇門很固執，只吃真正的鑰匙。</story>
+</stage>
+<stage name="物品反應086" next="女廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「星雲」試試看。
+
+星雲的愛心微微發燙，像在說別亂用她。
+
+這扇門很固執，只吃真正的鑰匙。</story>
+</stage>
+<stage name="物品反應087" next="女廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「心臟」試試看。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。
+
+這扇門很固執，只吃真正的鑰匙。</story>
+</stage>
+<stage name="物品反應088" next="女廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「醫療棉布」試試看。
+
+棉布吸到一點灰，沒有吸到答案。
+
+這扇門很固執，只吃真正的鑰匙。</story>
+</stage>
+<stage name="物品反應089" next="女廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「奇幻系列 紅藥水」試試看。
+
+奇幻紅藥水很努力發光，可惜契約不吃廉價版本。
+
+這扇門很固執，只吃真正的鑰匙。</story>
+</stage>
+<stage name="物品反應090" next="女廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「小雞玩具」試試看。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。
+
+這扇門很固執，只吃真正的鑰匙。</story>
+</stage>
+<stage name="物品反應091" next="女廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「骨灰罈」試試看。
+
+骨灰罈變冷了一點，像在警告你別亂碰契約核心。
+
+這扇門很固執，只吃真正的鑰匙。</story>
+</stage>
+<stage name="物品反應092" next="廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「藍色藥水」呢？
+
+可玲[普通]: 可玲在等能證明怪老頭身分的東西。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。</story>
+</stage>
+<stage name="物品反應093" next="廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「紅色藥水」呢？
+
+可玲[普通]: 可玲在等能證明怪老頭身分的東西。
+
+紅藥水發熱了一下，但這裡不是它該開的門。</story>
+</stage>
+<stage name="物品反應094" next="廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「染血信紙」呢？
+
+可玲[普通]: 可玲在等能證明怪老頭身分的東西。
+
+信紙上的血跡像在提醒你：先找對讀信的人。</story>
+</stage>
+<stage name="物品反應095" next="廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「信」呢？
+
+可玲[普通]: 可玲在等能證明怪老頭身分的東西。
+
+泡爛的信貼在手上，字還是看不清。</story>
+</stage>
+<stage name="物品反應096" next="廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「蟑螂」呢？
+
+可玲[普通]: 可玲在等能證明怪老頭身分的東西。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。</story>
+</stage>
+<stage name="物品反應097" next="廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「心臟」呢？
+
+可玲[普通]: 可玲在等能證明怪老頭身分的東西。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。</story>
+</stage>
+<stage name="物品反應098" next="廁所2">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「小雞玩具」呢？
+
+可玲[普通]: 可玲在等能證明怪老頭身分的東西。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。</story>
+</stage>
+<stage name="物品反應099" next="不知明的地方-星雲原因">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「藍色藥水」。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。
+
+契約走廊正在找紅藥水，不是在開雜貨店。</story>
+</stage>
+<stage name="物品反應100" next="不知明的地方-星雲原因">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「怪老頭寫真集」。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。
+
+契約走廊正在找紅藥水，不是在開雜貨店。</story>
+</stage>
+<stage name="物品反應101" next="不知明的地方-星雲原因">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「染血信紙」。
+
+信紙上的血跡像在提醒你：先找對讀信的人。
+
+契約走廊正在找紅藥水，不是在開雜貨店。</story>
+</stage>
+<stage name="物品反應102" next="不知明的地方-星雲原因">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「信」。
+
+泡爛的信貼在手上，字還是看不清。
+
+契約走廊正在找紅藥水，不是在開雜貨店。</story>
+</stage>
+<stage name="物品反應103" next="不知明的地方-星雲原因">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「蟑螂」。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。
+
+契約走廊正在找紅藥水，不是在開雜貨店。</story>
+</stage>
+<stage name="物品反應104" next="不知明的地方-星雲原因">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「星雲」。
+
+星雲的愛心微微發燙，像在說別亂用她。
+
+契約走廊正在找紅藥水，不是在開雜貨店。</story>
+</stage>
+<stage name="物品反應105" next="不知明的地方-星雲原因">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「心臟」。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。
+
+契約走廊正在找紅藥水，不是在開雜貨店。</story>
+</stage>
+<stage name="物品反應106" next="不知明的地方-星雲原因">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「銅製古董鑰匙-大」。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。
+
+契約走廊正在找紅藥水，不是在開雜貨店。</story>
+</stage>
+<stage name="物品反應107" next="不知明的地方-星雲原因">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「醫療棉布」。
+
+棉布吸到一點灰，沒有吸到答案。
+
+契約走廊正在找紅藥水，不是在開雜貨店。</story>
+</stage>
+<stage name="物品反應108" next="不知明的地方-星雲原因">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「小雞玩具」。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。
+
+契約走廊正在找紅藥水，不是在開雜貨店。</story>
+</stage>
+<stage name="物品反應109" next="不知明的地方-星雲原因">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「骨灰罈」。
+
+骨灰罈變冷了一點，像在警告你別亂碰契約核心。
+
+契約走廊正在找紅藥水，不是在開雜貨店。</story>
+</stage>
+<stage name="物品反應110" next="不知明的地方-星雲原因2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「藍色藥水」。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。
+
+焦味底下是紅藥水能打開的舊路。</story>
+</stage>
+<stage name="物品反應111" next="不知明的地方-星雲原因2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「怪老頭寫真集」。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。
+
+焦味底下是紅藥水能打開的舊路。</story>
+</stage>
+<stage name="物品反應112" next="不知明的地方-星雲原因2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「染血信紙」。
+
+信紙上的血跡像在提醒你：先找對讀信的人。
+
+焦味底下是紅藥水能打開的舊路。</story>
+</stage>
+<stage name="物品反應113" next="不知明的地方-星雲原因2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「信」。
+
+泡爛的信貼在手上，字還是看不清。
+
+焦味底下是紅藥水能打開的舊路。</story>
+</stage>
+<stage name="物品反應114" next="不知明的地方-星雲原因2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「蟑螂」。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。
+
+焦味底下是紅藥水能打開的舊路。</story>
+</stage>
+<stage name="物品反應115" next="不知明的地方-星雲原因2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「星雲」。
+
+星雲的愛心微微發燙，像在說別亂用她。
+
+焦味底下是紅藥水能打開的舊路。</story>
+</stage>
+<stage name="物品反應116" next="不知明的地方-星雲原因2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「心臟」。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。
+
+焦味底下是紅藥水能打開的舊路。</story>
+</stage>
+<stage name="物品反應117" next="不知明的地方-星雲原因2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「銅製古董鑰匙-大」。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。
+
+焦味底下是紅藥水能打開的舊路。</story>
+</stage>
+<stage name="物品反應118" next="不知明的地方-星雲原因2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「醫療棉布」。
+
+棉布吸到一點灰，沒有吸到答案。
+
+焦味底下是紅藥水能打開的舊路。</story>
+</stage>
+<stage name="物品反應119" next="不知明的地方-星雲原因2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「小雞玩具」。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。
+
+焦味底下是紅藥水能打開的舊路。</story>
+</stage>
+<stage name="物品反應120" next="不知明的地方-星雲原因2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「骨灰罈」。
+
+骨灰罈變冷了一點，像在警告你別亂碰契約核心。
+
+焦味底下是紅藥水能打開的舊路。</story>
+</stage>
+<stage name="物品反應121" next="廁所2-星雲原因">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「藍色藥水」呢？
+
+可玲[普通]: 可玲要的是能對上依稀靈淒的證物。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。</story>
+</stage>
+<stage name="物品反應122" next="廁所2-星雲原因">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「紅色藥水」呢？
+
+可玲[普通]: 可玲要的是能對上依稀靈淒的證物。
+
+紅藥水發熱了一下，但這裡不是它該開的門。</story>
+</stage>
+<stage name="物品反應123" next="廁所2-星雲原因">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「染血信紙」呢？
+
+可玲[普通]: 可玲要的是能對上依稀靈淒的證物。
+
+信紙上的血跡像在提醒你：先找對讀信的人。</story>
+</stage>
+<stage name="物品反應124" next="廁所2-星雲原因">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「信」呢？
+
+可玲[普通]: 可玲要的是能對上依稀靈淒的證物。
+
+泡爛的信貼在手上，字還是看不清。</story>
+</stage>
+<stage name="物品反應125" next="廁所2-星雲原因">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「蟑螂」呢？
+
+可玲[普通]: 可玲要的是能對上依稀靈淒的證物。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。</story>
+</stage>
+<stage name="物品反應126" next="廁所2-星雲原因">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「心臟」呢？
+
+可玲[普通]: 可玲要的是能對上依稀靈淒的證物。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。</story>
+</stage>
+<stage name="物品反應127" next="廁所2-星雲原因">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「小雞玩具」呢？
+
+可玲[普通]: 可玲要的是能對上依稀靈淒的證物。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。</story>
+</stage>
+<stage name="物品反應128" next="找到了！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「藍色藥水」試試看。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。
+
+鈴兒要確認你找到的是星雲，不是亂撿的東西。</story>
+</stage>
+<stage name="物品反應129" next="找到了！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「紅色藥水」試試看。
+
+紅藥水發熱了一下，但這裡不是它該開的門。
+
+鈴兒要確認你找到的是星雲，不是亂撿的東西。</story>
+</stage>
+<stage name="物品反應130" next="找到了！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「怪老頭寫真集」試試看。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。
+
+鈴兒要確認你找到的是星雲，不是亂撿的東西。</story>
+</stage>
+<stage name="物品反應131" next="找到了！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「染血信紙」試試看。
+
+信紙上的血跡像在提醒你：先找對讀信的人。
+
+鈴兒要確認你找到的是星雲，不是亂撿的東西。</story>
+</stage>
+<stage name="物品反應132" next="找到了！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「信」試試看。
+
+泡爛的信貼在手上，字還是看不清。
+
+鈴兒要確認你找到的是星雲，不是亂撿的東西。</story>
+</stage>
+<stage name="物品反應133" next="找到了！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「蟑螂」試試看。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。
+
+鈴兒要確認你找到的是星雲，不是亂撿的東西。</story>
+</stage>
+<stage name="物品反應134" next="找到了！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「心臟」試試看。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。
+
+鈴兒要確認你找到的是星雲，不是亂撿的東西。</story>
+</stage>
+<stage name="物品反應135" next="找到了！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「銅製古董鑰匙-大」試試看。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。
+
+鈴兒要確認你找到的是星雲，不是亂撿的東西。</story>
+</stage>
+<stage name="物品反應136" next="找到了！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「醫療棉布」試試看。
+
+棉布吸到一點灰，沒有吸到答案。
+
+鈴兒要確認你找到的是星雲，不是亂撿的東西。</story>
+</stage>
+<stage name="物品反應137" next="找到了！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「奇幻系列 紅藥水」試試看。
+
+奇幻紅藥水很努力發光，可惜契約不吃廉價版本。
+
+鈴兒要確認你找到的是星雲，不是亂撿的東西。</story>
+</stage>
+<stage name="物品反應138" next="找到了！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「小雞玩具」試試看。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。
+
+鈴兒要確認你找到的是星雲，不是亂撿的東西。</story>
+</stage>
+<stage name="物品反應139" next="找到了！">
+<room id="undefined" name="和風個室" >
+<scene src="../db/pic/room/87415183.jpg" name="和風個室"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：拿「骨灰罈」試試看。
+
+骨灰罈變冷了一點，像在警告你別亂碰契約核心。
+
+鈴兒要確認你找到的是星雲，不是亂撿的東西。</story>
+</stage>
+<stage name="物品反應140" next="男廁所">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「藍色藥水」。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。
+
+男廁的紅色印記只理紅藥水。</story>
+</stage>
+<stage name="物品反應141" next="男廁所">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「紅色藥水」。
+
+紅藥水發熱了一下，但這裡不是它該開的門。
+
+男廁的紅色印記只理紅藥水。</story>
+</stage>
+<stage name="物品反應142" next="男廁所">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「怪老頭寫真集」。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。
+
+男廁的紅色印記只理紅藥水。</story>
+</stage>
+<stage name="物品反應143" next="男廁所">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「染血信紙」。
+
+信紙上的血跡像在提醒你：先找對讀信的人。
+
+男廁的紅色印記只理紅藥水。</story>
+</stage>
+<stage name="物品反應144" next="男廁所">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「信」。
+
+泡爛的信貼在手上，字還是看不清。
+
+男廁的紅色印記只理紅藥水。</story>
+</stage>
+<stage name="物品反應145" next="男廁所">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「蟑螂」。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。
+
+男廁的紅色印記只理紅藥水。</story>
+</stage>
+<stage name="物品反應146" next="男廁所">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「星雲」。
+
+星雲的愛心微微發燙，像在說別亂用她。
+
+男廁的紅色印記只理紅藥水。</story>
+</stage>
+<stage name="物品反應147" next="男廁所">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「心臟」。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。
+
+男廁的紅色印記只理紅藥水。</story>
+</stage>
+<stage name="物品反應148" next="男廁所">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「銅製古董鑰匙-大」。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。
+
+男廁的紅色印記只理紅藥水。</story>
+</stage>
+<stage name="物品反應149" next="男廁所">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「醫療棉布」。
+
+棉布吸到一點灰，沒有吸到答案。
+
+男廁的紅色印記只理紅藥水。</story>
+</stage>
+<stage name="物品反應150" next="男廁所">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「小雞玩具」。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。
+
+男廁的紅色印記只理紅藥水。</story>
+</stage>
+<stage name="物品反應151" next="男廁所">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「骨灰罈」。
+
+骨灰罈變冷了一點，像在警告你別亂碰契約核心。
+
+男廁的紅色印記只理紅藥水。</story>
+</stage>
+<stage name="物品反應152" next="男廁所-22">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「藍色藥水」。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。
+
+馬桶旁的紅痕很挑，只跟銀行紅藥水合作。</story>
+</stage>
+<stage name="物品反應153" next="男廁所-22">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「怪老頭寫真集」。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。
+
+馬桶旁的紅痕很挑，只跟銀行紅藥水合作。</story>
+</stage>
+<stage name="物品反應154" next="男廁所-22">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「染血信紙」。
+
+信紙上的血跡像在提醒你：先找對讀信的人。
+
+馬桶旁的紅痕很挑，只跟銀行紅藥水合作。</story>
+</stage>
+<stage name="物品反應155" next="男廁所-22">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「信」。
+
+泡爛的信貼在手上，字還是看不清。
+
+馬桶旁的紅痕很挑，只跟銀行紅藥水合作。</story>
+</stage>
+<stage name="物品反應156" next="男廁所-22">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「蟑螂」。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。
+
+馬桶旁的紅痕很挑，只跟銀行紅藥水合作。</story>
+</stage>
+<stage name="物品反應157" next="男廁所-22">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「星雲」。
+
+星雲的愛心微微發燙，像在說別亂用她。
+
+馬桶旁的紅痕很挑，只跟銀行紅藥水合作。</story>
+</stage>
+<stage name="物品反應158" next="男廁所-22">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「心臟」。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。
+
+馬桶旁的紅痕很挑，只跟銀行紅藥水合作。</story>
+</stage>
+<stage name="物品反應159" next="男廁所-22">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「銅製古董鑰匙-大」。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。
+
+馬桶旁的紅痕很挑，只跟銀行紅藥水合作。</story>
+</stage>
+<stage name="物品反應160" next="男廁所-22">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「醫療棉布」。
+
+棉布吸到一點灰，沒有吸到答案。
+
+馬桶旁的紅痕很挑，只跟銀行紅藥水合作。</story>
+</stage>
+<stage name="物品反應161" next="男廁所-22">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「奇幻系列 紅藥水」。
+
+奇幻紅藥水很努力發光，可惜契約不吃廉價版本。
+
+馬桶旁的紅痕很挑，只跟銀行紅藥水合作。</story>
+</stage>
+<stage name="物品反應162" next="男廁所-22">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「小雞玩具」。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。
+
+馬桶旁的紅痕很挑，只跟銀行紅藥水合作。</story>
+</stage>
+<stage name="物品反應163" next="男廁所-22">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：試試「骨灰罈」。
+
+骨灰罈變冷了一點，像在警告你別亂碰契約核心。
+
+馬桶旁的紅痕很挑，只跟銀行紅藥水合作。</story>
+</stage>
+<stage name="物品反應164" next="看見">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：小琪，這個「藍色藥水」可以證明嗎？
+
+小琪[平常]: 小琪想看的是那個紅衣女孩的證明。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。</story>
+</stage>
+<stage name="物品反應165" next="看見">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：小琪，這個「紅色藥水」可以證明嗎？
+
+小琪[平常]: 小琪想看的是那個紅衣女孩的證明。
+
+紅藥水發熱了一下，但這裡不是它該開的門。</story>
+</stage>
+<stage name="物品反應166" next="看見">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：小琪，這個「怪老頭寫真集」可以證明嗎？
+
+小琪[平常]: 小琪想看的是那個紅衣女孩的證明。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。</story>
+</stage>
+<stage name="物品反應167" next="看見">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：小琪，這個「染血信紙」可以證明嗎？
+
+小琪[平常]: 小琪想看的是那個紅衣女孩的證明。
+
+信紙上的血跡像在提醒你：先找對讀信的人。</story>
+</stage>
+<stage name="物品反應168" next="看見">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：小琪，這個「信」可以證明嗎？
+
+小琪[平常]: 小琪想看的是那個紅衣女孩的證明。
+
+泡爛的信貼在手上，字還是看不清。</story>
+</stage>
+<stage name="物品反應169" next="看見">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：小琪，這個「蟑螂」可以證明嗎？
+
+小琪[平常]: 小琪想看的是那個紅衣女孩的證明。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。</story>
+</stage>
+<stage name="物品反應170" next="看見">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：小琪，這個「心臟」可以證明嗎？
+
+小琪[平常]: 小琪想看的是那個紅衣女孩的證明。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。</story>
+</stage>
+<stage name="物品反應171" next="看見">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：小琪，這個「銅製古董鑰匙-大」可以證明嗎？
+
+小琪[平常]: 小琪想看的是那個紅衣女孩的證明。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。</story>
+</stage>
+<stage name="物品反應172" next="看見">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：小琪，這個「醫療棉布」可以證明嗎？
+
+小琪[平常]: 小琪想看的是那個紅衣女孩的證明。
+
+棉布吸到一點灰，沒有吸到答案。</story>
+</stage>
+<stage name="物品反應173" next="看見">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：小琪，這個「奇幻系列 紅藥水」可以證明嗎？
+
+小琪[平常]: 小琪想看的是那個紅衣女孩的證明。
+
+奇幻紅藥水很努力發光，可惜契約不吃廉價版本。</story>
+</stage>
+<stage name="物品反應174" next="看見">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：小琪，這個「小雞玩具」可以證明嗎？
+
+小琪[平常]: 小琪想看的是那個紅衣女孩的證明。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。</story>
+</stage>
+<stage name="物品反應175" next="看見">
+<room id="undefined" name="古代地下水道" >
+<scene src="../db/pic/room/13046907.jpg" name="古代地下水道"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：小琪，這個「骨灰罈」可以證明嗎？
+
+小琪[平常]: 小琪想看的是那個紅衣女孩的證明。
+
+骨灰罈變冷了一點，像在警告你別亂碰契約核心。</story>
+</stage>
+<stage name="物品反應176" next="選物品">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「藍色藥水」呢？
+
+可玲[普通]: 可玲在等能證明怪老頭身分的東西。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。</story>
+</stage>
+<stage name="物品反應177" next="選物品">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「紅色藥水」呢？
+
+可玲[普通]: 可玲在等能證明怪老頭身分的東西。
+
+紅藥水發熱了一下，但這裡不是它該開的門。</story>
+</stage>
+<stage name="物品反應178" next="選物品">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「染血信紙」呢？
+
+可玲[普通]: 可玲在等能證明怪老頭身分的東西。
+
+信紙上的血跡像在提醒你：先找對讀信的人。</story>
+</stage>
+<stage name="物品反應179" next="選物品">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「信」呢？
+
+可玲[普通]: 可玲在等能證明怪老頭身分的東西。
+
+泡爛的信貼在手上，字還是看不清。</story>
+</stage>
+<stage name="物品反應180" next="選物品">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「蟑螂」呢？
+
+可玲[普通]: 可玲在等能證明怪老頭身分的東西。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。</story>
+</stage>
+<stage name="物品反應181" next="選物品">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「心臟」呢？
+
+可玲[普通]: 可玲在等能證明怪老頭身分的東西。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。</story>
+</stage>
+<stage name="物品反應182" next="選物品">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那用「小雞玩具」呢？
+
+可玲[普通]: 可玲在等能證明怪老頭身分的東西。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。</story>
+</stage>
+<stage name="物品反應183" next="可玲整理跳過">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「藍色藥水」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。</story>
+</stage>
+<stage name="物品反應184" next="可玲整理跳過">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「紅色藥水」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+紅藥水發熱了一下，但這裡不是它該開的門。</story>
+</stage>
+<stage name="物品反應185" next="可玲整理跳過">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「怪老頭寫真集」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。</story>
+</stage>
+<stage name="物品反應186" next="可玲整理跳過">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「染血信紙」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+信紙上的血跡像在提醒你：先找對讀信的人。</story>
+</stage>
+<stage name="物品反應187" next="可玲整理跳過">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「信」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+泡爛的信貼在手上，字還是看不清。</story>
+</stage>
+<stage name="物品反應188" next="可玲整理跳過">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「蟑螂」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。</story>
+</stage>
+<stage name="物品反應189" next="可玲整理跳過">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「星雲」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+星雲的愛心微微發燙，像在說別亂用她。</story>
+</stage>
+<stage name="物品反應190" next="可玲整理跳過">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「心臟」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。</story>
+</stage>
+<stage name="物品反應191" next="可玲整理跳過">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「銅製古董鑰匙-大」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。</story>
+</stage>
+<stage name="物品反應192" next="可玲整理跳過">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「醫療棉布」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+棉布吸到一點灰，沒有吸到答案。</story>
+</stage>
+<stage name="物品反應193" next="可玲整理跳過">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「奇幻系列 紅藥水」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+奇幻紅藥水很努力發光，可惜契約不吃廉價版本。</story>
+</stage>
+<stage name="物品反應194" next="可玲整理跳過">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「小雞玩具」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。</story>
+</stage>
+<stage name="物品反應195" next="可玲說完了">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「藍色藥水」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。</story>
+</stage>
+<stage name="物品反應196" next="可玲說完了">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「紅色藥水」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+紅藥水發熱了一下，但這裡不是它該開的門。</story>
+</stage>
+<stage name="物品反應197" next="可玲說完了">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「怪老頭寫真集」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。</story>
+</stage>
+<stage name="物品反應198" next="可玲說完了">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「染血信紙」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+信紙上的血跡像在提醒你：先找對讀信的人。</story>
+</stage>
+<stage name="物品反應199" next="可玲說完了">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「信」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+泡爛的信貼在手上，字還是看不清。</story>
+</stage>
+<stage name="物品反應200" next="可玲說完了">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「蟑螂」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。</story>
+</stage>
+<stage name="物品反應201" next="可玲說完了">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「星雲」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+星雲的愛心微微發燙，像在說別亂用她。</story>
+</stage>
+<stage name="物品反應202" next="可玲說完了">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「心臟」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。</story>
+</stage>
+<stage name="物品反應203" next="可玲說完了">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「銅製古董鑰匙-大」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。</story>
+</stage>
+<stage name="物品反應204" next="可玲說完了">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「醫療棉布」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+棉布吸到一點灰，沒有吸到答案。</story>
+</stage>
+<stage name="物品反應205" next="可玲說完了">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「奇幻系列 紅藥水」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+奇幻紅藥水很努力發光，可惜契約不吃廉價版本。</story>
+</stage>
+<stage name="物品反應206" next="可玲說完了">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「小雞玩具」可以嗎？
+
+鈴兒[不安]: 現在要把星雲帶去神社，骨灰才是路標。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。</story>
+</stage>
+<stage name="物品反應207" next="鈴兒與星雲1">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「藍色藥水」可以嗎？
+
+鈴兒[不安]: 鈴兒要見的是星雲，不是其他線索。
+
+藍色藥水晃了晃，沒有打開路，只讓氣氛更像奇幻遊戲。</story>
+</stage>
+<stage name="物品反應208" next="鈴兒與星雲1">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「紅色藥水」可以嗎？
+
+鈴兒[不安]: 鈴兒要見的是星雲，不是其他線索。
+
+紅藥水發熱了一下，但這裡不是它該開的門。</story>
+</stage>
+<stage name="物品反應209" next="鈴兒與星雲1">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「怪老頭寫真集」可以嗎？
+
+鈴兒[不安]: 鈴兒要見的是星雲，不是其他線索。
+
+寫真集一翻開，空氣沉默了。線索有用，但不是現在。</story>
+</stage>
+<stage name="物品反應210" next="鈴兒與星雲1">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「染血信紙」可以嗎？
+
+鈴兒[不安]: 鈴兒要見的是星雲，不是其他線索。
+
+信紙上的血跡像在提醒你：先找對讀信的人。</story>
+</stage>
+<stage name="物品反應211" next="鈴兒與星雲1">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「信」可以嗎？
+
+鈴兒[不安]: 鈴兒要見的是星雲，不是其他線索。
+
+泡爛的信貼在手上，字還是看不清。</story>
+</stage>
+<stage name="物品反應212" next="鈴兒與星雲1">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「蟑螂」可以嗎？
+
+鈴兒[不安]: 鈴兒要見的是星雲，不是其他線索。
+
+蟑螂很有精神，可惜牠不是萬能鑰匙。</story>
+</stage>
+<stage name="物品反應213" next="鈴兒與星雲1">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「心臟」可以嗎？
+
+鈴兒[不安]: 鈴兒要見的是星雲，不是其他線索。
+
+心臟還在跳。你決定不要在這裡表演醫學奇蹟。</story>
+</stage>
+<stage name="物品反應214" next="鈴兒與星雲1">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「銅製古董鑰匙-大」可以嗎？
+
+鈴兒[不安]: 鈴兒要見的是星雲，不是其他線索。
+
+大鑰匙撞出清脆一聲，但沒有鎖孔就只是大聲。</story>
+</stage>
+<stage name="物品反應215" next="鈴兒與星雲1">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「醫療棉布」可以嗎？
+
+鈴兒[不安]: 鈴兒要見的是星雲，不是其他線索。
+
+棉布吸到一點灰，沒有吸到答案。</story>
+</stage>
+<stage name="物品反應216" next="鈴兒與星雲1">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「奇幻系列 紅藥水」可以嗎？
+
+鈴兒[不安]: 鈴兒要見的是星雲，不是其他線索。
+
+奇幻紅藥水很努力發光，可惜契約不吃廉價版本。</story>
+</stage>
+<stage name="物品反應217" next="鈴兒與星雲1">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「小雞玩具」可以嗎？
+
+鈴兒[不安]: 鈴兒要見的是星雲，不是其他線索。
+
+小雞玩具啾了一聲，莊嚴感當場死亡。</story>
+</stage>
+<stage name="物品反應218" next="鈴兒與星雲1">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個「骨灰罈」可以嗎？
+
+鈴兒[不安]: 鈴兒要見的是星雲，不是其他線索。
+
+骨灰罈變冷了一點，像在警告你別亂碰契約核心。</story>
 </stage>
 </game>
