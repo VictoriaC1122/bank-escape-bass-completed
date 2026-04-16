@@ -959,20 +959,7 @@ sys(clearscreen)</story>
 <scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
 </room>
 <sound name="輕鬆音樂" src="../db/sound/music/85386446.mid"/>
-<story>sys(remove:星雲)
-sys(remove:骨灰罈)
-sys(remove:紅色藥水)
-sys(remove:奇幻系列 紅藥水)
-sys(remove:銅製古董鑰匙-大)
-sys(remove:醫療棉布)
-sys(remove:怪老頭寫真集)
-sys(remove:信)
-sys(remove:染血信紙)
-sys(remove:蟑螂)
-sys(remove:小雞玩具)
-sys(remove:心臟)
-sys(remove:藍色藥水)
-sys(clearscreen)</story>
+<story>sys(remove:星雲,remove:骨灰罈,remove:紅色藥水,remove:奇幻系列 紅藥水,remove:銅製古董鑰匙-大,remove:醫療棉布,remove:怪老頭寫真集,remove:信,remove:染血信紙,remove:蟑螂,remove:小雞玩具,remove:心臟,remove:藍色藥水,clearscreen)</story>
 <expr type="where">請問要……</expr>
 <option type="move">選擇選項</option>
 <dest dest="要開始囉~">開始</dest>
