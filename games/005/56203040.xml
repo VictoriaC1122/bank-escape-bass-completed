@@ -1041,7 +1041,7 @@ sys(give:怪老頭寫真集)</story>
 <itemdest dest="紅"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
 </item></itemdest>
 <dest dest="亂逛">亂逛</dest>
-<dest dest="舔地板">舔地板</dest>
+<dest dest="舔地板-星雲原因">舔地板</dest>
 </stage>
 <stage name="不知明的地方-2" next="?">
 <room id="undefined" name="教堂走廊" >
@@ -1058,7 +1058,7 @@ sys(give:怪老頭寫真集)</story>
 <option type="use">使用物件</option>
 <itemdest dest="紅"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
 </item></itemdest>
-<dest dest="舔地板">舔地板</dest>
+<dest dest="舔地板-星雲原因">舔地板</dest>
 </stage>
 <stage name="不知明的地方2" next="?">
 <room id="undefined" name="教堂走廊" >
@@ -2644,10 +2644,129 @@ sys(showitem:星雲)
 sys(hideitem)</story>
 <expr type="where">要從哪裡查星雲被綁住的原因？</expr>
 <option type="move">選擇選項</option>
-<dest dest="亂逛">追查怪老頭與骨灰</dest>
+<dest dest="亂逛-星雲原因">追查怪老頭與骨灰</dest>
 <dest dest="廁所2-星雲原因">躲進女廁問那個神秘女聲</dest>
-<dest dest="不知明的地方">去教堂走廊查出口</dest>
-<dest dest="井口">去井口確認神社氣息</dest>
+<dest dest="不知明的地方-星雲原因">去教堂走廊查出口</dest>
+<dest dest="井口-星雲原因">去井口確認神社氣息</dest>
+</stage>
+<stage name="亂逛-星雲原因" next="不知明的地方-星雲原因2">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：先追怪老頭和骨灰那條線吧。
+
+怪老頭[啊]: 啊，是你啊！上次把我骨灰帶走的人！！
+
+銀行逃犯：我現在沒空跟你比誰比較怪。星雲變成愛心以後昏了，這跟你的骨灰有關嗎？
+
+怪老頭[喔唷]: 嘻嘻，問到重點了。我的骨灰是神社契約的鑰匙，星雲的力量是那把鎖吃下去的燈油。
+
+銀行逃犯：可以講人話嗎？
+
+依希靈淒[閉眼]: 她不是被困在你身邊，她是在用自己撐住出口。你若只想逃，她會越來越暗。
+
+銀行逃犯：所以我要找契約本體。
+
+依希靈淒[普通]: 去教堂走廊吧。那裡有銀行高層留下的紅色痕跡。</story>
+</stage>
+<stage name="不知明的地方-星雲原因" next="?">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story>這裡像教堂，又像銀行的走廊。
+
+星雲變成的愛心在這裡微微發燙。
+
+銀行逃犯：不是找人，是找契約痕跡。好，這次我記得了。
+
+地板上有一圈淡淡的紅色印記，像是有人把出口藏在血和印章中間。</story>
+<expr type="which">請問要使用什麼物件？</expr>
+<expr type="where">要調查什麼？</expr>
+<option type="use">使用物件</option>
+<option type="move">行動</option>
+<itemdest dest="紅-星雲原因"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="紅-星雲原因"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<dest dest="舔地板">舔地板</dest>
+<dest dest="調查星雲原因">先回頭整理線索</dest>
+</stage>
+<stage name="不知明的地方-星雲原因2" next="?">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>怪老頭消失後，教堂走廊只剩一股焦味。
+
+愛心在掌心跳了一下，像是在提醒你：這裡有舊契約。</story>
+<expr type="which">請問要使用什麼物件？</expr>
+<expr type="where">要調查什麼？</expr>
+<option type="use">使用物件</option>
+<option type="move">行動</option>
+<itemdest dest="紅-星雲原因"><item src="../db/pic/item/11677229.gif" name="紅色藥水" desc="神祕的紅藥水，能通往銀行的密室，是內部的高層人員才能持有的高檔物品。">
+</item></itemdest>
+<itemdest dest="紅-星雲原因"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+</item></itemdest>
+<dest dest="舔地板">舔地板</dest>
+<dest dest="調查星雲原因">先回頭整理線索</dest>
+</stage>
+<stage name="紅-星雲原因" next="過去篇~">
+<room id="undefined" name="火" >
+<scene src="../db/pic/room/15111229.jpg" name="火"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>紅藥水碰到地上的紅色印記，整條走廊像被火照亮。
+
+銀行逃犯：不是血……是契約的墨水？
+
+星雲變成的愛心忽然映出另一段記憶。
+
+那不是星雲的記憶，而是琉亞被銀行留下來當幻覺守門人的記憶。
+
+銀行逃犯：等等，琉亞也被契約綁住？所以星雲的出口和琉亞的失蹤是同一套銀行契約？
+
+紅光把你推進更深的過去。</story>
+</stage>
+<stage name="舔地板-星雲原因" next="不知明的地方-星雲原因">
+<room id="undefined" name="教堂走廊" >
+<scene src="../db/pic/room/30978344.jpg" name="教堂走廊"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="命運" src="../db/sound/effect/49795857.mid"/>
+<story>銀行逃犯：既然地上有契約痕跡……
+
+銀行逃犯：舔一下會不會知道味道？
+
+星雲變成的愛心突然狠狠撞了你的額頭。
+
+銀行逃犯：好痛！我知道了啦，不舔！
+
+你趴近一看，紅色印記裡有細小的字：抵押品、守門人、記憶保管。
+
+銀行逃犯：原來不用舔也看得到。文明真好。
+
+這條線索指向教堂走廊深處的紅色印章。</story>
+</stage>
+<stage name="井口-星雲原因" next="?">
+<room id="undefined" name="井" >
+<scene src="../db/pic/room/93793597.jpg" name="132"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>井口邊的風很冷。
+
+愛心的光照到井底，底下沒有水，只有一圈像神社鳥居的影子。
+
+銀行逃犯：星雲不是在井裡，也不是在廁所裡。她已經在我身上。
+
+井底傳來鈴兒的聲音，像很久以前留下的回音。
+
+鈴兒[不安]: 神社的契約不是關住人，是關住「回去的路」。
+
+銀行逃犯：所以真正要找的不是星雲，是她回不去的原因。
+
+愛心暗了一下，又亮了一下。你至少確認了一件事：星雲的問題連著神社，不是單純昏倒。</story>
+<expr type="where">接下來要去哪裡查？</expr>
+<option type="move">選擇選項</option>
+<dest dest="調查星雲原因">回到走廊整理線索</dest>
+<dest dest="廁所2-星雲原因">去問可玲</dest>
+<dest dest="不知明的地方-星雲原因">去教堂走廊查契約</dest>
 </stage>
 <stage name="廁所2-星雲原因" next="?">
 <room id="undefined" name="女廁所" >
