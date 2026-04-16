@@ -462,6 +462,7 @@ sys(clearscreen)
 
 銀行逃犯：我明明是來逃銀行的，為什麼開始撿別人的人生遺物？
 
+sys(remove:骨灰罈)
 sys(give:骨灰罈)</story>
 <expr type="where">有叉路耶～要往？</expr>
 <option type="move">選擇選項</option>
@@ -527,6 +528,7 @@ sys(clearscreen)
 
 sys(clearscreen)
 
+sys(remove:骨灰罈)
 sys(give:骨灰罈)</story>
 <expr type="where">有叉路耶～要往？</expr>
 <option type="move">選擇選項</option>
@@ -547,6 +549,7 @@ sys(showitem:醫療棉布)
 
 取得醫療棉布。
 
+sys(remove:醫療棉布)
 sys(give:醫療棉布)
 
 sys(hideitem)
@@ -831,6 +834,7 @@ sys(shock)
 
 sys(showitem:星雲)
 
+sys(remove:星雲)
 sys(give:星雲)
 
 sys(hideitem)
@@ -869,7 +873,20 @@ sys(clearscreen)</story>
 <scene src="../db/pic/room/83014622.jpg" name="一般"><sound name="undefined" src="undefined"/></scene>
 </room>
 <sound name="輕鬆音樂" src="../db/sound/music/85386446.mid"/>
-<story></story>
+<story>sys(remove:星雲)
+sys(remove:骨灰罈)
+sys(remove:紅色藥水)
+sys(remove:奇幻系列 紅藥水)
+sys(remove:銅製古董鑰匙-大)
+sys(remove:醫療棉布)
+sys(remove:怪老頭寫真集)
+sys(remove:信)
+sys(remove:染血信紙)
+sys(remove:蟑螂)
+sys(remove:小雞玩具)
+sys(remove:心臟)
+sys(remove:藍色藥水)
+sys(clearscreen)</story>
 <expr type="where">請問要……</expr>
 <option type="move">選擇選項</option>
 <dest dest="要開始囉~">開始</dest>
@@ -978,6 +995,7 @@ sys(shock)銀行逃犯：哇咧，人跑了！？
 
 先出去再說吧。
 
+sys(remove:怪老頭寫真集)
 sys(give:怪老頭寫真集)</story>
 </stage>
 <stage name="不明的房間" next="?">
@@ -1294,6 +1312,7 @@ sys(shock)他怎麼變得回來？
 
 依稀靈淒[普通]: 這是送你的紅藥水，因為你猜對了。我從你身上聞出淡淡的憂愁，紅藥水可以幫助你。
 
+sys(remove:紅色藥水)
 sys(give:紅色藥水)
 sys(showitem:紅色藥水)
 sys(hideitem)
@@ -3106,6 +3125,7 @@ sys(showitem:銅製古董鑰匙-大)
 
 sys(hideitem)
 
+sys(remove:銅製古董鑰匙-大)
 sys(give:銅製古董鑰匙-大)
 
 好了，現在要去哪裡？
@@ -5467,6 +5487,7 @@ sys(clearscreen)
 
 sys(showitem:星雲)
 sys(hideitem)
+sys(remove:星雲)
 sys(give:星雲)</story>
 <expr type="where">接下來要使用？</expr>
 <expr type="which">接下來要使用？</expr>
@@ -5509,6 +5530,7 @@ sys(shock)她知道琉亞的事嗎？
 可玲[普通]: 什麼也別說了，帶星雲去找鈴兒吧。
 sys(showitem:星雲)
 sys(hideitem)
+sys(remove:星雲)
 sys(give:星雲)
 可玲[害羞]: 她們會明白一切的。
 sys(clearscreen)
