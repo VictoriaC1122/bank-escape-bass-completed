@@ -1084,6 +1084,162 @@ sys(give:怪老頭寫真集)</story>
 
 再選別樣吧！</story>
 </stage>
+<stage name="可玲拒收星雲" next="選物品">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這個可以嗎？星雲變成的愛心，很稀有吧。
+
+可玲[普通]: 稀有是稀有，可是你把人家的心拿來當禮物，聽起來超像黑心銀行。
+
+銀行逃犯：我現在人在銀行逃命，說服力是有點低。
+
+可玲[沒問題]: 這顆愛心只能證明星雲被契約壓住，不能當獎勵。拿回去，等你想救她的時候，它才會有用。
+
+銀行逃犯：好啦好啦，我不當怪人了。再選一個。</story>
+</stage>
+<stage name="可玲拒收骨灰" next="選物品">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：那這罐骨灰呢？感覺很有故事。
+
+可玲[普通]: 有故事到不能亂送人的程度。
+
+銀行逃犯：不能亂送？
+
+可玲[沒問題]: 這不是普通骨灰，是銀行拿來鎖神社契約的東西。你把它給我，我也只會被它一起拖進帳本裡。
+
+銀行逃犯：帳本也太愛加人名。
+
+可玲[笑]: 所以留著吧。等你要碰神社和依希靈淒的事，它才是鑰匙。</story>
+</stage>
+<stage name="可玲拒收棉布" next="選物品">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：醫療棉布如何？乾淨、柔軟、逃亡必備。
+
+可玲[普通]: 我看起來像正在流血嗎？
+
+銀行逃犯：妳看起來像知道太多。
+
+可玲[笑]: 這倒是真的。可是這塊棉布沾的是火災留下的藥味，不是給我擦臉的。
+
+銀行逃犯：火災？
+
+可玲[沒問題]: 你之後會需要它去分辨燒傷、幻覺和真正的傷口。把救命的東西拿來交換出口，不划算啦。</story>
+</stage>
+<stage name="可玲拒收紅藥水" next="選物品">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：這瓶紅藥水看起來很高級，送妳。
+
+可玲[普通]: 不要。你想讓女廁所變成銀行密室的入口嗎？
+
+銀行逃犯：它真的有那麼危險？
+
+可玲[沒問題]: 這是高層用來打開契約通道的藥。該在教堂走廊那種契約味很重的地方用，不是在我面前亂開門。
+
+銀行逃犯：懂了，這不是飲料，是爆炸按鈕。</story>
+</stage>
+<stage name="可玲拒收大鑰匙" next="選物品">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：古董鑰匙一把。夠有誠意吧？
+
+可玲[普通]: 誠意有，方向錯。
+
+銀行逃犯：鑰匙不就是拿來交換情報的標準配備嗎？
+
+可玲[笑]: 這把鑰匙開的是門，不是我的興趣。我要的是能指出怪老頭真身的線索。
+
+銀行逃犯：所以妳不是貪財，是貪八卦？
+
+可玲[沒問題]: 說得好聽一點，叫情報投資。</story>
+</stage>
+<stage name="星雲原因拒用星雲" next="廁所2-星雲原因">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：星雲本人都在這裡了，不能直接用她來查嗎？
+
+可玲[普通]: 不行。你不能拿病人本人當病歷。
+
+銀行逃犯：好像很有道理，但聽起來很痛。
+
+可玲[沒問題]: 這顆愛心只能讓我確認星雲還活著，而且被舊契約抓住。要解開原因，需要契約主人的線索。
+
+銀行逃犯：也就是怪老頭相關的東西？
+
+可玲[笑]: 對。你終於把腦袋接上電了。</story>
+</stage>
+<stage name="星雲原因拒用骨灰" next="廁所2-星雲原因">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：骨灰罈不就是依希靈淒的東西？這個應該最準吧。
+
+可玲[普通]: 太準了，反而不能直接碰。
+
+銀行逃犯：還有這種事？
+
+可玲[沒問題]: 骨灰是銀行鎖神社的核心。現在拿它硬查，契約會以為有人要搶鑰匙，星雲身上的鎖會縮得更緊。
+
+銀行逃犯：所以要先用比較不危險的線索打開外殼。
+
+可玲[笑]: 對，例如怪老頭留下來、蠢到契約都不會防備的東西。</story>
+</stage>
+<stage name="星雲原因拒用棉布" next="廁所2-星雲原因">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：醫療棉布能不能用？它跟火災和醫院應該有關。
+
+可玲[普通]: 有關，但不是這一步。
+
+銀行逃犯：道具還分步驟，好麻煩。
+
+可玲[沒問題]: 這塊棉布能證明火災裡有人被救、有人被藏起來，可是星雲的契約不是醫療紀錄，是依希靈淒留下的舊帳。
+
+銀行逃犯：先查契約主人，再查火災現場。
+
+可玲[笑]: 對，順序對了，謎團才會自己排隊。</story>
+</stage>
+<stage name="星雲原因拒用紅藥水" next="廁所2-星雲原因">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：紅藥水呢？契約味很重吧。
+
+可玲[普通]: 你想在女廁所把銀行高層的門打開嗎？
+
+銀行逃犯：不想，我連普通廁所門都不太想打開。
+
+可玲[沒問題]: 紅藥水要在教堂走廊那種契約通道重疊的地方用。現在用，只會讓紅楓和籃飄知道有人在查星雲。
+
+銀行逃犯：原來這瓶是定位器。
+
+可玲[笑]: 是鑰匙，也是鈴鐺。亂搖就會把壞人叫來。</story>
+</stage>
+<stage name="星雲原因拒用大鑰匙" next="廁所2-星雲原因">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>銀行逃犯：用古董鑰匙開舊契約，聽起來很合理吧？
+
+可玲[普通]: 聽起來合理，所以通常是錯的。
+
+銀行逃犯：妳這句話也太傷冒險者。
+
+可玲[沒問題]: 這把鑰匙只能開實體的門。星雲身上的是名字和記憶綁成的鎖，要用舊主人留下的「證明」去對照。
+
+銀行逃犯：證明……怪老頭寫真集？
+
+可玲[笑]: 雖然很不想承認，但對，就是那種丟臉到本人無法否認的證明。</story>
+</stage>
 <stage name="亂逛" next="不知明的地方-2">
 <room id="undefined" name="教堂走廊" >
 <scene src="../db/pic/room/30978344.jpg" name="教堂走廊"><sound name="undefined" src="undefined"/></scene>
@@ -2393,15 +2549,15 @@ sys(shock)！！
 <option type="use">使用物件</option>
 <itemdest dest="怪老頭寫真集"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+<itemdest dest="可玲拒收星雲"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+<itemdest dest="可玲拒收骨灰"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+<itemdest dest="可玲拒收棉布"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+<itemdest dest="可玲拒收紅藥水"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+<itemdest dest="可玲拒收大鑰匙"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
 </item></itemdest>
 </stage>
 <stage name="待斃" next="?">
@@ -2798,15 +2954,15 @@ sys(hideitem)</story>
 <option type="use">使用物件</option>
 <itemdest dest="怪老頭寫真集"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+<itemdest dest="星雲原因拒用星雲"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+<itemdest dest="星雲原因拒用骨灰"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+<itemdest dest="星雲原因拒用棉布"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+<itemdest dest="星雲原因拒用紅藥水"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+<itemdest dest="星雲原因拒用大鑰匙"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
 </item></itemdest>
 </stage>
 <stage name="懷孕" next="懷結局">
@@ -4687,15 +4843,15 @@ sys(clearscreen)</story>
 <option type="use">使用物件</option>
 <itemdest dest="怪老頭寫真集"><item src="../db/pic/item/79655664.gif" name="怪老頭寫真集" desc="☆內含怪老頭泳裝版、內衣版的照片喔ˇ★">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+<itemdest dest="可玲拒收星雲"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+<itemdest dest="可玲拒收骨灰"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
+<itemdest dest="可玲拒收棉布"><item src="../db/pic/item/55084350.png" name="醫療棉布" desc="">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
+<itemdest dest="可玲拒收紅藥水"><item src="../db/pic/item/29763779.gif" name="奇幻系列 紅藥水" desc="適用於魔法、冒險一類的遊戲。painter繪。">
 </item></itemdest>
-<itemdest dest="不要的啦~~~"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
+<itemdest dest="可玲拒收大鑰匙"><item src="../db/pic/item/26018075.gif" name="銅製古董鑰匙-大" desc="一把神秘的鑰匙">
 </item></itemdest>
 </stage>
 <stage name="醫院" next="作者的寬宏大量">
