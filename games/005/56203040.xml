@@ -1959,7 +1959,7 @@ sys(shock)
 sys(clearscreen)
 sys(shock)</story>
 </stage>
-<stage name="可玲的過去~2" next="去銀行的過去篇。">
+<stage name="可玲的過去~2" next="可玲過去真相選擇">
 <room id="undefined" name="日本古街系列" >
 <scene src="../db/pic/room/59572913.jpg" name="10"><sound name="undefined" src="undefined"/></scene>
 </room>
@@ -1969,7 +1969,33 @@ sys(clearscreen)
 銀行逃犯：有點識曾相似的感覺，好像去銀行工作的人一定會消失，啊，琉亞。
 銀行逃犯：想起了失蹤多時的妹妹，心中總湧起一股莫名的痛。</story>
 </stage>
-<stage name="可玲的過去的結局" next="可玲與星雲">
+<stage name="可玲過去真相選擇" next="?">
+<room id="undefined" name="日本古街系列" >
+<scene src="../db/pic/room/59572913.jpg" name="10"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>可玲決定追去銀行。
+
+接下來會揭露可玲、依稀靈魂、紅楓，以及銀行為什麼能用契約吃人的長劇情。</story>
+<expr type="where">要怎麼看這段過去？</expr>
+<option type="move">選擇選項</option>
+<dest dest="去銀行的過去篇。">第一次玩，我要看完整劇情。</dest>
+<dest dest="可玲過去真相跳過">不是第一次玩，我要跳過。</dest>
+</stage>
+<stage name="可玲過去真相跳過" next="可玲的過去的結局">
+<room id="undefined" name="日本古街系列" >
+<scene src="../db/pic/room/59572913.jpg" name="10"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>快速回想：
+
+可玲追到銀行後，看見紅楓和依稀靈魂把「工作」包裝成生死契約。
+
+依稀靈魂為了討好紅楓，把弟弟依稀靈淒、可玲，還有依稀家的魔力契約都推進銀行。
+
+銀行之所以是銀行，是因為它能把記憶、器官、土地和人生寫成抵押品。
+
+可玲知道太多，所以她沒有活著離開。</story>
+</stage>
+<stage name="可玲的過去的結局" next="星雲身世選擇">
 <room id="undefined" name="火" >
 <scene src="../db/pic/room/15111229.jpg" name="火"><sound name="undefined" src="undefined"/></scene>
 </room>
@@ -3588,7 +3614,7 @@ sys(clearscreen)</story>
 
 可玲[痛]: 他怎麼可以冒充依稀靈淒？</story>
 </stage>
-<stage name="淹死" next="別智障淹死吧。">
+<stage name="淹死" next="小薇真相選擇">
 <room id="undefined" name="水中" >
 <scene src="../db/pic/room/28381494.jpg" name="水中"><sound name="undefined" src="undefined"/></scene>
 </room>
@@ -3612,6 +3638,36 @@ sys(clearscreen)</story>
 sys(play:戰鬥)
 
 這……這什麼聲音？！</story>
+</stage>
+<stage name="小薇真相選擇" next="?">
+<room id="undefined" name="水中" >
+<scene src="../db/pic/room/28381494.jpg" name="水中"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>水底浮出一段很長的真相。
+
+這段會說明小薇、紅楓、籃飄、依稀靈淒、琉亞和銀行契約的關係。</story>
+<expr type="where">要怎麼看小薇的解說？</expr>
+<option type="move">選擇選項</option>
+<dest dest="別智障淹死吧。">第一次玩，我要看完整劇情。</dest>
+<dest dest="小薇真相跳過">不是第一次玩，我要跳過。</dest>
+</stage>
+<stage name="小薇真相跳過" next="回去銀行">
+<room id="undefined" name="現代日本・屋外・温泉" >
+<scene src="../db/pic/room/52975169.jpg" name="現代日本・屋外・温泉"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>快速回想：
+
+小薇是這片土地的土地神。她承認銀行不是普通銀行，而是把器官、記憶、骨灰和人生都寫進契約的地方。
+
+紅楓負責收集，籃飄負責把慾望包成制度。依稀靈魂把依稀靈淒一家推進銀行，小雪、綾乃、骷髏先生和警察則各自維持銀行的規則。
+
+琉亞不是不回家，而是被拆掉記憶，變成幻覺守門人。
+
+奇奇放火也不是單純失控，是小薇用土地神舊印改寫命令，讓火災燒開醫院地下通道，方便銀行搬走黑帳和骨灰。
+
+銀行逃犯：懂了，這銀行真的從上到下都爛。
+
+下一步，回銀行找琉亞和星雲的線索。</story>
 </stage>
 <stage name="滾出神社！！" next="神社溫泉">
 <room id="undefined" name="白天廟會" >
@@ -3978,7 +4034,19 @@ sys(shock)
 
 sys(clearscreen)</story>
 </stage>
-<stage name="紅" next="過去篇~">
+<stage name="紅" next="?">
+<room id="undefined" name="火" >
+<scene src="../db/pic/room/15111229.jpg" name="火"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>紅藥水把眼前染成一片紅。
+
+這裡會進入琉亞記憶與幻覺守門人的長劇情。</story>
+<expr type="where">要怎麼進入這段記憶？</expr>
+<option type="move">選擇選項</option>
+<dest dest="紅完整版">第一次玩，我要看完整劇情。</dest>
+<dest dest="紅跳過">不是第一次玩，我要跳過。</dest>
+</stage>
+<stage name="紅完整版" next="過去篇~">
 <room id="undefined" name="火" >
 <scene src="../db/pic/room/15111229.jpg" name="火"><sound name="undefined" src="undefined"/></scene>
 </room>
@@ -4088,6 +4156,18 @@ sys(shock)銀行逃犯：怎麼了？
 
 銀行逃犯：就是這張。</story>
 </stage>
+<stage name="紅跳過" next="過去篇~">
+<room id="undefined" name="火" >
+<scene src="../db/pic/room/15111229.jpg" name="火"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>快速回想：
+
+紅藥水帶你看見琉亞。她已經不記得星銀，只知道自己是銀行雇員，負責在教堂走廊製造幻覺。
+
+星銀拿出照片證明自己是琉亞的姊姊，但琉亞的記憶被銀行拆掉，光靠照片還救不回來。
+
+接下來要追查金庫、神社契約，以及琉亞被誰留在銀行。</story>
+</stage>
 <stage name="結婚" next="start">
 <room id="undefined" name="教堂系列" >
 <scene src="../db/pic/room/36117231.jpg" name="教堂1"><sound name="undefined" src="undefined"/></scene>
@@ -4128,7 +4208,7 @@ END</story>
 
 sys(clearscreen)</story>
 </stage>
-<stage name="續" next="續2">
+<stage name="續" next="火災真相選擇">
 <room id="undefined" name="荒廢神社" >
 <scene src="../db/pic/room/12181235.jpg" name="荒廢神社"><sound name="undefined" src="undefined"/></scene>
 </room>
@@ -4195,7 +4275,7 @@ sys(clearscreen)
 
 sys(clearscreen)</story>
 </stage>
-<stage name="續-87638" next="續2-73597">
+<stage name="續-87638" next="火災真相選擇-星雲原因">
 <room id="undefined" name="荒廢神社" >
 <scene src="../db/pic/room/12181235.jpg" name="荒廢神社"><sound name="undefined" src="undefined"/></scene>
 </room>
@@ -4258,6 +4338,34 @@ sys(clearscreen)
 鈴兒[流淚]: 不要！
 
 sys(clearscreen)</story>
+</stage>
+<stage name="火災真相選擇" next="?">
+<room id="undefined" name="病床" >
+<scene src="../db/pic/room/48045140.jpg" name="病床"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>這裡會進入醫院火災與怪老頭骨灰的長劇情。
+
+第一次看能知道奇奇、小薇、依稀靈淒和紅楓怎麼把火災連成銀行陰謀。</story>
+<expr type="where">要怎麼看火災真相？</expr>
+<option type="move">選擇選項</option>
+<dest dest="續2">第一次玩，我要看完整劇情。</dest>
+<dest dest="火災真相跳過">不是第一次玩，我要跳過。</dest>
+</stage>
+<stage name="火災真相跳過" next="小琪下水道">
+<room id="undefined" name="病床" >
+<scene src="../db/pic/room/48045140.jpg" name="病床"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>快速回想：
+
+神社倒塌後，鈴兒被誤會成害死星雲的人。
+
+依稀靈淒在悲傷中替鈴兒訂下贖罪契約，小琪反擊讓他變成怪老頭。
+
+依稀靈淒叫奇奇「解決那兩個女人」，但奇奇被小薇留下的土地神舊印扭曲命令，放火燒開醫院和銀行地下通道。
+
+火災燒斷依稀靈淒最後的肉身，紅楓趁亂搬走黑帳，也把他的骨灰拿去鎖神社契約。
+
+所以銀行裡才會有怪老頭的骨灰。</story>
 </stage>
 <stage name="續2" next="小琪下水道">
 <room id="undefined" name="病床" >
@@ -4359,6 +4467,32 @@ sys(shock)
 因為依稀靈淒是神社主人，他的骨灰能讓銀行繼續控制神社入口，也能讓鈴兒永遠困在「贖罪」的契約裡。
 
 所以後來銀行裡才會有怪老頭的骨灰。</story>
+</stage>
+<stage name="火災真相選擇-星雲原因" next="?">
+<room id="undefined" name="病床" >
+<scene src="../db/pic/room/48045140.jpg" name="病床"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>這裡會進入醫院火災與怪老頭骨灰的長劇情。
+
+這條線會接回鈴兒拜託你尋找星雲的主線。</story>
+<expr type="where">要怎麼看火災真相？</expr>
+<option type="move">選擇選項</option>
+<dest dest="續2-73597">第一次玩，我要看完整劇情。</dest>
+<dest dest="火災真相跳過-星雲原因">不是第一次玩，我要跳過。</dest>
+</stage>
+<stage name="火災真相跳過-星雲原因" next="內部啊~">
+<room id="undefined" name="病床" >
+<scene src="../db/pic/room/48045140.jpg" name="病床"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>快速回想：
+
+星雲死後，鈴兒被誤會並被贖罪契約綁住。
+
+小琪救過鈴兒，卻沒能阻止火災。奇奇被小薇的土地神舊印扭曲命令，燒開醫院地下通道。
+
+依稀靈淒因此只剩骨灰，紅楓把骨灰帶回銀行，當成鎖住神社契約的鑰匙。
+
+鈴兒知道自己不能離開，只能把你送回銀行找星雲。</story>
 </stage>
 <stage name="續2-73597" next="內部啊~">
 <room id="undefined" name="病床" >
@@ -5222,14 +5356,38 @@ sys(hideitem)</story>
 
 sys(clearscreen)</story>
 </stage>
-<stage name="找到星雲的結局" next="可玲與星雲">
+<stage name="找到星雲的結局" next="星雲身世選擇">
 <room id="undefined" name="女廁所" >
 <scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
 </room>
 <story>星雲[正常]: 你是？
 銀行逃犯：我是銀行逃犯，有點事情想找妳.....</story>
 </stage>
-<stage name="可玲與星雲" next="可玲說完了">
+<stage name="星雲身世選擇" next="?">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>接下來會進入星雲身世、依稀靈淒父女相認，以及神社陷阱的長劇情。</story>
+<expr type="where">要怎麼看星雲的過去？</expr>
+<option type="move">選擇選項</option>
+<dest dest="可玲與星雲">第一次玩，我要看完整劇情。</dest>
+<dest dest="星雲身世跳過">不是第一次玩，我要跳過。</dest>
+</stage>
+<stage name="星雲身世跳過" next="可玲整理選擇">
+<room id="undefined" name="藍天" >
+<scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>快速回想：
+
+星雲是可玲和依稀靈淒的女兒。她被奶媽養大，後來找到在銀行裡逃避追殺的父親。
+
+依稀靈魂和紅楓沒有放過他們，反而把神社包裝成退休禮。
+
+神社柱子裡埋著銀行契約：鈴兒的巫女印會啟動它，星雲的魔力會餵飽它，依稀靈淒的血脈會讓它合法。
+
+三人以為自己要逃離銀行，其實走進了銀行準備好的籠子。</story>
+</stage>
+<stage name="可玲與星雲" next="可玲整理選擇">
 <room id="undefined" name="藍天" >
 <scene src="../db/pic/room/69977382.jpg" name="天空"><sound name="undefined" src="undefined"/></scene>
 </room>
@@ -5278,6 +5436,43 @@ sys(clearscreen)
 （殊不知，神社本身就是銀行準備好的籠子。）
 （一場陰謀的延續竟是30年。）
 </story>
+</stage>
+<stage name="可玲整理選擇" next="?">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>可玲準備把所有人的關係和銀行陰謀整理給你。
+
+這段是主線解謎的長整理。</story>
+<expr type="where">要怎麼聽可玲整理？</expr>
+<option type="move">選擇選項</option>
+<dest dest="可玲說完了">第一次玩，我要看完整劇情。</dest>
+<dest dest="可玲整理跳過">不是第一次玩，我要跳過。</dest>
+</stage>
+<stage name="可玲整理跳過" next="?">
+<room id="undefined" name="女廁所" >
+<scene src="../db/pic/room/85435546.jpg" name="女生廁所"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>快速回想：
+
+依稀靈淒就是怪老頭，也是星雲的父親。可玲是星雲的母親。
+
+火災後，銀行把依稀靈淒的骨灰拿去當神社契約的鑰匙。
+
+紅楓和籃飄是銀行老闆，依稀靈魂是害可玲與星雲一家被銀行吞掉的兇手之一。
+
+琉亞沒有回來，是因為她的記憶被銀行拆掉，成為幻覺守門人。
+
+要救琉亞，得先讓星雲和鈴兒解開神社契約。可玲把星雲交給你，叫你回去找鈴兒。
+
+sys(showitem:星雲)
+sys(hideitem)
+sys(give:星雲)</story>
+<expr type="where">接下來要使用？</expr>
+<expr type="which">接下來要使用？</expr>
+<option type="use">使用物件</option>
+<itemdest dest="鈴兒與星雲1"><item src="../db/pic/item/10300474.gif" name="骨灰罈" desc="">
+</item></itemdest>
 </stage>
 <stage name="可玲說完了" next="?">
 <room id="undefined" name="女廁所" >
@@ -5337,10 +5532,35 @@ sys(clearscreen)
 鈴兒[流淚]: 真的！？</story>
 <expr type="which">要怎麼證明找到星雲了呢？</expr>
 <option type="use">使用物件</option>
-<itemdest dest="鈴兒與星雲2"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
+<itemdest dest="鈴兒星雲和解選擇"><item src="../db/pic/item/61845700.gif" name="星雲" desc="星雲變成的愛心">
 </item></itemdest>
 </stage>
-<stage name="鈴兒與星雲2" next="真正的出口">
+<stage name="鈴兒星雲和解選擇" next="?">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>星雲和鈴兒終於要面對彼此。
+
+這段會整理她們的誤會、骨灰、琉亞和真正出口。</story>
+<expr type="where">要怎麼看這段和解？</expr>
+<option type="move">選擇選項</option>
+<dest dest="鈴兒與星雲2">第一次玩，我要看完整劇情。</dest>
+<dest dest="鈴兒星雲和解跳過">不是第一次玩，我要跳過。</dest>
+</stage>
+<stage name="鈴兒星雲和解跳過" next="真正出口選擇">
+<room id="undefined" name="神社拜拜處" >
+<scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="相信" src="../db/sound/music/22305436.mid"/>
+<story>快速回想：
+
+星雲和鈴兒確認當年的悲劇不是鈴兒故意害她，而是銀行、紅楓、依稀靈魂和神社契約造成的。
+
+小琪是火災後願意救人的人。怪老頭的骨灰不是怨恨，而是依稀靈淒留下的路標。
+
+星雲與鈴兒會留下來解除神社詛咒。你要通過真正的出口，去找琉亞。</story>
+</stage>
+<stage name="鈴兒與星雲2" next="真正出口選擇">
 <room id="undefined" name="神社拜拜處" >
 <scene src="../db/pic/room/72528468.jpg" name="133"><sound name="undefined" src="undefined"/></scene>
 </room>
@@ -5430,6 +5650,33 @@ sys(hideitem)
 銀行逃犯：我會出去，然後把這座銀行的事告訴所有人。
 
 sys(clearscreen)</story>
+</stage>
+<stage name="真正出口選擇" next="?">
+<room id="undefined" name="天空異像" >
+<scene src="../db/pic/room/61578377.jpg" name="天空異像"><sound name="undefined" src="undefined"/></scene>
+</room>
+<story>真正的出口即將打開。
+
+這段會收束小薇的下場、骨灰的用途、金庫黑帳與琉亞記憶。</story>
+<expr type="where">要怎麼看真正出口？</expr>
+<option type="move">選擇選項</option>
+<dest dest="真正的出口">第一次玩，我要看完整劇情。</dest>
+<dest dest="真正出口跳過">不是第一次玩，我要跳過。</dest>
+</stage>
+<stage name="真正出口跳過" next="好結局">
+<room id="undefined" name="天空異像" >
+<scene src="../db/pic/room/61578377.jpg" name="天空異像"><sound name="undefined" src="undefined"/></scene>
+</room>
+<sound name="柔和" src="../db/sound/music/32757353.mid"/>
+<story>快速回想：
+
+星雲、鈴兒和怪老頭的骨灰一起打開真正出口。
+
+小薇想繼續把別人的人生當故事看，但神社契約被解除後，她被拉回土地神的位置，只能指引迷路的人，不能再替人選死法。
+
+骨灰罈的裂縫指向金庫：那裡有黑帳，也有琉亞記憶的一部分。
+
+你穿過真正的出口，帶著線索去找琉亞。</story>
 </stage>
 <stage name="真正的出口" next="好結局">
 <room id="undefined" name="天空異像" >
