@@ -10,7 +10,6 @@
 
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="theme-color" content="#10130f">
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -121,35 +120,6 @@ function showpm(){
 <link rel="stylesheet" type="text/css" href="../game/gamebtn.css" />
 <style>   
 
-:root{
-    --page-bg:#f7f8f4;
-    --ink:#151712;
-    --muted:#5d655b;
-    --panel:#ffffff;
-    --line:#d7ded3;
-    --accent:#b3222b;
-    --accent-2:#176d5f;
-    --accent-3:#d8a226;
-    --game-black:#070807;
-}
-
-*{
-    box-sizing:border-box;
-}
-
-html{
-    scroll-behavior:smooth;
-}
-
-body{
-    background:
-        radial-gradient(circle at 18% 6%, rgba(179,34,43,0.10), transparent 26rem),
-        radial-gradient(circle at 92% 18%, rgba(23,109,95,0.12), transparent 24rem),
-        var(--page-bg);
-    color:var(--ink);
-    font-family: Arial, "Microsoft JhengHei", "微軟正黑體", sans-serif;
-}
-
 img, embed, object, video {
   max-width: 100%;
 }/*dont know why this must put here to be active?? cannot put in css file outside*/
@@ -209,351 +179,11 @@ img, embed, object, video {
    a:link    {color:#FFFFFF; TEXT-DECORATION: none}
    a:hover   {color: #FF9988; TEXT-DECORATION: none}
    /*a:active  {color:#808000; TEXT-DECORATION: none}*/
-
-   body.bank-escape-page .app-bar,
-   body.bank-escape-page .app-bar-bottom{
-        background:rgba(16,19,15,0.94);
-        border-bottom:1px solid rgba(255,255,255,0.12);
-        box-shadow:0 8px 24px rgba(0,0,0,0.12);
-        backdrop-filter:blur(12px);
-   }
-
-   body.bank-escape-page .app-bar-bottom{
-        border-top:1px solid rgba(255,255,255,0.12);
-        border-bottom:0;
-   }
-
-   body.bank-escape-page .tab-bar button,
-   body.bank-escape-page .tab-bar-bottom button,
-   body.bank-escape-page .app-bar button{
-        border-radius:6px;
-        color:#f6f7f3;
-   }
-
-   body.bank-escape-page .search{
-        border-radius:6px;
-        padding:0 10px;
-        color:var(--ink);
-   }
-
-   body.bank-escape-page .site{
-        padding-top:54px;
-        padding-bottom:64px;
-   }
-
-   body.bank-escape-page .container{
-        gap:16px;
-        align-items:flex-start;
-   }
-
-   body.bank-escape-page .c1,
-   body.bank-escape-page .c2,
-   body.bank-escape-page .c3,
-   body.bank-escape-page .c4{
-        padding-left:10px;
-        padding-right:10px;
-   }
-
-   body.bank-escape-page .c1{
-        padding-top:18px;
-   }
-
-   body.bank-escape-page #main_frame{
-        border:1px solid rgba(255,255,255,0.14);
-        border-radius:8px;
-        box-shadow:0 20px 50px rgba(11,12,10,0.22);
-        background:var(--game-black);
-   }
-
-   body.bank-escape-page #loading-msg{
-        color:#f7f8f4;
-        letter-spacing:0;
-   }
-
-   body.bank-escape-page #storyframe{
-        filter:drop-shadow(0 -4px 18px rgba(0,0,0,0.45));
-   }
-
-   body.bank-escape-page #story,
-   body.bank-escape-page .fulltell{
-        letter-spacing:0;
-        line-height:1.7;
-        text-shadow:0 2px 6px rgba(0,0,0,0.35);
-   }
-
-   body.bank-escape-page #option-container{
-        padding:0 10px;
-   }
-
-   body.bank-escape-page .option-btn,
-   body.bank-escape-page .content-btn{
-        min-height:42px;
-        border-radius:8px;
-        border:1px solid rgba(21,23,18,0.18);
-        background:#ffffff;
-        color:var(--ink);
-        box-shadow:0 6px 16px rgba(0,0,0,0.10);
-        text-shadow:none;
-        font-weight:700;
-        letter-spacing:0;
-        cursor:pointer;
-   }
-
-   body.bank-escape-page .option-btn:hover,
-   body.bank-escape-page .content-btn:hover{
-        background:#f4f7f0;
-        transform:translateY(-1px);
-   }
-
-   body.bank-escape-page .content-title{
-        margin:0 0 10px;
-        color:var(--ink);
-        line-height:1.45;
-   }
-
-   body.bank-escape-page .content-desc{
-        color:var(--ink);
-        line-height:1.75;
-        word-break:normal;
-        overflow-wrap:anywhere;
-        margin:10px 0;
-        font-size:0.96em;
-   }
-
-   body.bank-escape-page #gamedesc{
-        background:var(--panel);
-        border:1px solid var(--line);
-        border-radius:8px;
-        padding:16px;
-        box-shadow:0 14px 34px rgba(40,45,35,0.10);
-   }
-
-   body.bank-escape-page #gamedesc img{
-        width:100%;
-        max-width:220px;
-        float:none !important;
-        display:block;
-        margin:10px auto 14px !important;
-        border-radius:8px;
-        border:1px solid rgba(21,23,18,0.12);
-        box-shadow:0 10px 24px rgba(0,0,0,0.14);
-   }
-
-   .game-title-main{
-        display:block;
-        font-size:1.36em;
-        color:var(--ink);
-   }
-
-   .author-line{
-        display:block;
-        margin-top:2px;
-        color:var(--muted);
-        font-size:0.86em;
-        font-weight:600;
-   }
-
-   .ending-badges{
-        display:flex;
-        flex-wrap:wrap;
-        gap:8px;
-        margin:14px 0 4px;
-   }
-
-   .ending-badges span{
-        display:inline-flex;
-        align-items:center;
-        min-height:30px;
-        padding:5px 9px;
-        border-radius:8px;
-        background:#f0f4eb;
-        border:1px solid var(--line);
-        color:var(--ink);
-        font-size:0.85em;
-        font-weight:700;
-   }
-
-   .ending-badges span:nth-child(3n+1){
-        border-color:rgba(179,34,43,0.30);
-        background:rgba(179,34,43,0.08);
-   }
-
-   .ending-badges span:nth-child(3n+2){
-        border-color:rgba(23,109,95,0.28);
-        background:rgba(23,109,95,0.08);
-   }
-
-   .ending-badges span:nth-child(3n){
-        border-color:rgba(216,162,38,0.32);
-        background:rgba(216,162,38,0.11);
-   }
-
-   .quick-actions{
-        display:grid;
-        grid-template-columns:1fr;
-        gap:8px;
-        margin-top:14px;
-   }
-
-   .quick-actions a,
-   .quick-actions button{
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        min-height:42px;
-        padding:10px 12px;
-        border-radius:8px;
-        border:1px solid var(--line);
-        background:#ffffff;
-        color:var(--ink) !important;
-        font-weight:800;
-        text-align:center;
-        box-shadow:0 8px 18px rgba(0,0,0,0.08);
-   }
-
-   .quick-actions a:first-child{
-        background:var(--accent);
-        color:#ffffff !important;
-        border-color:var(--accent);
-   }
-
-   .play-notes{
-        margin-top:14px;
-        padding:12px;
-        border-radius:8px;
-        background:#f4f7f0;
-        border:1px solid var(--line);
-        color:var(--muted);
-        line-height:1.65;
-        font-size:0.9em;
-   }
-
-   .link-panel{
-        margin-top:12px;
-        padding:12px;
-        border-radius:8px;
-        background:#ffffff;
-        border:1px solid var(--line);
-   }
-
-   .link-panel a{
-        display:inline-block;
-        margin:4px 8px 4px 0;
-        color:var(--accent-2) !important;
-        font-weight:700;
-   }
-
-   body.bank-escape-page #control,
-   body.bank-escape-page .c3,
-   body.bank-escape-page .container2,
-   body.bank-escape-page #music,
-   body.bank-escape-page #adin,
-   body.bank-escape-page #adin + *{
-        color:var(--ink);
-   }
-
-   body.bank-escape-page #control{
-        display:none;
-   }
-
-   body.bank-escape-page #music{
-        margin-top:12px;
-        border-radius:8px;
-        overflow:hidden;
-   }
-
-   body.bank-escape-page .bottom-bar{
-        background:#10130f;
-        height:auto;
-        min-height:110px;
-        padding-bottom:24px;
-   }
-
-   body.bank-escape-page .bass-contact-info{
-        color:#dfe5d8;
-        min-height:0;
-        height:auto;
-        padding:30px 20px 0;
-   }
-
-   @media (min-width: 890px){
-        body.bank-escape-page .site{
-            width:min(1280px, 96vw);
-        }
-
-        body.bank-escape-page .container{
-            width:100%;
-            display:flex;
-        }
-
-        body.bank-escape-page .container2{
-            display:none;
-        }
-
-        body.bank-escape-page .c1,
-        body.bank-escape-page .c3{
-            width:70%;
-        }
-
-        body.bank-escape-page .c2,
-        body.bank-escape-page .c4{
-            width:30%;
-        }
-
-        body.bank-escape-page .c2{
-            position:sticky;
-            top:58px;
-            padding-top:18px;
-        }
-   }
-
-   @media (max-width: 889px){
-        body.bank-escape-page .site{
-            width:100%;
-            padding-top:44px;
-        }
-
-        body.bank-escape-page .c1,
-        body.bank-escape-page .c2,
-        body.bank-escape-page .c3,
-        body.bank-escape-page .c4{
-            width:100%;
-            padding-left:8px;
-            padding-right:8px;
-        }
-
-        body.bank-escape-page .c1{
-            padding-top:10px;
-        }
-
-        body.bank-escape-page #gamedesc{
-            margin-top:10px;
-        }
-
-        body.bank-escape-page .app-bar-logo{
-            width:58%;
-        }
-
-        body.bank-escape-page .app-bar-actions{
-            display:none;
-        }
-   }
-
-   @media (prefers-reduced-motion: reduce){
-        html{
-            scroll-behavior:auto;
-        }
-
-        body.bank-escape-page .option-btn:hover,
-        body.bank-escape-page .content-btn:hover{
-            transform:none;
-        }
-   }
 </style>
 </head>
 
   
-<body class="bank-escape-page">
+<body>
 
 
 <script>
@@ -926,7 +556,6 @@ function popupfreebm() {
 <div class="site">    
     <div class="container" role="main">
       <div class="c1">
-<a id="play-area"></a>
 <div id="main_frame">
 
 
@@ -1076,37 +705,17 @@ function popupfreebm() {
 
 
 <h3 class="content-title">
-    <span class="game-title-main">銀行逃犯逃脫記</span>
-    <span class="author-line">by vicky860408</span>
-	<img src="../games/cover/56203040.jpg?v=dc84f77" width=180 style="float:left;margin:10px;margin-left:0px;" alt="銀行逃犯逃脫記封面">
-</h3>
+
+            &nbsp;銀行逃犯逃脫記&nbsp;<a style="font-size: 12px;"><br>&nbsp;&nbsp;&nbsp;&nbsp;by vicky860408</a><br>
+
+	&nbsp;&nbsp;&nbsp;<font color="#000000"><b>評價</b></font>&nbsp;
+
+	<br><img src="../games/cover/56203040.jpg?v=dc84f77" width=180 style="float:left;margin:10px;margin-left:0px;">
+		</h3>
 
 <p class="content-desc" >有一個銀行逃犯在搶了錢後要逃出銀行，但銀行實在太大了，你能幫幫他嗎？
 驚險又刺激的故事正等待著你呢～
 有好幾種好玩又惡搞好笑的劇情，要玩到後面才看的到喔！目前共有37個故事結局：好結局6個，愛情結局0個，搞笑結局7個，笨蛋結局2個，BL結局2個，GL結局2個，壞結局5個，死亡結局8個，未完待續結局1個，其他結局4個。</p>
-
-<div class="ending-badges" aria-label="結局數量">
-    <span>總結局 37</span>
-    <span>好結局 6</span>
-    <span>壞結局 5</span>
-    <span>搞笑 7</span>
-    <span>死亡 8</span>
-    <span>BL 2</span>
-    <span>GL 2</span>
-    <span>笨蛋 2</span>
-    <span>未完待續 1</span>
-    <span>其他 4</span>
-</div>
-
-<div class="quick-actions">
-    <a href="#play-area">開始逃銀行</a>
-    <button type="button" onclick="$('#game-functions').fadeIn();">開啟遊戲設定</button>
-    <button type="button" onclick="$('#game-savefile').fadeIn();">存檔 / 讀檔</button>
-</div>
-
-<div class="play-notes">
-    點畫面或按任意鍵可以推進對話。第二輪遊玩時，長劇情會出現跳過選項；所有物品在可使用場景都有回應。
-</div>
 
 </div>
 <center>
@@ -1117,7 +726,7 @@ function popupfreebm() {
 	</center>
 
 
-<div class="content-desc link-panel">
+<div class="content-desc">
 	<!--
 		 <a href="./game.php?id=56203040&rt=5833&char=simp&t=avg"><font  color=#000080>简体版</font></a>&nbsp;&nbsp;
 	<a href="./platform/game.php?id=56203040&old=1" ><font color=#000080>原平台</font></a>&nbsp;&nbsp;-->
